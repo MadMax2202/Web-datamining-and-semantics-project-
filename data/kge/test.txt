@@ -1,0 +1,103 @@
+ex:evidence_2776567400421667721	ex:category	domain
+ex:shoulder_flexion	http://www.w3.org/2000/01/rdf-schema#label	shoulder flexion
+ex:wide_and_medium_grip_widths	ex:hasEvidence	ex:evidence_5302879902200215589
+ex:internal_moment_arm	http://www.w3.org/2000/01/rdf-schema#label	internal moment arm
+ex:evidence_1619121419837941080	ex:category	technique
+ex:mainly_vertical_resultant_forces	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:mainly_vertical_resultant_forces	http://www.w3.org/2000/01/rdf-schema#label	mainly vertical resultant forces
+ex:evidence_1335857988687787587	ex:confidence	0.532
+ex:next_order	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6077813944903423333	ex:confidence	0.443
+ex:evidence_4044450754995815023	ex:confidence	0.361
+ex:kinematic_factors	ex:influence_performance_in	ex:injury_risk
+ex:entire_lifting_motion	http://www.w3.org/2000/01/rdf-schema#label	entire lifting motion
+ex:evidence_4164710818823671734	http://www.w3.org/2000/01/rdf-schema#comment	Muscle fibers themselves produce the most force when they’re around resting length, and their capacity to produce force increases or decreases as they lengthen or shorten (red curve below).
+ex:evidence_3468303829871180313	http://www.w3.org/2000/01/rdf-schema#comment	During the sticking region, all grip widths demonstrated similar horizontal forces, but resultant forces decreased, which suggests that this is a poor biomechanical region despite the grip width that is used in the bench press exercise.
+ex:elite_powerlifters	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:clavicular_part_sternocostal_part_abdominal_part	ex:hasEvidence	ex:evidence_6585543860371589205
+ex:forearms	http://www.w3.org/2000/01/rdf-schema#label	forearms
+ex:triceps	ex:hasEvidence	ex:evidence_3462189853590052458
+ex:position	ex:create_base_of	ex:support
+ex:lateral_forces	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_5070128934748448359	ex:confidence	0.497
+ex:more_load	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_4044450754995815023	ex:sourceFile	strongerbyscience_bench_press.html
+ex:triceps	ex:extend	ex:elbows
+ex:stronger_arm	ex:support	ex:load
+ex:force	http://www.w3.org/2000/01/rdf-schema#label	force
+ex:BenchPress	ex:usesEquipment	ex:bench_press_performance
+ex:evidence_1034192088216586128	ex:confidence	0.408
+ex:evidence_1335857988687787587	ex:category	biomechanics
+ex:evidence_3282688176978370252	http://www.w3.org/2000/01/rdf-schema#comment	Maybe muscle irradiation (when one muscle contracts hard, it’s easier for nearby muscles to contract hard – in this case, your forearm muscles contracting as hard as possible may help your triceps contract harder).
+ex:horizontal_forces	http://www.w3.org/2000/01/rdf-schema#label	horizontal forces
+ex:horizontal_force_component	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_3468303829871180313	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_1619121419837941080	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:medially_directed_resultant_forces	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_5995714504841740914	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3460439879415179447	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_384214345230702768	ex:sourceFile	strongerbyscience_bench_press.html
+ex:more_weight	ex:hasEvidence	ex:evidence_916941293801325495
+ex:motion	ex:hasEvidence	ex:evidence_9015673364604897240
+ex:most_elite_lifters	ex:hasEvidence	ex:evidence_1013317621699497051
+ex:technique	ex:hasEvidence	ex:evidence_2836107243648863907
+ex:lateral_triceps	http://www.w3.org/2000/01/rdf-schema#label	lateral triceps
+ex:elbows	http://www.w3.org/2000/01/rdf-schema#label	elbows
+ex:elite_powerlifters	ex:hasEvidence	ex:evidence_549407795339145564
+ex:evidence_7039919425594498945	ex:category	technique
+ex:total_force_vector	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_5942395853859869351	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_916941293801325495	ex:confidence	0.415
+ex:evidence_4311856032308409690	ex:sourceFile	nasm_bench_press.html
+ex:most_force	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_6585543860371589205	ex:sourceFile	muscleandmotion_bench_press.html
+ex:evidence_2153625938427763933	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3282688176978370252	ex:confidence	0.278
+ex:only_factor	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_7881964606502536612	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:medial_triceps	http://www.w3.org/2000/01/rdf-schema#label	medial triceps
+ex:many_people	ex:supinate	ex:forearms
+ex:joint_angles	http://www.w3.org/2000/01/rdf-schema#label	joint angles
+ex:next_order	http://www.w3.org/2000/01/rdf-schema#label	next order
+ex:same_testing_routine	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_916941293801325495	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:most_elite_lifters	http://www.w3.org/2000/01/rdf-schema#label	most elite lifters
+ex:evidence_6443802608817646620	http://www.w3.org/2000/01/rdf-schema#comment	Force needs a little further explanation: Force = Mass x Acceleration Mass is essentially the weight on the bar, and acceleration is how fast you are moving the bar (remember, this is a generalization, used to prove a point).
+ex:pectoralis_muscles	http://www.w3.org/2000/01/rdf-schema#label	pectoralis muscles
+ex:evidence_2124700028800588645	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:incline	ex:challenge	ex:upper_pecs
+ex:different_angles	http://www.w3.org/2000/01/rdf-schema#label	different angles
+ex:long_head	ex:hasEvidence	ex:evidence_7579941610671250471
+ex:internal_moments	http://www.w3.org/2000/01/rdf-schema#label	internal moments
+ex:other_two_heads	http://www.w3.org/2000/01/rdf-schema#label	other two heads
+ex:evidence_7280501543520054765	ex:sourceFile	robertson_bench_press.html
+ex:evidence_7280501543520054765	ex:confidence	0.363
+ex:triceps_contract	http://www.w3.org/2000/01/rdf-schema#label	triceps contract
+ex:shoulders	http://www.w3.org/2000/01/rdf-schema#label	shoulders
+ex:back	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_4895463479675158772	ex:category	domain
+ex:evidence_916941293801325495	ex:sourceFile	robertson_bench_press.html
+ex:bar_path	http://www.w3.org/2000/01/rdf-schema#label	bar path
+ex:barbell_movement	ex:follow	ex:very_similar_pattern
+ex:evidence_2776567400421667721	ex:sourceFile	strongerbyscience_bench_press.html
+ex:shoulder_flexion	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_7039919425594498945	http://www.w3.org/2000/01/rdf-schema#comment	However, that doesn’t necessarily mean that your current grip gives you the most potential to be the strongest.
+ex:evidence_1465112738566902658	ex:sourceFile	muscleandmotion_bench_press.html
+ex:muscle_fibers	http://www.w3.org/2000/01/rdf-schema#label	muscle fibers
+ex:passive_elements	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_2124700028800588645	ex:confidence	0.436
+ex:bar	ex:hasEvidence	ex:evidence_5995714504841740914
+ex:evidence_8618749856662656497	ex:confidence	0.476
+ex:triceps	http://www.w3.org/2000/01/rdf-schema#label	triceps
+ex:serious_upper_body_strength	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_9073847423816615370	ex:category	technique
+ex:furniture	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_2124700028800588645	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_4154832965669972642	ex:confidence	0.389
+ex:movement_pattern	ex:hasTechniqueCue	ex:bar
+ex:evidence_6443802608817646620	ex:confidence	0.436
+ex:evidence_6192230318323183385	ex:confidence	0.455
+ex:evidence_4759722028586987179	http://www.w3.org/2000/01/rdf-schema#comment	Your scapulae can move four basic ways.
+ex:medial_triceps	ex:hasEvidence	ex:evidence_8618749856662656497
+ex:article	ex:shed	ex:light
+ex:bar	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment

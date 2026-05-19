@@ -1,0 +1,24 @@
+[
+  {
+    "MRR": 0.2702,
+    "Hits@1": 0.1845,
+    "Hits@3": 0.3398,
+    "Hits@10": 0.4272,
+    "test_triples": 103,
+    "model": "TransE",
+    "entities": 608,
+    "relations": 73,
+    "note": "Real lightweight NumPy KGE run; for stronger results, replace with PyKEEN."
+  },
+  {
+    "MRR": 0.1387,
+    "Hits@1": 0.1165,
+    "Hits@3": 0.1262,
+    "Hits@10": 0.1845,
+    "test_triples": 103,
+    "model": "DistMult",
+    "entities": 608,
+    "relations": 73,
+    "note": "Real lightweight NumPy KGE run; for stronger results, replace with PyKEEN."
+  }
+]

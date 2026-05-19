@@ -1,0 +1,8 @@
+@prefix ex: <http://example.org/benchpress/kg/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# Lightweight manual alignment examples. Extend these with Wikidata/DBpedia links if required.
+ex:bench_press owl:sameAs <http://www.wikidata.org/entity/Q487604> .
+ex:pectoralis_major owl:sameAs <http://www.wikidata.org/entity/Q1183956> .
+ex:triceps owl:sameAs <http://www.wikidata.org/entity/Q847152> .
+ex:barbell owl:sameAs <http://www.wikidata.org/entity/Q82686> .

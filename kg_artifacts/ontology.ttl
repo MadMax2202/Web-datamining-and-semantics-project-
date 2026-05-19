@@ -1,0 +1,38 @@
+@prefix ex: <http://example.org/benchpress/kg/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:BenchPressOntology a owl:Ontology ;
+    rdfs:label "Bench Press Training Knowledge Graph Ontology" .
+
+ex:Exercise a owl:Class .
+ex:Muscle a owl:Class .
+ex:Joint a owl:Class .
+ex:Equipment a owl:Class .
+ex:TechniqueCue a owl:Class .
+ex:BiomechanicalVariable a owl:Class .
+ex:RiskFactor a owl:Class .
+ex:EvidenceSentence a owl:Class .
+
+ex:BenchPress a ex:Exercise ;
+    rdfs:label "bench press" .
+
+ex:targetsMuscle a owl:ObjectProperty ;
+    rdfs:domain ex:Exercise ;
+    rdfs:range ex:Muscle .
+
+ex:usesEquipment a owl:ObjectProperty ;
+    rdfs:domain ex:Exercise ;
+    rdfs:range ex:Equipment .
+
+ex:hasTechniqueCue a owl:ObjectProperty ;
+    rdfs:domain ex:Exercise ;
+    rdfs:range ex:TechniqueCue .
+
+ex:affects a owl:ObjectProperty .
+ex:increasesRiskOf a owl:ObjectProperty .
+ex:hasEvidence a owl:ObjectProperty .
+ex:sourceFile a owl:DatatypeProperty .
+ex:confidence a owl:DatatypeProperty .
+ex:category a owl:DatatypeProperty .

@@ -1,0 +1,10 @@
+pandas
+rdflib
+spacy
+trafilatura
+httpx
+owlready2
+scikit-learn
+matplotlib
+pykeen
+ollama

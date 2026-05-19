@@ -1,0 +1,822 @@
+ex:horizontal_forces	ex:investigate_effect_of	ex:horizontal_force_component
+ex:15_decline	http://www.w3.org/2000/01/rdf-schema#label	15° decline
+ex:medium_grip_width	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:lifter	ex:hasEvidence	ex:evidence_8515188241960173672
+ex:triceps	ex:hasEvidence	ex:evidence_7881964606502536612
+ex:evidence_3765345502374373413	ex:category	technique
+ex:evidence_4894112435097642517	ex:confidence	0.546
+ex:evidence_9073847423816615370	ex:confidence	0.42
+ex:internal_moments	ex:calculate	ex:same_way
+ex:current_grip	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:shoulder	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:horizontal_forces	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_1006804307885435344	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:more_weight	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:sticking_region	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_7766501344894179862	ex:category	biomechanics
+ex:BenchPress	ex:usesEquipment	ex:bar_path
+ex:horizontal_force_component	http://www.w3.org/2000/01/rdf-schema#label	horizontal force component
+ex:grip_widths	ex:hasEvidence	ex:evidence_3468303829871180313
+ex:more_muscle	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:elbow_flexion_moments	http://www.w3.org/2000/01/rdf-schema#label	elbow flexion moments
+ex:evidence_1648938853070674804	http://www.w3.org/2000/01/rdf-schema#comment	If you weren’t supporting the bar, it would accelerate downward at 9.8m/sec2 (due to gravity), so the bar is exerting 150kg x 9.8m/sec2 = 1470N of force upon your hands and arms.
+ex:lifter	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:incline_press	ex:hasEvidence	ex:evidence_5819858739449831049
+ex:evidence_6375937084719179614	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:upper_arms	ex:abduct	ex:about_45
+ex:evidence_1394124178134584033	http://www.w3.org/2000/01/rdf-schema#comment	The wider your grip, the greater lateral distance you’ll have between your hand and your shoulder, so the greater the horizontal flexion demands will be (challenging your pecs specifically).
+ex:article	ex:address	ex:bar_path
+ex:evidence_5819858739449831049	ex:confidence	0.413
+ex:triceps	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:evidence_6381348622455289758	http://www.w3.org/2000/01/rdf-schema#comment	When you bench with a wide grip, the bar doesn’t just magically extend your elbows for you.
+ex:inches	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_5819858739449831049	ex:category	technique
+ex:evidence_2670064742355059892	ex:category	domain
+ex:more_force	http://www.w3.org/2000/01/rdf-schema#label	more force
+ex:scapular_retraction	ex:limit_tilting_of	ex:scapula
+ex:wrist_position	http://www.w3.org/2000/01/rdf-schema#label	wrist position
+ex:evidence_1126296017286023030	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_7237349450382040063	ex:confidence	0.504
+ex:evidence_2050766688128108742	ex:category	domain
+ex:evidence_3282688176978370252	ex:category	domain
+ex:evidence_4488305706086468326	http://www.w3.org/2000/01/rdf-schema#comment	The trickier part: Whether the bar imposes a flexor or extensor moment at the elbow depends on your grip width.
+ex:shoulder	http://www.w3.org/2000/01/rdf-schema#label	shoulder
+ex:narrow_grip_width	ex:create	ex:laterally_directed_resultant_forces
+ex:evidence_9213919379781559662	ex:confidence	0.331
+ex:bar_path	ex:hasEvidence	ex:evidence_6537065474874520085
+ex:large_enough_internal_extensor_moments	http://www.w3.org/2000/01/rdf-schema#label	large enough internal extensor moments
+ex:two_heads	ex:perform	ex:elbow_extension
+ex:evidence_5819858739449831049	ex:sourceFile	strongerbyscience_bench_press.html
+ex:bench	http://www.w3.org/2000/01/rdf-schema#label	bench
+ex:BenchPress	ex:targetsMuscle	ex:pectoralis_muscles
+ex:evidence_4753868943202099787	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_5028190411230186828	http://www.w3.org/2000/01/rdf-schema#comment	The subjects performed the bench press according to the rules and regulations set by the International Powerlifting Federation, except that the requirement for a full stop on the chest was removed; they were allowed to touch and press, but no bounce of the barbell was allowed.
+ex:evidence_6498926939889109664	ex:category	technique
+ex:workload	http://www.w3.org/2000/01/rdf-schema#label	workload
+ex:evidence_4587594822069839538	http://www.w3.org/2000/01/rdf-schema#comment	In the current work, after characterising the technical movement, it has been demonstrated that the concentric phase does not encompass the entire lifting motion (rise of the barbell).
+ex:evidence_784254290754935722	ex:confidence	0.527
+ex:greater_shoulder_flexion_moment	ex:create_demand_on	ex:proximal_prime_movers
+ex:movement_pattern	http://www.w3.org/2000/01/rdf-schema#label	movement pattern
+ex:evidence_3468303829871180313	ex:category	technique
+ex:BenchPress	ex:targetsMuscle	ex:chest_and_triceps_development
+ex:evidence_7881964606502536612	ex:category	domain
+ex:evidence_6483531109295382627	ex:category	biomechanics
+ex:evidence_916941293801325495	ex:category	technique
+ex:evidence_2836107243648863907	ex:sourceFile	strongerbyscience_bench_press.html
+ex:long_head	http://www.w3.org/2000/01/rdf-schema#label	long head
+ex:wide_and_medium_grip_widths	ex:affects	ex:greater_horizontal_shoulder_moments
+ex:evidence_6498926939889109664	ex:sourceFile	nasm_bench_press.html
+ex:evidence_5934042788671951710	ex:category	technique
+ex:elite_athletes	http://www.w3.org/2000/01/rdf-schema#label	elite athletes
+ex:evidence_2370923100117854041	ex:confidence	0.459
+ex:evidence_5942395853859869351	ex:sourceFile	Nike_bench_press.html
+ex:evidence_8140434564799245350	ex:sourceFile	muscleandmotion_bench_press.html
+ex:inches	http://www.w3.org/2000/01/rdf-schema#label	inches
+ex:evidence_4587594822069839538	ex:category	biomechanics
+ex:evidence_549407795339145564	ex:confidence	0.27
+ex:flexor	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6335141593322050229	ex:category	domain
+ex:evidence_6192230318323183385	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_8789043161258951158	http://www.w3.org/2000/01/rdf-schema#comment	Duffey and Challis (2011) therefore suggested that the horizontal forces during bench press result from the muscles' engagement in order to generate vertical force; they did not, however, investigate the effect of a horizontal force component in the sticking region.
+ex:evidence_9213919379781559662	ex:category	domain
+ex:triceps	ex:hit	ex:floor
+ex:evidence_1335857988687787587	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:elbow_extensor_moment	http://www.w3.org/2000/01/rdf-schema#label	elbow extensor moment
+ex:triceps	ex:give	ex:extra_kick
+ex:injury_risk	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:RiskFactor
+ex:chest_and_triceps_development	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:evidence_4759722028586987179	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:support	http://www.w3.org/2000/01/rdf-schema#label	support
+ex:wide_and_medium_grip_widths	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:triceps	ex:hasEvidence	ex:evidence_9213919379781559662
+ex:wide_grip	ex:hasEvidence	ex:evidence_2153625938427763933
+ex:eccentric_phase	ex:hasEvidence	ex:evidence_6483531109295382627
+ex:load	http://www.w3.org/2000/01/rdf-schema#label	load
+ex:bar	http://www.w3.org/2000/01/rdf-schema#label	bar
+ex:evidence_2670064742355059892	ex:confidence	0.089
+ex:passive_elements	http://www.w3.org/2000/01/rdf-schema#label	passive elements
+ex:elbow	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:technique	ex:negate_majority_of	ex:shoulder_flexion_demands
+ex:evidence_6537065474874520085	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:downward_force	http://www.w3.org/2000/01/rdf-schema#label	downward force
+ex:incline	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:elbows	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:BenchPress	ex:targetsMuscle	ex:pectoralis_major_s_upper_portion
+ex:maximal_intended_velocity_training	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_2921453991232715500	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_9015673364604897240	ex:confidence	0.518
+ex:four_basic_ways	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6192230318323183385	http://www.w3.org/2000/01/rdf-schema#comment	Bench with a variety of different grips (both width, and pronated/supinated) Pin press from varying heights Board press with various boards DB bench press Bench with a cambered (MacDonald) bar Bench with pauses of varying lengths At the end of the day… Ultimately, technical improvements can help your bench press dramatically (for both strength and longevity).
+ex:stretch_reflex_position	http://www.w3.org/2000/01/rdf-schema#label	stretch reflex position
+ex:light	http://www.w3.org/2000/01/rdf-schema#label	light
+ex:evidence_1006804307885435344	ex:category	technique
+ex:evidence_5878313652153285209	ex:sourceFile	strongerbyscience_bench_press.html
+ex:bench_press	ex:hasEvidence	ex:evidence_3816960666754821069
+ex:evidence_5995714504841740914	ex:confidence	0.449
+ex:muscles	ex:hasEvidence	ex:evidence_7237349450382040063
+ex:peak	http://www.w3.org/2000/01/rdf-schema#label	peak
+ex:evidence_549407795339145564	http://www.w3.org/2000/01/rdf-schema#comment	Elite powerlifters may perform the lift with excessive lumbar extension (arched low-back), but this position is not advised for the general fitness enthusiast unless properly instructed, and the person has a specific goal to increase 1 repetition maximum performance.
+ex:more_weight	http://www.w3.org/2000/01/rdf-schema#label	more weight
+ex:scapulae	ex:move	ex:four_basic_ways
+ex:incline_press	ex:train	ex:front_delts
+ex:so_many_muscles	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6545159908474808579	ex:confidence	0.479
+ex:45_pounds	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:decline_bench_press	http://www.w3.org/2000/01/rdf-schema#label	decline bench press
+ex:evidence_6504510334566180123	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:excessive_lumbar_extension	http://www.w3.org/2000/01/rdf-schema#label	excessive lumbar extension
+ex:descent	ex:hasTechniqueCue	ex:bar
+ex:evidence_7579941610671250471	ex:category	domain
+ex:evidence_7237349450382040063	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_6920563643483747472	ex:sourceFile	frontiersin_bench_press.html
+ex:evidence_784254290754935722	http://www.w3.org/2000/01/rdf-schema#comment	In simple terms, grip width determines horizontal flexion demands; the further the lateral distance between your hand and your shoulder, the longer the horizontal flexion moment arm.
+ex:evidence_2124700028800588645	ex:category	technique
+ex:evidence_5302879902200215589	ex:confidence	0.449
+ex:more_weight	ex:equal	ex:more_muscle
+ex:pectoralis_major	ex:hasEvidence	ex:evidence_6637603787891243660
+ex:very_similar_pattern	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_4895463479675158772	http://www.w3.org/2000/01/rdf-schema#comment	Make It Easier Lighten the load by using an empty barbell (meaning don’t add weight plates; a typical women’s barbell is about 35 pounds, while a typical men’s barbell weighs 45 pounds—so it’s still something.
+ex:evidence_5028190411230186828	ex:confidence	0.426
+ex:evidence_6335141593322050229	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:hand_off	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:different_grip_widths	http://www.w3.org/2000/01/rdf-schema#label	different grip widths
+ex:evidence_2370923100117854041	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_6637603787891243660	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_5127341834623370673	ex:sourceFile	nasm_bench_press.html
+ex:evidence_6077813944903423333	ex:category	biomechanics
+ex:evidence_3374086774588636637	ex:confidence	0.377
+ex:evidence_2921453991232715500	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_1126296017286023030	ex:confidence	0.514
+ex:evidence_2836107243648863907	ex:category	biomechanics
+ex:evidence_1126296017286023030	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_5289936798988412796	ex:sourceFile	nasm_bench_press.html
+ex:evidence_4894112435097642517	http://www.w3.org/2000/01/rdf-schema#comment	Furthermore, the wide grip width creates medially directed resultant forces, the medium grip width creates mainly vertical resultant forces, and the narrow grip width creates laterally directed resultant forces, as well as elbow flexion moments.
+ex:evidence_866251142100180269	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3374086774588636637	http://www.w3.org/2000/01/rdf-schema#comment	Why You Should Be Doing a Bench Press - You’ll improve overall upper-body strength, making all kinds of pushing exercises, including push-ups, shoulder presses, and moving furniture, feel easier. -
+ex:evidence_1013317621699497051	ex:confidence	0.136
+ex:evidence_8618749856662656497	http://www.w3.org/2000/01/rdf-schema#comment	Furthermore, the medial triceps increased muscle activity through the regions for the wide and medium bench press conditions, while the lateral triceps increased muscle activity from the pre-sticking to the post-sticking region.
+ex:about_45	http://www.w3.org/2000/01/rdf-schema#label	about 45°
+ex:bar	ex:hasTechniqueCue	ex:maximum_muscle_engagement
+ex:back	http://www.w3.org/2000/01/rdf-schema#label	back
+ex:evidence_4488305706086468326	ex:confidence	0.576
+ex:bar	ex:hasEvidence	ex:evidence_4488305706086468326
+ex:evidence_5743174414188962976	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:30_inclination	ex:hasEvidence	ex:evidence_1465112738566902658
+ex:evidence_2776567400421667721	http://www.w3.org/2000/01/rdf-schema#comment	This article addresses bar path in much greater detail.
+ex:evidence_1045804958876810447	ex:confidence	0.442
+ex:medium_and_wide_grip_widths	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:other_two_heads	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:stronger_arm	ex:hasEvidence	ex:evidence_384214345230702768
+ex:evidence_4753868943202099787	ex:confidence	0.475
+ex:bench_press	ex:engage	ex:so_many_muscles
+ex:shoulder_flexion_demands	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:muscle_fibers	ex:hasEvidence	ex:evidence_4164710818823671734
+ex:evidence_5529134946088119623	ex:category	domain
+ex:total_force_vector	http://www.w3.org/2000/01/rdf-schema#label	total force vector
+ex:evidence_4311856032308409690	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_5934042788671951710	http://www.w3.org/2000/01/rdf-schema#comment	In the bench press, the bar applies a downward force that exerts an external flexor moment at your elbow, and external extensor and horizontal extensor moments at your shoulder. -
+ex:evidence_5028190411230186828	ex:category	technique
+ex:evidence_4215215125300317744	ex:category	technique
+ex:evidence_3462189853590052458	ex:confidence	0.475
+ex:evidence_4154832965669972642	http://www.w3.org/2000/01/rdf-schema#comment	Another bonus of hitting the mid-back is that increases in size will also shave some inches off your bench press stroke!
+ex:eccentric_phase	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_5070128934748448359	http://www.w3.org/2000/01/rdf-schema#comment	Furthermore, passive elements in the muscle – structural proteins and connective tissue – produce increasing amounts of force as a muscle lengthens as well (blue curve).
+ex:muscle_fibers	ex:affects	ex:most_force
+ex:evidence_4044450754995815023	ex:category	domain
+ex:less_shoulder_horizontal_abduction	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_1335857988687787587	http://www.w3.org/2000/01/rdf-schema#comment	This means that the total force vector could influence the moments around the elbow from flexion to an extension moment.
+ex:bar	ex:hasEvidence	ex:evidence_5934042788671951710
+ex:typical_men_s_barbell	http://www.w3.org/2000/01/rdf-schema#label	typical men’s barbell
+ex:kinematic_factors	http://www.w3.org/2000/01/rdf-schema#label	kinematic factors
+ex:evidence_6375937084719179614	ex:sourceFile	strongerbyscience_bench_press.html
+ex:bench_press	ex:hasEvidence	ex:evidence_5942395853859869351
+ex:increases	ex:shave	ex:inches
+ex:muscle_activity	http://www.w3.org/2000/01/rdf-schema#label	muscle activity
+ex:evidence_5896527409661874567	http://www.w3.org/2000/01/rdf-schema#comment	Repeat, then rack the barbell.
+ex:barbell_movement	http://www.w3.org/2000/01/rdf-schema#label	barbell movement
+ex:assists	ex:hasEvidence	ex:evidence_8140434564799245350
+ex:evidence_3462189853590052458	ex:category	technique
+ex:muscle_fibers	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_7579941610671250471	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_4215215125300317744	ex:confidence	0.414
+ex:evidence_1401373688495745468	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_2921453991232715500	ex:confidence	0.405
+ex:joint_angles	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:proximal_prime_movers	http://www.w3.org/2000/01/rdf-schema#label	proximal prime movers
+ex:evidence_1619121419837941080	ex:sourceFile	Nike_bench_press.html
+ex:evidence_8618749856662656497	ex:sourceFile	frontiersin_bench_press.html
+ex:evidence_1034192088216586128	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:lifter	ex:perform	ex:same_testing_routine
+ex:evidence_6375937084719179614	ex:category	biomechanics
+ex:current_grip	http://www.w3.org/2000/01/rdf-schema#label	current grip
+ex:aid	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_1045804958876810447	http://www.w3.org/2000/01/rdf-schema#comment	Not using a full range of motion is often due to a lack of knowledge, but this can easily be corrected by understanding that the bar should touch the chest for maximum muscle engagement.
+ex:assists	http://www.w3.org/2000/01/rdf-schema#label	assists
+ex:triceps	ex:contribute	ex:anything
+ex:wrist_position	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:workload	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:wide_and_medium_grip_widths	ex:enable	ex:more_load
+ex:descent	http://www.w3.org/2000/01/rdf-schema#label	descent
+ex:evidence_8353171425027760914	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_1465112738566902658	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_784254290754935722	ex:category	technique
+ex:current_muscle_mass	ex:affects	ex:more_force
+ex:BenchPress	ex:targetsMuscle	ex:upper_pecs
+ex:bar	ex:hasEvidence	ex:evidence_1045804958876810447
+ex:evidence_1465112738566902658	http://www.w3.org/2000/01/rdf-schema#comment	Incline Bench Press: In this exercise, a 30° inclination will produce greater activation of the pectoralis major’s upper portion.
+ex:evidence_2670064742355059892	http://www.w3.org/2000/01/rdf-schema#comment	First things first, check your wrist position.
+ex:grip_width	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:technical_improvements	ex:help	ex:bench_press
+ex:evidence_4044450754995815023	http://www.w3.org/2000/01/rdf-schema#comment	The two heads that originate on the humerus only perform elbow extension, while the long head can also aid in shoulder extension.
+ex:evidence_7219451089888866477	ex:confidence	0.439
+ex:powerlifters	ex:arch	ex:back
+ex:elite_powerlifters	http://www.w3.org/2000/01/rdf-schema#label	elite powerlifters
+ex:evidence_1013317621699497051	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_9015673364604897240	http://www.w3.org/2000/01/rdf-schema#comment	In other words, an individual will have to use a lighter weight because this motion limits activation of the powerful sternoclavicular portion of the pectoralis muscle.
+ex:greater_shoulder_flexion_moment	ex:hasEvidence	ex:evidence_6920563643483747472
+ex:about_45	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_549407795339145564	ex:category	domain
+ex:forearms	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_9015673364604897240	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_5743174414188962976	ex:category	domain
+ex:internal_moment_arm	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_384214345230702768	http://www.w3.org/2000/01/rdf-schema#comment	For these people, the arm they lock out first is generally the weaker arm – the stronger arm supports the load while the weaker arm gets to press the weight out at an angle, instead of straight up.
+ex:greater_shoulder_flexion_moment	http://www.w3.org/2000/01/rdf-schema#label	greater shoulder flexion moment
+ex:position	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_9015673364604897240	ex:sourceFile	nasm_bench_press.html
+ex:BenchPress	ex:targetsMuscle	ex:pectoralis_major
+ex:evidence_6537065474874520085	ex:category	technique
+ex:extra_kick	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:narrow_grip_width	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_4154832965669972642	ex:category	technique
+ex:evidence_1045804958876810447	ex:category	technique
+ex:article	ex:hasEvidence	ex:evidence_7280501543520054765
+ex:shoulder_flexion	ex:hasEvidence	ex:evidence_5529134946088119623
+ex:evidence_6498926939889109664	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_2370923100117854041	ex:category	technique
+ex:evidence_7579941610671250471	http://www.w3.org/2000/01/rdf-schema#comment	The other two heads only cross the elbow, while the long head also crosses the shoulder to aid in shoulder extension.
+ex:triceps	ex:hasEvidence	ex:evidence_6637603787891243660
+ex:evidence_1394124178134584033	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_2776567400421667721	ex:confidence	0.161
+ex:evidence_7237349450382040063	ex:sourceFile	frontiersin_bench_press.html
+ex:muscles	http://www.w3.org/2000/01/rdf-schema#label	muscles
+ex:long_head	ex:cross	ex:shoulder
+ex:elite_athletes	ex:perform	ex:valsalva_maneuver
+ex:evidence_634389946799829456	ex:confidence	0.113
+ex:evidence_6504510334566180123	ex:sourceFile	mdpi_bench_press.html
+ex:scapula	http://www.w3.org/2000/01/rdf-schema#label	scapula
+ex:triceps	ex:hasEvidence	ex:evidence_5878313652153285209
+ex:different_angles	ex:hasEvidence	ex:evidence_6585543860371589205
+ex:elite_athletes	ex:hasEvidence	ex:evidence_4311856032308409690
+ex:BenchPress	ex:usesEquipment	ex:typical_men_s_barbell
+ex:evidence_1401373688495745468	ex:category	technique
+ex:evidence_1006804307885435344	http://www.w3.org/2000/01/rdf-schema#comment	Kinematic Factors influencing performance in injury risk in the bench press exercise.
+ex:evidence_7715560875673537291	http://www.w3.org/2000/01/rdf-schema#comment	Overly narrow barbell grip Gripping the barbell with your hands too close together during the bench press reduces the workload placed on the pectoralis major and increases the amount of work done by the anterior deltoid and triceps muscles.
+ex:evidence_9073847423816615370	ex:sourceFile	frontiersin_bench_press.html
+ex:evidence_1612283864513138824	http://www.w3.org/2000/01/rdf-schema#comment	Movement Pattern > Lower the barbell toward your chest, by flexing your elbows while maintaining scapulae retraction.
+ex:evidence_4311856032308409690	ex:category	technique
+ex:evidence_549407795339145564	ex:sourceFile	nasm_bench_press.html
+ex:torso	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:article	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_1465112738566902658	ex:category	technique
+ex:evidence_7579941610671250471	ex:confidence	0.371
+ex:shoulder_flexion	ex:demand	ex:peak
+ex:evidence_4565286646578759589	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_6637603787891243660	http://www.w3.org/2000/01/rdf-schema#comment	Because of that, the pecs and the triceps can work synergistically at both the elbow and shoulder; the pecs help the triceps extend the elbow, and the triceps help the pecs horizontally flex the shoulder.
+ex:evidence_5819858739449831049	http://www.w3.org/2000/01/rdf-schema#comment	Incline press will train your front delts slightly harder than flat bench will, and maybe your upper pecs as well.
+ex:retraction	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_7715560875673537291	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:similar_horizontal_forces	http://www.w3.org/2000/01/rdf-schema#label	similar horizontal forces
+ex:evidence_5529134946088119623	http://www.w3.org/2000/01/rdf-schema#comment	This should be your default assumption since the shoulder flexion demands peak at the bottom of the lift and then drop off dramatically.
+ex:BenchPress	ex:usesEquipment	ex:excessive_lumbar_extension
+ex:wide_and_medium_grip_widths	ex:affects	ex:similar_shoulder
+ex:BenchPress	ex:usesEquipment	ex:decline_bench_press
+ex:floor	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_634389946799829456	ex:sourceFile	strongerbyscience_bench_press.html
+ex:angle	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:passive_elements	ex:hasEvidence	ex:evidence_5070128934748448359
+ex:most_novice_lifters	ex:hasEvidence	ex:evidence_1013317621699497051
+ex:evidence_6375937084719179614	http://www.w3.org/2000/01/rdf-schema#comment	The two factors that determine whether your muscles can produce large enough internal extensor moments to lift a load are the attachment points of the muscles and the force with which they can contract. -
+ex:evidence_384214345230702768	ex:confidence	0.463
+ex:incline_bench_press	ex:hasEvidence	ex:evidence_1465112738566902658
+ex:evidence_7435088391383672920	http://www.w3.org/2000/01/rdf-schema#comment	Hence, the wide and medium grip widths produced similar shoulder and elbow joint moments and moment arm at the first located lowest barbell velocity.
+ex:evidence_7766501344894179862	http://www.w3.org/2000/01/rdf-schema#comment	Unfortunately, you can’t change muscle attachment points, so the only factor within your control is increasing contractile force.
+ex:evidence_8353171425027760914	ex:category	technique
+ex:bench	ex:train_head_of	ex:triceps
+ex:evidence_6077813944903423333	http://www.w3.org/2000/01/rdf-schema#comment	There are only two ways to do that: a) increase your skill as a bencher so your current muscle mass can produce more force during the movement and b) add more muscle!
+ex:kinds	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:retraction	http://www.w3.org/2000/01/rdf-schema#label	retraction
+ex:only_factor	ex:hasEvidence	ex:evidence_7766501344894179862
+ex:muscle	ex:hasEvidence	ex:evidence_4753868943202099787
+ex:evidence_1465112738566902658	ex:confidence	0.455
+ex:evidence_8515188241960173672	ex:confidence	0.452
+ex:evidence_6504510334566180123	ex:confidence	0.366
+ex:evidence_5934042788671951710	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_6077813944903423333	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:narrow_grip_width	ex:hasEvidence	ex:evidence_6920563643483747472
+ex:evidence_3765345502374373413	http://www.w3.org/2000/01/rdf-schema#comment	Maximal intended velocity training induces greater gains in bench press performance than deliberately slower half-velocity training.
+ex:chest	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:chest_and_triceps_development	http://www.w3.org/2000/01/rdf-schema#label	chest and triceps development
+ex:bench_press	ex:hasEvidence	ex:evidence_7715560875673537291
+ex:different_grip_widths	ex:influence_activity_of	ex:distal_prime_movers
+ex:evidence_4566919793390079892	ex:category	domain
+ex:evidence_7881964606502536612	http://www.w3.org/2000/01/rdf-schema#comment	For now, so we don’t get too bogged down before getting into the really meaty part of this article, let’s just stick with the same answer: Your triceps extend your elbows.
+ex:evidence_2776567400421667721	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_6537065474874520085	http://www.w3.org/2000/01/rdf-schema#comment	Bar path doesn’t affect horizontal flexion demands, but grip width does.
+ex:muscle	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:first_things	ex:check	ex:wrist_position
+ex:upper_arms	http://www.w3.org/2000/01/rdf-schema#label	upper arms
+ex:grip_widths	ex:demonstrate	ex:similar_horizontal_forces
+ex:evidence_5529134946088119623	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3460439879415179447	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_866251142100180269	ex:category	technique
+ex:front_delts	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:medially_directed_resultant_forces	http://www.w3.org/2000/01/rdf-schema#label	medially directed resultant forces
+ex:evidence_5070128934748448359	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:powerlifters	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:position	http://www.w3.org/2000/01/rdf-schema#label	position
+ex:evidence_5289936798988412796	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:concentric_phase	ex:encompass	ex:entire_lifting_motion
+ex:anything	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:pectoralis_major	ex:flex	ex:shoulder
+ex:evidence_7435088391383672920	ex:sourceFile	frontiersin_bench_press.html
+ex:evidence_1612283864513138824	ex:confidence	0.508
+ex:eccentric_muscle_action	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:subjects	ex:perform	ex:bench_press
+ex:injury_risk	http://www.w3.org/2000/01/rdf-schema#label	injury risk
+ex:evidence_634389946799829456	http://www.w3.org/2000/01/rdf-schema#comment	Descent Your next order of business is lowering the bar.
+ex:barbell_movement	ex:hasEvidence	ex:evidence_6504510334566180123
+ex:triceps	ex:help	ex:both_pecs
+ex:evidence_1045804958876810447	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:powerful_sternoclavicular_portion	http://www.w3.org/2000/01/rdf-schema#label	powerful sternoclavicular portion
+ex:evidence_6545159908474808579	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:pectoralis_major_s_upper_portion	http://www.w3.org/2000/01/rdf-schema#label	pectoralis major’s upper portion
+ex:stronger_triceps	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:wide_and_medium_grip_widths	ex:hasEvidence	ex:evidence_7435088391383672920
+ex:evidence_3282688176978370252	ex:sourceFile	strongerbyscience_bench_press.html
+ex:bar	ex:apply	ex:downward_force
+ex:few_people	ex:prefer	ex:retraction
+ex:most_potential	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:article	http://www.w3.org/2000/01/rdf-schema#label	article
+ex:bench_press_performance	http://www.w3.org/2000/01/rdf-schema#label	bench press performance
+ex:evidence_1401373688495745468	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_1126296017286023030	ex:category	biomechanics
+ex:anything	http://www.w3.org/2000/01/rdf-schema#label	anything
+ex:evidence_6585543860371589205	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_5878313652153285209	http://www.w3.org/2000/01/rdf-schema#comment	However, because they allow you to impart lateral forces on the bar, your triceps actually aid your pecs substantially as well.
+ex:evidence_6585543860371589205	http://www.w3.org/2000/01/rdf-schema#comment	Clavicular part - Sternocostal part - Abdominal part Different angles of the bench press can affect the activation of this muscle, so it is essential to consider which angle will best target the desired part of the muscle. -
+ex:most_novice_lifters	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:subjects	http://www.w3.org/2000/01/rdf-schema#label	subjects
+ex:evidence_6504510334566180123	ex:category	domain
+ex:shoulder_extension_moments	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_5995714504841740914	ex:category	biomechanics
+ex:muscle_irradiation	http://www.w3.org/2000/01/rdf-schema#label	muscle irradiation
+ex:evidence_2972256341122549125	http://www.w3.org/2000/01/rdf-schema#comment	Because of that, the bench probably doesn’t train the long head of your triceps nearly as much as the other two heads.
+ex:evidence_5289936798988412796	ex:confidence	0.407
+ex:barbell_bench_press	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:muscle	ex:perform	ex:eccentric_muscle_action
+ex:flexor	http://www.w3.org/2000/01/rdf-schema#label	flexor
+ex:bar	ex:exert_1470n_of	ex:force
+ex:support	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:scapular_retraction	ex:hasEvidence	ex:evidence_5289936798988412796
+ex:evidence_2836107243648863907	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:medium_grip_width	ex:create	ex:mainly_vertical_resultant_forces
+ex:evidence_5302879902200215589	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:upper_pecs	http://www.w3.org/2000/01/rdf-schema#label	upper pecs
+ex:evidence_3816960666754821069	ex:category	technique
+ex:evidence_1401373688495745468	http://www.w3.org/2000/01/rdf-schema#comment	I don’t think you could ever pinpoint the triceps as a definite weak link at the bottom of the press, but stronger triceps can give aid to the other muscles that are more likely to acutely limit you.
+ex:entire_lifting_motion	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:powerlifters	ex:hasEvidence	ex:evidence_7219451089888866477
+ex:medium_grip_width	ex:create	ex:elbow_flexion_moments
+ex:BenchPress	ex:targetsMuscle	ex:lateral_triceps
+ex:evidence_8515188241960173672	http://www.w3.org/2000/01/rdf-schema#comment	Then, the lifter performed the same testing routine as they did with the first grip width.
+ex:evidence_6443802608817646620	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:bar	ex:extend	ex:elbows
+ex:evidence_1394124178134584033	ex:confidence	0.408
+ex:wide_and_medium_grip_widths	http://www.w3.org/2000/01/rdf-schema#label	wide and medium grip widths
+ex:valsalva_maneuver	http://www.w3.org/2000/01/rdf-schema#label	valsalva maneuver
+ex:15_decline	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:15_decline	ex:hasEvidence	ex:evidence_1034192088216586128
+ex:muscle_irradiation	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:light	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_4154832965669972642	ex:sourceFile	robertson_bench_press.html
+ex:evidence_4164710818823671734	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_9213919379781559662	http://www.w3.org/2000/01/rdf-schema#comment	Also, your triceps can help out both your pecs and delts which are in a more stretched and vulnerable position.
+ex:maximum_muscle_engagement	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:grip_width	ex:determine	ex:horizontal_flexion_demands
+ex:evidence_3916347365623894827	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3462189853590052458	ex:sourceFile	Nike_bench_press.html
+ex:BenchPress	ex:targetsMuscle	ex:triceps_contract
+ex:evidence_6585543860371589205	ex:category	technique
+ex:evidence_1034192088216586128	ex:sourceFile	muscleandmotion_bench_press.html
+ex:distal_prime_movers	http://www.w3.org/2000/01/rdf-schema#label	distal prime movers
+ex:evidence_4566919793390079892	http://www.w3.org/2000/01/rdf-schema#comment	However, by the top, it doesn’t feel like your triceps are contributing anything at all to the movement.
+ex:evidence_2153625938427763933	http://www.w3.org/2000/01/rdf-schema#comment	Furthermore, the wide grip width produced 13.1–15.7% lateral forces, while the medium and narrow grip widths produced 0.4–1.8 and 8.5–10.1% medially directed forces of the vertical force produced during the sticking region, respectively.
+ex:kinematic_factors	ex:hasEvidence	ex:evidence_1006804307885435344
+ex:evidence_784254290754935722	ex:sourceFile	strongerbyscience_bench_press.html
+ex:horizontal_forces	ex:hasEvidence	ex:evidence_8789043161258951158
+ex:gravity	ex:hasEvidence	ex:evidence_3460439879415179447
+ex:evidence_634389946799829456	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:torso	http://www.w3.org/2000/01/rdf-schema#label	torso
+ex:evidence_7881964606502536612	ex:confidence	0.206
+ex:evidence_5878313652153285209	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_7715560875673537291	ex:confidence	0.618
+ex:evidence_3460439879415179447	ex:confidence	0.193
+ex:evidence_5942395853859869351	ex:category	technique
+ex:wide_grip	http://www.w3.org/2000/01/rdf-schema#label	wide grip
+ex:hand_off	http://www.w3.org/2000/01/rdf-schema#label	hand-off
+ex:evidence_747432309807779345	ex:sourceFile	strongerbyscience_bench_press.html
+ex:gravity	http://www.w3.org/2000/01/rdf-schema#label	gravity
+ex:evidence_7039919425594498945	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_3765345502374373413	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:few_people	http://www.w3.org/2000/01/rdf-schema#label	few people
+ex:evidence_5028190411230186828	ex:sourceFile	frontiersin_bench_press.html
+ex:evidence_4566919793390079892	ex:sourceFile	strongerbyscience_bench_press.html
+ex:triceps	ex:help	ex:shoulders
+ex:concentric_phase	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:greater_horizontal_shoulder_moments	http://www.w3.org/2000/01/rdf-schema#label	greater horizontal shoulder moments
+ex:evidence_6483531109295382627	ex:confidence	0.545
+ex:front_delts	http://www.w3.org/2000/01/rdf-schema#label	front delts
+ex:first_things	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6381348622455289758	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:wide_and_medium_grip_widths	ex:hasEvidence	ex:evidence_6545159908474808579
+ex:eccentric_phase	ex:hasTechniqueCue	ex:less_shoulder_horizontal_abduction
+ex:BenchPress	ex:targetsMuscle	ex:stronger_triceps
+ex:13_1_15_7_lateral_forces	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:grip_width	ex:hasEvidence	ex:evidence_784254290754935722
+ex:evidence_4215215125300317744	http://www.w3.org/2000/01/rdf-schema#comment	Lower the bar, bending your arms with elbows at a 45- to 70-degree angle, until the bar grazes your chest. -
+ex:BenchPress	ex:usesEquipment	ex:incline_bench_press
+ex:evidence_4759722028586987179	ex:sourceFile	strongerbyscience_bench_press.html
+ex:many_people	http://www.w3.org/2000/01/rdf-schema#label	many people
+ex:horizontal_flexion_demands	http://www.w3.org/2000/01/rdf-schema#label	horizontal flexion demands
+ex:lower_pectoralis_major	http://www.w3.org/2000/01/rdf-schema#label	lower pectoralis major
+ex:concentric_phase	http://www.w3.org/2000/01/rdf-schema#label	concentric phase
+ex:evidence_5070128934748448359	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_4488305706086468326	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_3374086774588636637	ex:category	technique
+ex:load	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_2670064742355059892	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_5995714504841740914	ex:sourceFile	strongerbyscience_bench_press.html
+ex:scapula	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:furniture	http://www.w3.org/2000/01/rdf-schema#label	furniture
+ex:evidence_3816960666754821069	http://www.w3.org/2000/01/rdf-schema#comment	Will the bench press, alone, maximize chest and triceps development?
+ex:evidence_7766501344894179862	ex:sourceFile	strongerbyscience_bench_press.html
+ex:bench_press_performance	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:evidence_4565286646578759589	http://www.w3.org/2000/01/rdf-schema#comment	There’s a simple explanation: Muscles don’t produce the same amount of force over their entire range of motion.
+ex:stretch_reflex_position	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:repeat	ex:rack	ex:bar
+ex:force	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_6381348622455289758	ex:sourceFile	strongerbyscience_bench_press.html
+ex:greater_horizontal_shoulder_moments	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_4759722028586987179	ex:confidence	0.259
+ex:evidence_4164710818823671734	ex:category	biomechanics
+ex:elite_powerlifters	ex:perform_lift_with	ex:excessive_lumbar_extension
+ex:increases	http://www.w3.org/2000/01/rdf-schema#label	increases
+ex:evidence_7280501543520054765	ex:category	technique
+ex:bar	ex:graze	ex:chest
+ex:very_similar_pattern	http://www.w3.org/2000/01/rdf-schema#label	very similar pattern
+ex:motion	ex:limit_activation_of	ex:powerful_sternoclavicular_portion
+ex:evidence_6192230318323183385	ex:category	technique
+ex:evidence_384214345230702768	ex:category	technique
+ex:evidence_5302879902200215589	http://www.w3.org/2000/01/rdf-schema#comment	It is also speculated that the wide and medium grip widths enable more load to be lifted because they produce greater shoulder flexion moments during all events.
+ex:excessive_lumbar_extension	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:30_inclination	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_5942395853859869351	ex:confidence	0.443
+ex:evidence_916941293801325495	http://www.w3.org/2000/01/rdf-schema#comment	More weight equals more muscle and strength, and hopefully a bigger bench press.
+ex:evidence_4044450754995815023	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:wide_grip_width	ex:create	ex:medially_directed_resultant_forces
+ex:bench	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:evidence_5819858739449831049	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_5127341834623370673	http://www.w3.org/2000/01/rdf-schema#comment	When performing a bench press with a retracted scapula, some argue the pectoralis muscles enter the stretch reflex position sooner during the eccentric phase.
+ex:evidence_6077813944903423333	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_1648938853070674804	ex:category	biomechanics
+ex:evidence_8515188241960173672	ex:sourceFile	frontiersin_bench_press.html
+ex:medium_grip_width	http://www.w3.org/2000/01/rdf-schema#label	medium grip width
+ex:powerlifters	http://www.w3.org/2000/01/rdf-schema#label	powerlifters
+ex:hand_off	ex:take	ex:bar
+ex:triceps	ex:aid	ex:pectoralis_major
+ex:evidence_747432309807779345	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_8140434564799245350	ex:category	technique
+ex:evidence_2921453991232715500	ex:category	technique
+ex:evidence_2050766688128108742	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_2370923100117854041	ex:sourceFile	nasm_bench_press.html
+ex:evidence_1619121419837941080	http://www.w3.org/2000/01/rdf-schema#comment	The barbell bench press, one of the “big three” in powerlifting, builds serious upper-body strength and, you guessed it, power, thanks to the number of muscle fibers it activates with every rep.
+ex:evidence_3462189853590052458	http://www.w3.org/2000/01/rdf-schema#comment	If the range of motion is tricky for you, do a floor press by lying face up on the floor and lowering your arms until your triceps hit the floor.
+ex:maximal_intended_velocity_training	http://www.w3.org/2000/01/rdf-schema#label	maximal intended velocity training
+ex:internal_moment_arm	ex:hasEvidence	ex:evidence_1126296017286023030
+ex:BenchPress	ex:usesEquipment	ex:bar
+ex:evidence_2153625938427763933	ex:sourceFile	frontiersin_bench_press.html
+ex:pectoralis_muscles	ex:enter	ex:stretch_reflex_position
+ex:same_way	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:typical_men_s_barbell	ex:weigh	ex:45_pounds
+ex:distal_prime_movers	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:technical_improvements	http://www.w3.org/2000/01/rdf-schema#label	technical improvements
+ex:typical_men_s_barbell	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:sticking_region	http://www.w3.org/2000/01/rdf-schema#label	sticking region
+ex:many_people	ex:hasEvidence	ex:evidence_866251142100180269
+ex:evidence_9073847423816615370	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_8789043161258951158	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_1648938853070674804	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_7039919425594498945	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:contractile_force	http://www.w3.org/2000/01/rdf-schema#label	contractile force
+ex:BenchPress	http://www.w3.org/2000/01/rdf-schema#label	bench press
+ex:repeat	http://www.w3.org/2000/01/rdf-schema#label	repeat
+ex:bar	ex:impose	ex:flexor
+ex:evidence_8140434564799245350	http://www.w3.org/2000/01/rdf-schema#comment	Pectoralis major – primary shoulder horizontal adduction - Anterior deltoid – assists in shoulder horizontal adduction - Coracobrachialis – assists in shoulder horizontal adduction - Triceps brachii – elbow extension - Serratus anterior – scapula protraction - Abdominal muscles – stabilize the torso How to bench press properly: step-by-step - Lie with your back on a flat bench and hold a barbell in your hands.
+ex:evidence_1648938853070674804	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_4587594822069839538	ex:sourceFile	mdpi_bench_press.html
+ex:horizontal_flexion_demands	ex:hasEvidence	ex:evidence_1394124178134584033
+ex:decline_bench_press	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:shoulder_extension_moments	http://www.w3.org/2000/01/rdf-schema#label	shoulder extension moments
+ex:evidence_4311856032308409690	ex:confidence	0.424
+ex:incline_bench_press	http://www.w3.org/2000/01/rdf-schema#label	incline bench press
+ex:many_people	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:proximal_prime_movers	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:other_two_heads	ex:cross	ex:elbow
+ex:less_shoulder_horizontal_abduction	http://www.w3.org/2000/01/rdf-schema#label	less shoulder horizontal abduction
+ex:evidence_5302879902200215589	ex:sourceFile	frontiersin_bench_press.html
+ex:decline_bench_press	ex:hasEvidence	ex:evidence_1034192088216586128
+ex:assists	ex:stabilize	ex:torso
+ex:evidence_7435088391383672920	ex:confidence	0.534
+ex:little_further_explanation	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:BenchPress	ex:usesEquipment	ex:bench
+ex:wide_grip_width	http://www.w3.org/2000/01/rdf-schema#label	wide grip width
+ex:BenchPress	ex:targetsMuscle	ex:lower_pectoralis_major
+ex:evidence_8618749856662656497	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:barbell_bench_press	ex:build	ex:serious_upper_body_strength
+ex:muscle	http://www.w3.org/2000/01/rdf-schema#label	muscle
+ex:evidence_725820214403561646	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_7766501344894179862	ex:confidence	0.433
+ex:evidence_784254290754935722	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:technique	http://www.w3.org/2000/01/rdf-schema#label	technique
+ex:more_force	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_4759722028586987179	ex:category	domain
+ex:evidence_5302879902200215589	ex:category	technique
+ex:only_factor	http://www.w3.org/2000/01/rdf-schema#label	only factor
+ex:repeat	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6443802608817646620	ex:category	biomechanics
+ex:13_1_15_7_lateral_forces	http://www.w3.org/2000/01/rdf-schema#label	13.1–15.7% lateral forces
+ex:only_factor	ex:affects	ex:contractile_force
+ex:evidence_8789043161258951158	ex:category	technique
+ex:wide_grip_width	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:triceps	ex:hasEvidence	ex:evidence_4566919793390079892
+ex:laterally_directed_resultant_forces	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:same_way	http://www.w3.org/2000/01/rdf-schema#label	same way
+ex:movement_pattern	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:position	ex:hasEvidence	ex:evidence_6335141593322050229
+ex:evidence_6920563643483747472	ex:category	technique
+ex:maximal_intended_velocity_training	ex:hasEvidence	ex:evidence_3765345502374373413
+ex:four_basic_ways	http://www.w3.org/2000/01/rdf-schema#label	four basic ways
+ex:evidence_5529134946088119623	ex:sourceFile	strongerbyscience_bench_press.html
+ex:force	ex:need	ex:little_further_explanation
+ex:evidence_384214345230702768	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:maximum_muscle_engagement	http://www.w3.org/2000/01/rdf-schema#label	maximum muscle engagement
+ex:evidence_3765345502374373413	ex:confidence	0.416
+ex:evidence_6498926939889109664	ex:confidence	0.529
+ex:muscles	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:current_muscle_mass	http://www.w3.org/2000/01/rdf-schema#label	current muscle mass
+ex:BenchPress	ex:targetsMuscle	ex:triceps
+ex:evidence_2050766688128108742	ex:sourceFile	strongerbyscience_bench_press.html
+ex:most_novice_lifters	http://www.w3.org/2000/01/rdf-schema#label	most novice lifters
+ex:evidence_3468303829871180313	ex:sourceFile	frontiersin_bench_press.html
+ex:more_load	http://www.w3.org/2000/01/rdf-schema#label	more load
+ex:evidence_4753868943202099787	ex:category	technique
+ex:other_two_heads	ex:hasEvidence	ex:evidence_7579941610671250471
+ex:evidence_7219451089888866477	ex:sourceFile	muscleandmotion_bench_press.html
+ex:evidence_6375937084719179614	ex:confidence	0.525
+ex:medium_and_wide_grip_widths	ex:affects	ex:shoulder_extension_moments
+ex:pectoralis_major	http://www.w3.org/2000/01/rdf-schema#label	pectoralis major
+ex:BenchPress	ex:usesEquipment	ex:bench_press
+ex:evidence_634389946799829456	ex:category	domain
+ex:evidence_2921453991232715500	http://www.w3.org/2000/01/rdf-schema#comment	However, based on the available research, it seems like incline still doesn’t challenge your upper pecs quite as much reverse grip benching with a wide grip does.
+ex:evidence_5289936798988412796	http://www.w3.org/2000/01/rdf-schema#comment	Scapular retraction also limits protraction and anterior tilting of scapulae (rounding the shoulders forward) during the exercise (Duffey, 2008).
+ex:evidence_4164710818823671734	ex:confidence	0.525
+ex:medial_triceps	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:evidence_3816960666754821069	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_8353171425027760914	ex:sourceFile	frontiersin_bench_press.html
+ex:angle	ex:hasEvidence	ex:evidence_6585543860371589205
+ex:45_pounds	http://www.w3.org/2000/01/rdf-schema#label	45 pounds
+ex:evidence_2050766688128108742	ex:confidence	0.061
+ex:powerful_sternoclavicular_portion	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:incline	ex:hasEvidence	ex:evidence_2921453991232715500
+ex:both_pecs	http://www.w3.org/2000/01/rdf-schema#label	both pecs
+ex:next_order	ex:hasEvidence	ex:evidence_634389946799829456
+ex:evidence_4565286646578759589	ex:confidence	0.478
+ex:evidence_4565286646578759589	ex:sourceFile	strongerbyscience_bench_press.html
+ex:most_elite_lifters	ex:utilize	ex:bar_path
+ex:lifter	http://www.w3.org/2000/01/rdf-schema#label	lifter
+ex:internal_moments	ex:hasEvidence	ex:evidence_2050766688128108742
+ex:evidence_8515188241960173672	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:technique	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_5743174414188962976	ex:confidence	0.247
+ex:medial_triceps	ex:affects	ex:muscle_activity
+ex:evidence_6335141593322050229	http://www.w3.org/2000/01/rdf-schema#comment	However, this position may place the shoulder in a vulnerable position (Green, 2007).
+ex:evidence_8618749856662656497	ex:category	technique
+ex:evidence_5934042788671951710	ex:confidence	0.539
+ex:motion	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:two_heads	ex:hasEvidence	ex:evidence_4044450754995815023
+ex:evidence_1335857988687787587	ex:sourceFile	frontiersin_bench_press.html
+ex:30_inclination	ex:affects	ex:pectoralis_major_s_upper_portion
+ex:large_enough_internal_extensor_moments	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_4895463479675158772	ex:sourceFile	Nike_bench_press.html
+ex:evidence_1394124178134584033	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_6498926939889109664	http://www.w3.org/2000/01/rdf-schema#comment	This position creates a stable base of support against the bench for the shoulders, decreases anterior forces through the shoulder complex particularly during the eccentric phase, and may improve activation of the pectoralis muscles (Duffey, 2008; Bench Press Analysis).
+ex:first_things	http://www.w3.org/2000/01/rdf-schema#label	first things
+ex:moments	http://www.w3.org/2000/01/rdf-schema#label	moments
+ex:laterally_directed_resultant_forces	http://www.w3.org/2000/01/rdf-schema#label	laterally directed resultant forces
+ex:evidence_3816960666754821069	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_6637603787891243660	ex:confidence	0.631
+ex:evidence_5529134946088119623	ex:confidence	0.263
+ex:aid	http://www.w3.org/2000/01/rdf-schema#label	aid
+ex:evidence_1013317621699497051	ex:category	domain
+ex:evidence_6335141593322050229	ex:confidence	0.19
+ex:evidence_6483531109295382627	http://www.w3.org/2000/01/rdf-schema#comment	In addition, this position may be less aggravating for people with a history of shoulder pain because the eccentric phase requires less shoulder horizontal abduction and places a greater emphasis on sagittal plane shoulder extension.
+ex:evidence_3765345502374373413	ex:sourceFile	strongerbyscience_bench_press.html
+ex:horizontal_flexion_demands	ex:challenge	ex:pectoralis_major
+ex:evidence_5896527409661874567	ex:sourceFile	Nike_bench_press.html
+ex:scapular_retraction	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_1648938853070674804	ex:confidence	0.422
+ex:floor	http://www.w3.org/2000/01/rdf-schema#label	floor
+ex:passive_elements	ex:affects	ex:force
+ex:evidence_4895463479675158772	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_5934042788671951710	ex:sourceFile	strongerbyscience_bench_press.html
+ex:stronger_arm	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:stronger_arm	http://www.w3.org/2000/01/rdf-schema#label	stronger arm
+ex:evidence_1034192088216586128	ex:category	technique
+ex:stronger_triceps	http://www.w3.org/2000/01/rdf-schema#label	stronger triceps
+ex:evidence_5942395853859869351	http://www.w3.org/2000/01/rdf-schema#comment	Because the bench press engages so many muscles at once, it can help you build muscle mass and see definition quicker than most upper-body exercises.
+ex:evidence_866251142100180269	ex:confidence	0.469
+ex:both_pecs	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:medium_grip_width	ex:hasEvidence	ex:evidence_4894112435097642517
+ex:evidence_725820214403561646	ex:confidence	0.148
+ex:evidence_7280501543520054765	http://www.w3.org/2000/01/rdf-schema#comment	Hopefully this article has shed some light on what muscles are working while benching, how to train them, and ways to improve your bench press from start to finish.
+ex:position	ex:hasEvidence	ex:evidence_6498926939889109664
+ex:few_people	ex:hasEvidence	ex:evidence_725820214403561646
+ex:internal_moments	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_6483531109295382627	ex:sourceFile	nasm_bench_press.html
+ex:evidence_4894112435097642517	ex:category	technique
+ex:evidence_5289936798988412796	ex:category	domain
+ex:wide_grip_width	ex:hasEvidence	ex:evidence_4894112435097642517
+ex:narrow_grip_width	http://www.w3.org/2000/01/rdf-schema#label	narrow grip width
+ex:different_grip_widths	ex:hasEvidence	ex:evidence_9073847423816615370
+ex:evidence_2370923100117854041	http://www.w3.org/2000/01/rdf-schema#comment	Start with a standard grip of the bar approximately shoulder-width and the upper arms abducted about 45°, and avoid an excessively wide or narrow grip.
+ex:evidence_1034192088216586128	http://www.w3.org/2000/01/rdf-schema#comment	Decline Bench Press: In this exercise, a 15° decline will produce greater activation of the lower pectoralis major. -
+ex:evidence_2153625938427763933	ex:confidence	0.466
+ex:force	ex:hasEvidence	ex:evidence_6443802608817646620
+ex:triceps	ex:hasEvidence	ex:evidence_747432309807779345
+ex:evidence_2836107243648863907	ex:confidence	0.537
+ex:evidence_7219451089888866477	http://www.w3.org/2000/01/rdf-schema#comment	Powerlifters arch their back and lift their chest up in order to reduce the distance the barbell needs to travel from the starting position to the chest, thus allowing them to lift heavier weights. *
+ex:scapulae	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_7435088391383672920	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:medium_and_wide_grip_widths	http://www.w3.org/2000/01/rdf-schema#label	medium and wide grip widths
+ex:evidence_3468303829871180313	ex:confidence	0.495
+ex:barbell_bench_press	ex:hasEvidence	ex:evidence_1619121419837941080
+ex:evidence_8789043161258951158	ex:sourceFile	frontiersin_bench_press.html
+ex:most_force	http://www.w3.org/2000/01/rdf-schema#label	most force
+ex:evidence_1612283864513138824	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:kinds	ex:hasEvidence	ex:evidence_3374086774588636637
+ex:scapulae	ex:hasEvidence	ex:evidence_4759722028586987179
+ex:upper_arms	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:upper_arms	ex:hasEvidence	ex:evidence_2370923100117854041
+ex:clavicular_part_sternocostal_part_abdominal_part	http://www.w3.org/2000/01/rdf-schema#label	clavicular part - sternocostal part - abdominal part
+ex:evidence_8515188241960173672	ex:category	technique
+ex:incline	http://www.w3.org/2000/01/rdf-schema#label	incline
+ex:evidence_6920563643483747472	ex:confidence	0.492
+ex:lower_pectoralis_major	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:elbow_extension	http://www.w3.org/2000/01/rdf-schema#label	elbow extension
+ex:bar	ex:hasEvidence	ex:evidence_1648938853070674804
+ex:evidence_9213919379781559662	ex:sourceFile	strongerbyscience_bench_press.html
+ex:stronger_triceps	ex:give	ex:aid
+ex:evidence_4587594822069839538	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:grip_width	http://www.w3.org/2000/01/rdf-schema#label	grip width
+ex:current_muscle_mass	ex:hasEvidence	ex:evidence_6077813944903423333
+ex:evidence_725820214403561646	ex:category	domain
+ex:evidence_7579941610671250471	ex:sourceFile	strongerbyscience_bench_press.html
+ex:pectoralis_muscles	ex:hasEvidence	ex:evidence_5127341834623370673
+ex:incline_press	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:bench_press	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:evidence_1013317621699497051	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_2670064742355059892	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:15_decline	ex:affects	ex:lower_pectoralis_major
+ex:triceps_contract	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:incline_press	http://www.w3.org/2000/01/rdf-schema#label	incline press
+ex:technical_improvements	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_1401373688495745468	ex:confidence	0.426
+ex:evidence_6381348622455289758	ex:confidence	0.384
+ex:triceps	ex:hasEvidence	ex:evidence_2124700028800588645
+ex:two_heads	http://www.w3.org/2000/01/rdf-schema#label	two heads
+ex:movement_pattern	ex:hasEvidence	ex:evidence_1612283864513138824
+ex:BenchPress	ex:targetsMuscle	ex:both_pecs
+ex:concentric_phase	ex:hasEvidence	ex:evidence_4587594822069839538
+ex:repeat	ex:hasEvidence	ex:evidence_5896527409661874567
+ex:evidence_6443802608817646620	ex:sourceFile	robertson_bench_press.html
+ex:pectoralis_major_s_upper_portion	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:evidence_7039919425594498945	ex:confidence	0.313
+ex:kinematic_factors	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_2972256341122549125	ex:confidence	0.271
+ex:barbell_bench_press	http://www.w3.org/2000/01/rdf-schema#label	barbell bench press
+ex:evidence_4565286646578759589	ex:category	biomechanics
+ex:BenchPress	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Exercise
+ex:evidence_1394124178134584033	ex:category	technique
+ex:evidence_4215215125300317744	ex:sourceFile	Nike_bench_press.html
+ex:evidence_3460439879415179447	ex:category	domain
+ex:similar_shoulder	http://www.w3.org/2000/01/rdf-schema#label	similar shoulder
+ex:evidence_6920563643483747472	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:serious_upper_body_strength	http://www.w3.org/2000/01/rdf-schema#label	serious upper-body strength
+ex:evidence_5028190411230186828	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:extra_kick	http://www.w3.org/2000/01/rdf-schema#label	extra kick
+ex:similar_horizontal_forces	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:evidence_2972256341122549125	ex:category	domain
+ex:evidence_6537065474874520085	ex:confidence	0.446
+ex:evidence_2153625938427763933	ex:category	technique
+ex:evidence_5743174414188962976	ex:sourceFile	strongerbyscience_bench_press.html
+ex:subjects	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_7715560875673537291	ex:category	technique
+ex:greater_shoulder_flexion_moment	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:elbow_flexion_moments	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_4215215125300317744	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3916347365623894827	ex:category	domain
+ex:elbow_extensor_moment	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_2972256341122549125	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_4311856032308409690	http://www.w3.org/2000/01/rdf-schema#comment	Elite athletes or powerlifters may perform the Valsalva maneuver during the bench press.
+ex:bar_path	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:evidence_5743174414188962976	http://www.w3.org/2000/01/rdf-schema#comment	If your elbows are pointed out, then when your triceps contract, they’re mainly imposing lateral forces on the weight.
+ex:evidence_2124700028800588645	http://www.w3.org/2000/01/rdf-schema#comment	While tucking enough that your elbows wind up in front of the bar does make the lift harder on your triceps, this technique can also help you drive the bar back up off your chest (as discussed in the previous section) at the start of the press, allowing your triceps to help out your shoulders.
+ex:evidence_5995714504841740914	http://www.w3.org/2000/01/rdf-schema#comment	Furthermore, since they don’t allow (or at least encourage) the same degree of horizontal forces, this will help us see how the lift can still be challenging for your triceps while the bar is imposing an elbow extensor moment, and it’ll also help us understand why you can bench more than you can dumbbell bench (it’s not just a matter of stability).
+ex:more_muscle	http://www.w3.org/2000/01/rdf-schema#label	more muscle
+ex:wide_grip	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:increases	ex:hasEvidence	ex:evidence_4154832965669972642
+ex:evidence_7766501344894179862	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:gravity	ex:pull	ex:bar
+ex:evidence_6545159908474808579	ex:category	technique
+ex:evidence_866251142100180269	http://www.w3.org/2000/01/rdf-schema#comment	However, for other people, it’s much less comfortable than benching with a pronated grip; many people can’t comfortably supinate their forearms well enough, it puts a pretty fair amount of stress on your wrists since you have to reverse grip bench with your wrists cocked back, and it puts a fair amount of stress on your biceps tendons and the other muscles/tendons/ligaments on the front of your shoulder.
+ex:evidence_866251142100180269	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_4753868943202099787	ex:sourceFile	nasm_bench_press.html
+ex:angle	ex:target_part_of	ex:muscle
+ex:evidence_747432309807779345	http://www.w3.org/2000/01/rdf-schema#comment	Here’s how I like to think of it: pecs provide the “strength base” for the movement, while the triceps give you the extra kick you need for heavier weights.
+ex:evidence_5896527409661874567	ex:category	technique
+ex:evidence_6545159908474808579	http://www.w3.org/2000/01/rdf-schema#comment	The wide and medium grip widths produced greater horizontal shoulder moments than the narrow grip width during the sticking region.
+ex:evidence_9073847423816615370	http://www.w3.org/2000/01/rdf-schema#comment	Therefore, it is speculated that different grip widths may influence the muscle activity of the distal prime movers to a greater extent than the proximal prime movers.
+ex:evidence_2972256341122549125	ex:sourceFile	strongerbyscience_bench_press.html
+ex:bar	ex:hasEvidence	ex:evidence_6381348622455289758
+ex:evidence_8140434564799245350	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:subjects	ex:hasEvidence	ex:evidence_5028190411230186828
+ex:evidence_6381348622455289758	ex:category	technique
+ex:elite_athletes	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_4587594822069839538	ex:confidence	0.524
+ex:BenchPress	ex:usesEquipment	ex:barbell_bench_press
+ex:evidence_3282688176978370252	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:narrow_grip_width	ex:create_demand_on	ex:distal_prime_movers
+ex:decline_bench_press	ex:affects	ex:lower_pectoralis_major
+ex:incline_bench_press	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:BenchPress	ex:targetsMuscle	ex:medial_triceps
+ex:similar_shoulder	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_3460439879415179447	http://www.w3.org/2000/01/rdf-schema#comment	Remember, gravity is always pulling the bar straight down.
+ex:most_elite_lifters	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:bench	ex:hasEvidence	ex:evidence_2972256341122549125
+ex:evidence_6637603787891243660	ex:category	biomechanics
+ex:evidence_4566919793390079892	ex:confidence	0.202
+ex:descent	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_5878313652153285209	ex:confidence	0.273
+ex:next_order	ex:hasTechniqueCue	ex:bar
+ex:descent	ex:hasEvidence	ex:evidence_634389946799829456
+ex:evidence_747432309807779345	ex:category	domain
+ex:gravity	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:bench_press	ex:affects	ex:workload
+ex:evidence_7237349450382040063	http://www.w3.org/2000/01/rdf-schema#comment	Considering EMG activity during different grip widths along with the horizontal forces around the sticking region could provide more detailed information about how these muscles generate forces in the sticking region during different grip widths, and how to manipulate the sticking region by choosing a grip width that supports individual strength and weaknesses.
+ex:so_many_muscles	http://www.w3.org/2000/01/rdf-schema#label	so many muscles
+ex:triceps_contract	ex:hasEvidence	ex:evidence_5743174414188962976
+ex:evidence_8140434564799245350	ex:confidence	0.539
+ex:scapular_retraction	http://www.w3.org/2000/01/rdf-schema#label	scapular retraction
+ex:evidence_2050766688128108742	http://www.w3.org/2000/01/rdf-schema#comment	Internal moments are calculated the same way external moments are.
+ex:evidence_3462189853590052458	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:different_angles	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6637603787891243660	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:pectoralis_major	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:downward_force	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:bar	ex:impose	ex:elbow_extensor_moment
+ex:muscles	ex:affects	ex:force
+ex:bar_path	ex:affects	ex:horizontal_flexion_demands
+ex:evidence_4894112435097642517	ex:sourceFile	frontiersin_bench_press.html
+ex:evidence_4154832965669972642	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:muscle_irradiation	ex:help	ex:triceps_contract
+ex:evidence_3916347365623894827	ex:confidence	0.261
+ex:evidence_5070128934748448359	ex:category	biomechanics
+ex:muscles	ex:hasEvidence	ex:evidence_6375937084719179614
+ex:evidence_6537065474874520085	ex:sourceFile	strongerbyscience_bench_press.html
+ex:position	ex:place	ex:shoulder
+ex:BenchPress	ex:usesEquipment	ex:barbell_movement
+ex:most_novice_lifters	ex:drive	ex:bar
+ex:evidence_4753868943202099787	http://www.w3.org/2000/01/rdf-schema#comment	It is also important to note that muscle activation varies depending if the muscle is performing an eccentric muscle action or a concentric muscle contraction, as well as the technique selected by the lifter (i.e., wide grip versus narrow grip).
+ex:hand_off	ex:hasEvidence	ex:evidence_3916347365623894827
+ex:evidence_1612283864513138824	ex:category	domain
+ex:article	ex:hasEvidence	ex:evidence_2776567400421667721
+ex:current_grip	ex:give	ex:most_potential
+ex:muscles	ex:generate_force_in	ex:sticking_region
+ex:grip_widths	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:maximal_intended_velocity_training	ex:induce_gain_in	ex:bench_press_performance
+ex:few_people	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6545159908474808579	ex:sourceFile	frontiersin_bench_press.html
+ex:bench_press	http://www.w3.org/2000/01/rdf-schema#label	bench press
+ex:different_grip_widths	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:eccentric_muscle_action	http://www.w3.org/2000/01/rdf-schema#label	eccentric muscle action

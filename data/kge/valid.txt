@@ -1,0 +1,103 @@
+ex:incline_bench_press	ex:affects	ex:pectoralis_major_s_upper_portion
+ex:evidence_7237349450382040063	ex:category	technique
+ex:evidence_1612283864513138824	ex:sourceFile	nasm_bench_press.html
+ex:evidence_3916347365623894827	ex:sourceFile	robertson_bench_press.html
+ex:increases	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:long_head	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_6335141593322050229	ex:sourceFile	nasm_bench_press.html
+ex:evidence_1126296017286023030	http://www.w3.org/2000/01/rdf-schema#comment	To add another variable into the mix, the internal moment arm (the leverage a muscle has to pull against the bone it moves) of the muscles involved changes with joint angles as well, so not only does contractile force vary, but the ability to translate that contractile force to internal joint moments varies as well.
+ex:evidence_4164710818823671734	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:bench_press	ex:maximize	ex:chest_and_triceps_development
+ex:evidence_1619121419837941080	ex:confidence	0.453
+ex:most_potential	http://www.w3.org/2000/01/rdf-schema#label	most potential
+ex:wide_grip	ex:affects	ex:13_1_15_7_lateral_forces
+ex:muscle_irradiation	ex:hasEvidence	ex:evidence_3282688176978370252
+ex:evidence_747432309807779345	ex:confidence	0.276
+ex:evidence_8353171425027760914	ex:confidence	0.494
+ex:lateral_forces	http://www.w3.org/2000/01/rdf-schema#label	lateral forces
+ex:evidence_5896527409661874567	ex:confidence	0.424
+ex:narrow_grip_width	ex:hasEvidence	ex:evidence_4894112435097642517
+ex:barbell_movement	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Equipment
+ex:peak	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_7435088391383672920	ex:category	technique
+ex:evidence_6483531109295382627	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3816960666754821069	ex:confidence	0.475
+ex:kinds	http://www.w3.org/2000/01/rdf-schema#label	kinds
+ex:evidence_9213919379781559662	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:angle	http://www.w3.org/2000/01/rdf-schema#label	angle
+ex:evidence_4894112435097642517	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:contractile_force	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:elbow	http://www.w3.org/2000/01/rdf-schema#label	elbow
+ex:shoulder_flexion_demands	http://www.w3.org/2000/01/rdf-schema#label	shoulder flexion demands
+ex:scapulae	http://www.w3.org/2000/01/rdf-schema#label	scapulae
+ex:evidence_6585543860371589205	ex:confidence	0.413
+ex:current_grip	ex:hasEvidence	ex:evidence_7039919425594498945
+ex:evidence_7280501543520054765	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:bar	ex:hasEvidence	ex:evidence_4215215125300317744
+ex:lateral_triceps	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:evidence_1006804307885435344	ex:confidence	0.438
+ex:pectoralis_muscles	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:evidence_7881964606502536612	ex:sourceFile	strongerbyscience_bench_press.html
+ex:elbow_extension	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_3374086774588636637	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:typical_men_s_barbell	ex:hasEvidence	ex:evidence_4895463479675158772
+ex:evidence_725820214403561646	http://www.w3.org/2000/01/rdf-schema#comment	A few people actually prefer retraction and elevation.
+ex:evidence_2836107243648863907	http://www.w3.org/2000/01/rdf-schema#comment	It IS true that this technique effectively negates the vast majority of shoulder flexion demands, but it also increases range of motion and increases your risk of shoulder injury (that much horizontal flexion while in internal rotation is a good recipe for AC joint impingement).
+ex:total_force_vector	ex:hasEvidence	ex:evidence_1335857988687787587
+ex:evidence_5127341834623370673	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_8789043161258951158	ex:confidence	0.451
+ex:valsalva_maneuver	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:lateral_triceps	ex:hasEvidence	ex:evidence_8618749856662656497
+ex:evidence_5127341834623370673	ex:category	technique
+ex:evidence_6504510334566180123	http://www.w3.org/2000/01/rdf-schema#comment	Regarding the analysis of the movement pattern in this training exercise, the first study on BP kinematics [24] revealed that the barbell movement followed a very similar pattern across subjects.
+ex:little_further_explanation	http://www.w3.org/2000/01/rdf-schema#label	little further explanation
+ex:two_heads	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_725820214403561646	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:medium_and_wide_grip_widths	ex:hasEvidence	ex:evidence_8353171425027760914
+ex:kinds	ex:move	ex:furniture
+ex:assists	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:30_inclination	http://www.w3.org/2000/01/rdf-schema#label	30° inclination
+ex:evidence_6192230318323183385	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:eccentric_phase	http://www.w3.org/2000/01/rdf-schema#label	eccentric phase
+ex:evidence_8353171425027760914	http://www.w3.org/2000/01/rdf-schema#comment	Where the medium and wide grip widths decreased the shoulder extension moments, the narrow grip width increased the shoulder extension moment during the sticking region.
+ex:total_force_vector	ex:influence	ex:moments
+ex:evidence_7715560875673537291	ex:sourceFile	muscleandmotion_bench_press.html
+ex:muscles	ex:affects	ex:large_enough_internal_extensor_moments
+ex:chest	http://www.w3.org/2000/01/rdf-schema#label	chest
+ex:different_angles	ex:affects	ex:muscle
+ex:motion	http://www.w3.org/2000/01/rdf-schema#label	motion
+ex:evidence_4488305706086468326	ex:category	technique
+ex:grip_widths	http://www.w3.org/2000/01/rdf-schema#label	grip widths
+ex:muscle_activity	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:evidence_5878313652153285209	ex:category	domain
+ex:triceps	ex:extend	ex:elbow
+ex:evidence_3916347365623894827	http://www.w3.org/2000/01/rdf-schema#comment	The hand-off should take the bar to an area above the lower pectoral or high abdominal area (see note below!).
+ex:evidence_5127341834623370673	ex:confidence	0.592
+ex:evidence_7219451089888866477	ex:category	technique
+ex:evidence_5896527409661874567	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:clavicular_part_sternocostal_part_abdominal_part	ex:affects	ex:muscle
+ex:evidence_4488305706086468326	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_6920563643483747472	http://www.w3.org/2000/01/rdf-schema#comment	A greater shoulder flexion moment could create higher demands on the proximal prime movers, while the narrow grip width could create higher demands on the distal prime movers; however, the only difference in muscle activity between the three grip widths was found in the medial triceps brachii, which was lower in the wide grip condition as compared with the other two.
+ex:upper_pecs	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Muscle
+ex:moments	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:BiomechanicalVariable
+ex:same_testing_routine	http://www.w3.org/2000/01/rdf-schema#label	same testing routine
+ex:lateral_triceps	ex:affects	ex:muscle_activity
+ex:evidence_9015673364604897240	ex:category	biomechanics
+ex:first_things	ex:hasEvidence	ex:evidence_2670064742355059892
+ex:horizontal_flexion_demands	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:internal_moment_arm	ex:involve_change_with	ex:joint_angles
+ex:evidence_4566919793390079892	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:current_muscle_mass	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:muscles	ex:hasEvidence	ex:evidence_4565286646578759589
+ex:evidence_4895463479675158772	ex:confidence	0.257
+ex:evidence_1045804958876810447	ex:sourceFile	muscleandmotion_bench_press.html
+ex:evidence_1006804307885435344	ex:sourceFile	strongerbyscience_bench_press.html
+ex:evidence_7219451089888866477	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:evidence_3374086774588636637	ex:sourceFile	Nike_bench_press.html
+ex:evidence_549407795339145564	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:EvidenceSentence
+ex:technical_improvements	ex:hasEvidence	ex:evidence_6192230318323183385
+ex:clavicular_part_sternocostal_part_abdominal_part	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:TechniqueCue
+ex:shoulders	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	ex:Joint
+ex:evidence_1013317621699497051	http://www.w3.org/2000/01/rdf-schema#comment	Most elite lifters utilize this bar path (up and back, then straight up), whereas most novice lifters drive the bar straight up initially, then up and back to lock out.
+ex:stronger_triceps	ex:hasEvidence	ex:evidence_1401373688495745468
+ex:triceps_contract	ex:impose	ex:lateral_forces
