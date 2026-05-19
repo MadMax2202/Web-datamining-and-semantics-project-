@@ -1,0 +1,37 @@
+[
+  {
+    "question": "What muscles does the bench press target?",
+    "baseline": "The bench press primarily targets the pectoralis major, with secondary activation of the triceps and anterior deltoid.",
+    "rag_method": "template",
+    "rag_answer": "both pecs; chest and triceps development; lateral triceps; lower pectoralis major; medial triceps",
+    "sparql": "PREFIX ex:   <http://example.org/benchpress/kg/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?label WHERE {\n  ex:BenchPress ex:targetsMuscle ?m .\n  ?m rdfs:label ?label .\n} LIMIT 20"
+  },
+  {
+    "question": "What equipment is associated with the bench press?",
+    "baseline": "The bench press uses a barbell and a flat bench.",
+    "rag_method": "template",
+    "rag_answer": "bar; bar path; barbell bench press; barbell movement; bench",
+    "sparql": "PREFIX ex:   <http://example.org/benchpress/kg/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?label WHERE {\n  ex:BenchPress ex:usesEquipment ?e .\n  ?e rdfs:label ?label .\n} LIMIT 20"
+  },
+  {
+    "question": "What evidence sentences support the extracted KG?",
+    "baseline": "Research shows proper technique and progressive overload are key for bench press performance.",
+    "rag_method": "template",
+    "rag_answer": "triceps | Because of that, the pecs and the triceps can work synergistically at both the elbow and shoulder; the pecs help the triceps extend the elbow, and the triceps help the pecs horizontally flex the shoulder. | 0.631; pectoralis major | Because of that, the pecs and the triceps can work synergistically at both the elbow and shoulder; the pecs help the triceps extend the elbow, and the triceps help the pecs horizontally flex the shoulder. | 0.631; bench press | Overly narrow barbell grip Gripping the barbell with your hands too close together during the bench press reduces the workload placed on the pectoralis major and increases the amount of work done by the anterior deltoid and triceps muscles. | 0.618; pectoralis muscles | When performing a bench press with a retracted scapula, some argue the pectoralis muscles enter the stretch reflex position sooner during the eccentric phase. | 0.592; bar | The trickier part: Whether the bar imposes a flexor or extensor moment at the elbow depends on your grip width. | 0.576",
+    "sparql": "PREFIX ex:   <http://example.org/benchpress/kg/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?entityLabel ?sentence ?confidence WHERE {\n  ?entity ex:hasEvidence ?ev .\n  ?entity rdfs:label ?entityLabel .\n  ?ev rdfs:comment ?sentence .\n  OPTIONAL { ?ev ex:confidence ?confidence . }\n} ORDER BY DESC(?confidence) LIMIT 10"
+  },
+  {
+    "question": "What biomechanical variables appear in the bench press KG?",
+    "baseline": "The bench press involves horizontal shoulder flexion generating force through the pectoralis major.",
+    "rag_method": "template",
+    "rag_answer": "concentric phase; eccentric phase; elite powerlifters; horizontal forces; internal moment arm",
+    "sparql": "PREFIX ex:   <http://example.org/benchpress/kg/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?label WHERE {\n  ?s a ex:BiomechanicalVariable .\n  ?s rdfs:label ?label .\n} LIMIT 20"
+  },
+  {
+    "question": "Which entities are related to technique cues?",
+    "baseline": "Proper bench press technique involves retracting the scapula and tucking the elbows.",
+    "rag_method": "template",
+    "rag_answer": "15° decline; 30° inclination; angle; article; assists",
+    "sparql": "PREFIX ex:   <http://example.org/benchpress/kg/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT DISTINCT ?label WHERE {\n  ?s a ex:TechniqueCue .\n  ?s rdfs:label ?label .\n} LIMIT 20"
+  }
+]

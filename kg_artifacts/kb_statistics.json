@@ -1,7 +1,7 @@
 {
-  "triples": 1028,
-  "unique_subjects": 255,
-  "unique_predicates": 73,
-  "unique_objects": 542,
-  "source_rows": 107
+  "triples": 1088,
+  "unique_subjects": 264,
+  "unique_predicates": 76,
+  "unique_objects": 597,
+  "expansion_strategy": "Local: merge alignment.ttl. Remote: SPARQL federation Wikidata."
 }

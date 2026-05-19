@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:fam="http://example.org/family#"
+         xml:base="http://example.org/family">
+
+  <owl:Ontology rdf:about="http://example.org/family"/>
+
+  <owl:Class rdf:about="http://example.org/family#Person"/>
+  <owl:Class rdf:about="http://example.org/family#Man">
+    <rdfs:subClassOf rdf:resource="http://example.org/family#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org/family#Woman">
+    <rdfs:subClassOf rdf:resource="http://example.org/family#Person"/>
+  </owl:Class>
+
+  <owl:ObjectProperty rdf:about="http://example.org/family#hasParent"/>
+  <owl:ObjectProperty rdf:about="http://example.org/family#hasSibling"/>
+  <owl:ObjectProperty rdf:about="http://example.org/family#hasGrandparent"/>
+  <owl:ObjectProperty rdf:about="http://example.org/family#hasUncleOrAunt"/>
+
+  <owl:NamedIndividual rdf:about="http://example.org/family#Alice">
+    <rdf:type rdf:resource="http://example.org/family#Woman"/>
+    <rdfs:label>Alice</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/family#Bob">
+    <rdf:type rdf:resource="http://example.org/family#Man"/>
+    <rdfs:label>Bob</rdfs:label>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/family#Charlie">
+    <rdf:type rdf:resource="http://example.org/family#Man"/>
+    <rdfs:label>Charlie</rdfs:label>
+    <fam:hasParent rdf:resource="http://example.org/family#Alice"/>
+    <fam:hasParent rdf:resource="http://example.org/family#Bob"/>
+    <fam:hasSibling rdf:resource="http://example.org/family#Diana"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/family#Diana">
+    <rdf:type rdf:resource="http://example.org/family#Woman"/>
+    <rdfs:label>Diana</rdfs:label>
+    <fam:hasParent rdf:resource="http://example.org/family#Alice"/>
+    <fam:hasParent rdf:resource="http://example.org/family#Bob"/>
+    <fam:hasSibling rdf:resource="http://example.org/family#Charlie"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/family#Eve">
+    <rdf:type rdf:resource="http://example.org/family#Woman"/>
+    <rdfs:label>Eve</rdfs:label>
+    <fam:hasParent rdf:resource="http://example.org/family#Charlie"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://example.org/family#Frank">
+    <rdf:type rdf:resource="http://example.org/family#Man"/>
+    <rdfs:label>Frank</rdfs:label>
+    <fam:hasParent rdf:resource="http://example.org/family#Diana"/>
+  </owl:NamedIndividual>
+</rdf:RDF>

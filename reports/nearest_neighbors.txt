@@ -1,0 +1,43 @@
+# Nearest Neighbors (TransE embeddings)
+
+Nearest neighbors of 'Nike_bench_press.html':
+  1. strongerbyscience_bench_press.html       dist=0.2104
+  2. nasm_bench_press.html                    dist=0.2181
+  3. frontiersin_bench_press.html             dist=0.2312
+  4. mdpi_bench_press.html                    dist=0.3759
+  5. robertson_bench_press.html               dist=0.3838
+
+Nearest neighbors of 'ex:lower_pectoralis_major':
+  1. ex:pectoralis_major_s_upper_portion      dist=0.5859
+  2. ex:upper_pecs                            dist=0.6771
+  3. ex:stronger_triceps                      dist=0.6814
+  4. ex:lateral_triceps                       dist=0.6902
+  5. ex:chest_and_triceps_development         dist=0.7061
+
+Nearest neighbors of 'triceps':
+  1. ex:total_force_vector                    dist=1.0276
+  2. However, this position may place the shoulder in a vulnerable position (Green, 2007). dist=1.0603
+  3. The barbell bench press, one of the “big three” in powerlifting, builds serious upper-body strength and, you guessed it, power, thanks to the number of muscle fibers it activates with every rep. dist=1.0893
+  4. ex:wrist_position                        dist=1.0903
+  5. total force vector                       dist=1.1190
+
+Nearest neighbors of 'bar':
+  1. maximum muscle engagement                dist=0.6394
+  2. ex:bar                                   dist=0.7286
+  3. ex:maximum_muscle_engagement             dist=0.7550
+  4. most novice lifters                      dist=0.8851
+  5. flexor                                   dist=0.9063
+
+Nearest neighbors of 'shoulder':
+  1. ex:shoulder                              dist=0.6229
+  2. long head                                dist=0.8594
+  3. position                                 dist=0.9389
+  4. pectoralis major                         dist=0.9837
+  5. ex:long_head                             dist=1.0398
+
+Nearest neighbors of 'force':
+  1. ex:evidence_6192230318323183385          dist=1.1791
+  2. ex:about_45                              dist=1.1921
+  3. ex:sticking_region                       dist=1.1977
+  4. ex:light                                 dist=1.2001
+  5. ex:so_many_muscles                       dist=1.2041

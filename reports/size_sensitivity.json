@@ -1,0 +1,17 @@
+[
+  {
+    "fraction": 0.3,
+    "n_triples": 246,
+    "MRR": 0.3818
+  },
+  {
+    "fraction": 0.6,
+    "n_triples": 493,
+    "MRR": 0.7508
+  },
+  {
+    "fraction": 1.0,
+    "n_triples": 822,
+    "MRR": 0.8992
+  }
+]

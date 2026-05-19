@@ -1,8 +1,74 @@
-@prefix ex: <http://example.org/benchpress/kg/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ex:   <http://example.org/benchpress/kg/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix wd:   <http://www.wikidata.org/entity/> .
 
-# Lightweight manual alignment examples. Extend these with Wikidata/DBpedia links if required.
-ex:bench_press owl:sameAs <http://www.wikidata.org/entity/Q487604> .
-ex:pectoralis_major owl:sameAs <http://www.wikidata.org/entity/Q1183956> .
-ex:triceps owl:sameAs <http://www.wikidata.org/entity/Q847152> .
-ex:barbell owl:sameAs <http://www.wikidata.org/entity/Q82686> .
+# Entity alignment — méthode : matching manuel + vérification Wikidata/DBpedia
+
+ex:bench_press
+    owl:sameAs wd:Q487604 ;
+    owl:sameAs dbr:Bench_press ;
+    rdfs:comment "Confidence: 1.0 — exact string match." .
+
+ex:pectoralis_major
+    owl:sameAs wd:Q1183956 ;
+    owl:sameAs dbr:Pectoralis_major ;
+    rdfs:comment "Confidence: 1.0 — canonical anatomical name." .
+
+ex:triceps
+    owl:sameAs wd:Q847152 ;
+    owl:sameAs dbr:Triceps_brachii_muscle ;
+    rdfs:comment "Confidence: 0.95 — abbreviation standard." .
+
+ex:deltoids
+    owl:sameAs wd:Q188010 ;
+    owl:sameAs dbr:Deltoid_muscle ;
+    rdfs:comment "Confidence: 0.95." .
+
+ex:anterior_deltoid
+    skos:closeMatch wd:Q188010 ;
+    rdfs:comment "Confidence: 0.80 — tête antérieure du deltoïde, pas d'entité Wikidata distincte." .
+
+ex:lats
+    owl:sameAs wd:Q193545 ;
+    owl:sameAs dbr:Latissimus_dorsi_muscle ;
+    rdfs:comment "Confidence: 0.90." .
+
+ex:rotator_cuff
+    owl:sameAs wd:Q906227 ;
+    owl:sameAs dbr:Rotator_cuff ;
+    rdfs:comment "Confidence: 1.0." .
+
+ex:shoulder
+    owl:sameAs wd:Q193583 ;
+    owl:sameAs dbr:Shoulder ;
+    rdfs:comment "Confidence: 0.95." .
+
+ex:elbow
+    owl:sameAs wd:Q182090 ;
+    owl:sameAs dbr:Elbow ;
+    rdfs:comment "Confidence: 1.0." .
+
+ex:wrist
+    owl:sameAs wd:Q163446 ;
+    owl:sameAs dbr:Wrist ;
+    rdfs:comment "Confidence: 1.0." .
+
+ex:scapula
+    owl:sameAs wd:Q179797 ;
+    owl:sameAs dbr:Scapula ;
+    rdfs:comment "Confidence: 1.0." .
+
+ex:bar
+    owl:sameAs wd:Q82686 ;
+    owl:sameAs dbr:Barbell ;
+    rdfs:comment "Confidence: 0.90 — abréviation courante." .
+
+# Predicate alignment
+ex:targetsMuscle  owl:equivalentProperty dbo:muscle .
+ex:usesEquipment  skos:closeMatch dbo:equipment .
+ex:hasEvidence    skos:closeMatch <http://www.w3.org/ns/prov#wasDerivedFrom> .
+ex:affects        skos:closeMatch dbo:affectedBy .
