@@ -64,15 +64,22 @@ def ollama_ok():
     except Exception:
         return False
 
-def call_ollama(prompt, model="llama3.1"):
+def call_ollama(prompt, model="phi3"):
     try:
-        r = subprocess.run(["ollama","run",model], input=prompt,
-                           capture_output=True, text=True, timeout=60)
+        r = subprocess.run(
+            ["ollama", "run", model],
+            input=prompt,
+            capture_output=True,
+            text=True,
+            timeout=60,
+            encoding="utf-8",
+            errors="replace"
+        )
         if r.returncode == 0 and r.stdout.strip():
             return r.stdout.strip()
-    except Exception:
-        pass
-    return None
+    except Exception as e:
+        print(f"  [Ollama] {e}")
+        return None
 
 # ── NL -> SPARQL ───────────────────────────────────────────────
 
