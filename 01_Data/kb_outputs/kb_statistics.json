@@ -1,0 +1,39 @@
+{
+    "initial_kb": {
+        "triples": 2180,
+        "entities": 344,
+        "predicates": 83,
+        "classes": 8,
+        "knowledge_statements": 104,
+        "exercises": 5,
+        "muscles": 20,
+        "joints": 16,
+        "equipment": 5,
+        "technique_cues": 11,
+        "biomechanical_concepts": 25,
+        "domain_entities": 69,
+        "confidence_values": 105,
+        "average_confidence": 0.4361
+    },
+    "expanded_kb": {
+        "triples": 2188,
+        "entities": 347,
+        "predicates": 86,
+        "classes": 8,
+        "knowledge_statements": 104,
+        "exercises": 5,
+        "muscles": 20,
+        "joints": 16,
+        "equipment": 5,
+        "technique_cues": 11,
+        "biomechanical_concepts": 25,
+        "domain_entities": 69,
+        "confidence_values": 105,
+        "average_confidence": 0.4361
+    },
+    "expansion": {
+        "new_triples_added": 8,
+        "new_entities_added": 3,
+        "new_predicates_added": 3
+    }
+}

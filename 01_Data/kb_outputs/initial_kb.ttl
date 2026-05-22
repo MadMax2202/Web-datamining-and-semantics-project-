@@ -1,0 +1,2529 @@
+@prefix ex: <http://example.org/benchpress-kg/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:adducts a owl:ObjectProperty .
+
+ex:alignedObject a owl:DatatypeProperty .
+
+ex:alignedPredicate a owl:DatatypeProperty .
+
+ex:alignedSubject a owl:DatatypeProperty .
+
+ex:allows a owl:ObjectProperty .
+
+ex:appliesForce a owl:ObjectProperty .
+
+ex:category a owl:DatatypeProperty .
+
+ex:confidence a owl:DatatypeProperty .
+
+ex:domainSimilarity a owl:DatatypeProperty .
+
+ex:evidenceSentence a owl:DatatypeProperty .
+
+ex:hasObject a owl:ObjectProperty .
+
+ex:hasPredicate a owl:ObjectProperty .
+
+ex:hasSubject a owl:ObjectProperty .
+
+ex:originalObject a owl:DatatypeProperty .
+
+ex:originalPredicate a owl:DatatypeProperty .
+
+ex:originalSubject a owl:DatatypeProperty .
+
+ex:relatedTo a owl:ObjectProperty .
+
+ex:sourceDocument a owl:DatatypeProperty .
+
+ex:statement_001cb962653f4ce869020e3422e5c65e a ex:KnowledgeStatement ;
+    ex:alignedObject "force" ;
+    ex:alignedPredicate "produce_of" ;
+    ex:alignedSubject "passive elements" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.497"^^xsd:float ;
+    ex:domainSimilarity "0.712"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, passive elements in the muscle – structural proteins and connective tissue – produce increasing amounts of force as a muscle lengthens as well (blue curve)." ;
+    ex:hasObject ex:force ;
+    ex:hasPredicate ex:produce_of ;
+    ex:hasSubject ex:passive_elements ;
+    ex:originalObject "force" ;
+    ex:originalPredicate "produce_of" ;
+    ex:originalSubject "passive elements" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_0338cc1ece8be28c125c083534541c5f a ex:KnowledgeStatement ;
+    ex:alignedObject "mainly vertical resultant forces" ;
+    ex:alignedPredicate "create" ;
+    ex:alignedSubject "medium grip width" ;
+    ex:category "technique" ;
+    ex:confidence "0.546"^^xsd:float ;
+    ex:domainSimilarity "0.783"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, the wide grip width creates medially directed resultant forces, the medium grip width creates mainly vertical resultant forces, and the narrow grip width creates laterally directed resultant forces, as well as elbow flexion moments." ;
+    ex:hasObject ex:mainly_vertical_resultant_forces ;
+    ex:hasPredicate ex:create ;
+    ex:hasSubject ex:medium_grip_width ;
+    ex:originalObject "mainly vertical resultant forces" ;
+    ex:originalPredicate "create" ;
+    ex:originalSubject "medium grip width" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_065ba3e10720c97b98c25a3391d664ec a ex:KnowledgeStatement ;
+    ex:alignedObject "muscle activity" ;
+    ex:alignedPredicate "increases" ;
+    ex:alignedSubject "medial triceps" ;
+    ex:category "technique" ;
+    ex:confidence "0.476"^^xsd:float ;
+    ex:domainSimilarity "0.733"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, the medial triceps increased muscle activity through the regions for the wide and medium bench press conditions, while the lateral triceps increased muscle activity from the pre-sticking to the post-sticking region." ;
+    ex:hasObject ex:muscle_activity ;
+    ex:hasPredicate ex:increases ;
+    ex:hasSubject ex:medial_triceps ;
+    ex:originalObject "muscle activity" ;
+    ex:originalPredicate "increase" ;
+    ex:originalSubject "medial triceps" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_0dadb17bf78ee9cdc90388a0587a62ec a ex:KnowledgeStatement ;
+    ex:alignedObject "shoulder flexion demands" ;
+    ex:alignedPredicate "negate_of" ;
+    ex:alignedSubject "technique" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.537"^^xsd:float ;
+    ex:domainSimilarity "0.741"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "It IS true that this technique effectively negates the vast majority of shoulder flexion demands, but it also increases range of motion and increases your risk of shoulder injury (that much horizontal flexion while in internal rotation is a good recipe for AC joint impingement)." ;
+    ex:hasObject ex:shoulder_flexion_demands ;
+    ex:hasPredicate ex:negate_of ;
+    ex:hasSubject ex:technique ;
+    ex:originalObject "shoulder flexion demands" ;
+    ex:originalPredicate "negate_of" ;
+    ex:originalSubject "technique" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_10bf04832f64b0439176aaea13b3f98f a ex:KnowledgeStatement ;
+    ex:alignedObject "shoulder" ;
+    ex:alignedPredicate "place" ;
+    ex:alignedSubject "position" ;
+    ex:category "domain" ;
+    ex:confidence "0.29"^^xsd:float ;
+    ex:domainSimilarity "0.636"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "However, this position may place the shoulder in a vulnerable position (Green, 2007)." ;
+    ex:hasObject ex:shoulder ;
+    ex:hasPredicate ex:place ;
+    ex:hasSubject ex:position ;
+    ex:originalObject "shoulder" ;
+    ex:originalPredicate "place" ;
+    ex:originalSubject "position" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_12e373cac880307d31f0ed4f1f8ee428 a ex:KnowledgeStatement ;
+    ex:alignedObject "muscle" ;
+    ex:alignedPredicate "target_of" ;
+    ex:alignedSubject "angle" ;
+    ex:category "technique" ;
+    ex:confidence "0.413"^^xsd:float ;
+    ex:domainSimilarity "0.688"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Clavicular part - Sternocostal part - Abdominal part Different angles of the bench press can affect the activation of this muscle, so it is essential to consider which angle will best target the desired part of the muscle. -" ;
+    ex:hasObject ex:muscle ;
+    ex:hasPredicate ex:target_of ;
+    ex:hasSubject ex:angle ;
+    ex:originalObject "muscle" ;
+    ex:originalPredicate "target_of" ;
+    ex:originalSubject "angle" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_14be6790e3c06ecdc644555217bdc52b a ex:KnowledgeStatement ;
+    ex:alignedObject "shoulder" ;
+    ex:alignedPredicate "flexes" ;
+    ex:alignedSubject "pectoralis major" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.631"^^xsd:float ;
+    ex:domainSimilarity "0.808"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Because of that, the pecs and the triceps can work synergistically at both the elbow and shoulder; the pecs help the triceps extend the elbow, and the triceps help the pecs horizontally flex the shoulder." ;
+    ex:hasObject ex:shoulder ;
+    ex:hasPredicate ex:flexes ;
+    ex:hasSubject ex:pectoralis_major ;
+    ex:originalObject "shoulder" ;
+    ex:originalPredicate "flex" ;
+    ex:originalSubject "pectoralis major" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_167f94b011d2a68dfd1043079165d49a a ex:KnowledgeStatement ;
+    ex:alignedObject "forearms" ;
+    ex:alignedPredicate "supinate" ;
+    ex:alignedSubject "many people" ;
+    ex:category "technique" ;
+    ex:confidence "0.469"^^xsd:float ;
+    ex:domainSimilarity "0.728"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "However, for other people, it’s much less comfortable than benching with a pronated grip; many people can’t comfortably supinate their forearms well enough, it puts a pretty fair amount of stress on your wrists since you have to reverse grip bench with your wrists cocked back, and it puts a fair amount of stress on your biceps tendons and the other muscles/tendons/ligaments on the front of your shoulder." ;
+    ex:hasObject ex:forearms ;
+    ex:hasPredicate ex:supinate ;
+    ex:hasSubject ex:many_people ;
+    ex:originalObject "forearms" ;
+    ex:originalPredicate "supinate" ;
+    ex:originalSubject "many people" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_18fb6db9a97e4e76597900e1bbe36767 a ex:KnowledgeStatement ;
+    ex:alignedObject "elbow" ;
+    ex:alignedPredicate "extends" ;
+    ex:alignedSubject "triceps" ;
+    ex:category "biomechanics",
+        "domain" ;
+    ex:confidence "0.306"^^xsd:float,
+        "0.631"^^xsd:float ;
+    ex:domainSimilarity "0.647"^^xsd:float,
+        "0.808"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Because of that, the pecs and the triceps can work synergistically at both the elbow and shoulder; the pecs help the triceps extend the elbow, and the triceps help the pecs horizontally flex the shoulder.",
+        "For now, so we don’t get too bogged down before getting into the really meaty part of this article, let’s just stick with the same answer: Your triceps extend your elbows." ;
+    ex:hasObject ex:elbow ;
+    ex:hasPredicate ex:extends ;
+    ex:hasSubject ex:triceps ;
+    ex:originalObject "elbow",
+        "elbows" ;
+    ex:originalPredicate "extend" ;
+    ex:originalSubject "triceps" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_196eb035ee6d427004f880dcd4fb8aaa a ex:KnowledgeStatement ;
+    ex:alignedObject "wrist position" ;
+    ex:alignedPredicate "check" ;
+    ex:alignedSubject "first things" ;
+    ex:category "domain" ;
+    ex:confidence "0.189"^^xsd:float ;
+    ex:domainSimilarity "0.564"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "First things first, check your wrist position." ;
+    ex:hasObject ex:wrist_position ;
+    ex:hasPredicate ex:check ;
+    ex:hasSubject ex:first_things ;
+    ex:originalObject "wrist position" ;
+    ex:originalPredicate "check" ;
+    ex:originalSubject "first things" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_1a108d6645558948063670cfb4196984 a ex:KnowledgeStatement ;
+    ex:alignedObject "horizontal flexion demands" ;
+    ex:alignedPredicate "influences" ;
+    ex:alignedSubject "bar path" ;
+    ex:category "technique" ;
+    ex:confidence "0.446"^^xsd:float ;
+    ex:domainSimilarity "0.711"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Bar path doesn’t affect horizontal flexion demands, but grip width does." ;
+    ex:hasObject ex:horizontal_flexion_demands ;
+    ex:hasPredicate ex:influences ;
+    ex:hasSubject ex:bar_path ;
+    ex:originalObject "horizontal flexion demands" ;
+    ex:originalPredicate "affect" ;
+    ex:originalSubject "bar path" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_1bb3bbebd4b1e7287f535b2c816aa337 a ex:KnowledgeStatement ;
+    ex:alignedObject "distal prime movers" ;
+    ex:alignedPredicate "create_on" ;
+    ex:alignedSubject "narrow grip width" ;
+    ex:category "technique" ;
+    ex:confidence "0.492"^^xsd:float ;
+    ex:domainSimilarity "0.745"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "A greater shoulder flexion moment could create higher demands on the proximal prime movers, while the narrow grip width could create higher demands on the distal prime movers; however, the only difference in muscle activity between the three grip widths was found in the medial triceps brachii, which was lower in the wide grip condition as compared with the other two." ;
+    ex:hasObject ex:distal_prime_movers ;
+    ex:hasPredicate ex:create_on ;
+    ex:hasSubject ex:narrow_grip_width ;
+    ex:originalObject "distal prime movers" ;
+    ex:originalPredicate "create_on" ;
+    ex:originalSubject "narrow grip width" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_20e4a9803b37eb977d11e37aac9bc4da a ex:KnowledgeStatement ;
+    ex:alignedObject "bar" ;
+    ex:alignedPredicate "pull" ;
+    ex:alignedSubject "gravity" ;
+    ex:category "domain" ;
+    ex:confidence "0.293"^^xsd:float ;
+    ex:domainSimilarity "0.638"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Remember, gravity is always pulling the bar straight down." ;
+    ex:hasObject ex:bar ;
+    ex:hasPredicate ex:pull ;
+    ex:hasSubject ex:gravity ;
+    ex:originalObject "bar" ;
+    ex:originalPredicate "pull" ;
+    ex:originalSubject "gravity" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_21d1ec6e302ff73b2c0b485877421cb1 a ex:KnowledgeStatement ;
+    ex:alignedObject "horizontal flexion demands" ;
+    ex:alignedPredicate "influences" ;
+    ex:alignedSubject "grip width" ;
+    ex:category "technique" ;
+    ex:confidence "0.527"^^xsd:float ;
+    ex:domainSimilarity "0.769"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "In simple terms, grip width determines horizontal flexion demands; the further the lateral distance between your hand and your shoulder, the longer the horizontal flexion moment arm." ;
+    ex:hasObject ex:horizontal_flexion_demands ;
+    ex:hasPredicate ex:influences ;
+    ex:hasSubject ex:grip_width ;
+    ex:originalObject "horizontal flexion demands" ;
+    ex:originalPredicate "determine" ;
+    ex:originalSubject "grip width" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_23f57d2f635a0b5a6498b0ce9b342810 a ex:KnowledgeStatement ;
+    ex:alignedObject "lower pectoralis major" ;
+    ex:alignedPredicate "produce_of" ;
+    ex:alignedSubject "15° decline" ;
+    ex:category "technique" ;
+    ex:confidence "0.408"^^xsd:float ;
+    ex:domainSimilarity "0.684"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Decline Bench Press: In this exercise, a 15° decline will produce greater activation of the lower pectoralis major. -" ;
+    ex:hasObject ex:lower_pectoralis_major ;
+    ex:hasPredicate ex:produce_of ;
+    ex:hasSubject ex:entity_15_decline ;
+    ex:originalObject "lower pectoralis major" ;
+    ex:originalPredicate "produce_of" ;
+    ex:originalSubject "15° decline" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_250659a7d8faff04fdc243a58c9746ca a ex:KnowledgeStatement ;
+    ex:alignedObject "serious upper-body strength" ;
+    ex:alignedPredicate "build" ;
+    ex:alignedSubject "barbell bench press" ;
+    ex:category "technique" ;
+    ex:confidence "0.453"^^xsd:float ;
+    ex:domainSimilarity "0.717"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The barbell bench press, one of the “big three” in powerlifting, builds serious upper-body strength and, you guessed it, power, thanks to the number of muscle fibers it activates with every rep." ;
+    ex:hasObject ex:serious_upper_body_strength ;
+    ex:hasPredicate ex:build ;
+    ex:hasSubject ex:barbell_bench_press ;
+    ex:originalObject "serious upper-body strength" ;
+    ex:originalPredicate "build" ;
+    ex:originalSubject "barbell bench press" ;
+    ex:sourceDocument "Nike_bench_press.html" .
+
+ex:statement_25a97fa370b3b1f67c34769a1ef32530 a ex:KnowledgeStatement ;
+    ex:alignedObject "shoulder" ;
+    ex:alignedPredicate "help" ;
+    ex:alignedSubject "triceps" ;
+    ex:category "technique" ;
+    ex:confidence "0.436"^^xsd:float ;
+    ex:domainSimilarity "0.704"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "While tucking enough that your elbows wind up in front of the bar does make the lift harder on your triceps, this technique can also help you drive the bar back up off your chest (as discussed in the previous section) at the start of the press, allowing your triceps to help out your shoulders." ;
+    ex:hasObject ex:shoulder ;
+    ex:hasPredicate ex:help ;
+    ex:hasSubject ex:triceps ;
+    ex:originalObject "shoulders" ;
+    ex:originalPredicate "help" ;
+    ex:originalSubject "triceps" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_26ac8f838436f0ea8cd4f6fa6474c7bf a ex:KnowledgeStatement ;
+    ex:alignedObject "joint angles" ;
+    ex:alignedPredicate "involves" ;
+    ex:alignedSubject "internal moment arm" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.514"^^xsd:float ;
+    ex:domainSimilarity "0.724"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "To add another variable into the mix, the internal moment arm (the leverage a muscle has to pull against the bone it moves) of the muscles involved changes with joint angles as well, so not only does contractile force vary, but the ability to translate that contractile force to internal joint moments varies as well." ;
+    ex:hasObject ex:joint_angles ;
+    ex:hasPredicate ex:involves ;
+    ex:hasSubject ex:internal_moment_arm ;
+    ex:originalObject "joint angles" ;
+    ex:originalPredicate "involve_with" ;
+    ex:originalSubject "internal moment arm" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_26ec622c878ae05573007f3ba31e2b90 a ex:KnowledgeStatement ;
+    ex:alignedObject "elbow" ;
+    ex:alignedPredicate "extends" ;
+    ex:alignedSubject "bar" ;
+    ex:category "technique" ;
+    ex:confidence "0.384"^^xsd:float ;
+    ex:domainSimilarity "0.667"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "When you bench with a wide grip, the bar doesn’t just magically extend your elbows for you." ;
+    ex:hasObject ex:elbow ;
+    ex:hasPredicate ex:extends ;
+    ex:hasSubject ex:bar ;
+    ex:originalObject "elbows" ;
+    ex:originalPredicate "extend" ;
+    ex:originalSubject "bar" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_2c2ba87576e94ee0b41d10b311734905 a ex:KnowledgeStatement ;
+    ex:alignedObject "less shoulder horizontal abduction" ;
+    ex:alignedPredicate "requires" ;
+    ex:alignedSubject "eccentric phase" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.545"^^xsd:float ;
+    ex:domainSimilarity "0.746"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "In addition, this position may be less aggravating for people with a history of shoulder pain because the eccentric phase requires less shoulder horizontal abduction and places a greater emphasis on sagittal plane shoulder extension." ;
+    ex:hasObject ex:less_shoulder_horizontal_abduction ;
+    ex:hasPredicate ex:requires ;
+    ex:hasSubject ex:eccentric_phase ;
+    ex:originalObject "less shoulder horizontal abduction" ;
+    ex:originalPredicate "require" ;
+    ex:originalSubject "eccentric phase" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_2e5114b17eb202650c0b40ca4a993ea9 a ex:KnowledgeStatement ;
+    ex:alignedObject "laterally directed resultant forces" ;
+    ex:alignedPredicate "create" ;
+    ex:alignedSubject "narrow grip width" ;
+    ex:category "technique" ;
+    ex:confidence "0.546"^^xsd:float ;
+    ex:domainSimilarity "0.783"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, the wide grip width creates medially directed resultant forces, the medium grip width creates mainly vertical resultant forces, and the narrow grip width creates laterally directed resultant forces, as well as elbow flexion moments." ;
+    ex:hasObject ex:laterally_directed_resultant_forces ;
+    ex:hasPredicate ex:create ;
+    ex:hasSubject ex:narrow_grip_width ;
+    ex:originalObject "laterally directed resultant forces" ;
+    ex:originalPredicate "create" ;
+    ex:originalSubject "narrow grip width" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_3271e020c91e058a93656bf0119e5431 a ex:KnowledgeStatement ;
+    ex:alignedObject "shoulder" ;
+    ex:alignedPredicate "cross" ;
+    ex:alignedSubject "long head" ;
+    ex:category "domain" ;
+    ex:confidence "0.471"^^xsd:float ;
+    ex:domainSimilarity "0.765"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The other two heads only cross the elbow, while the long head also crosses the shoulder to aid in shoulder extension." ;
+    ex:hasObject ex:shoulder ;
+    ex:hasPredicate ex:cross ;
+    ex:hasSubject ex:long_head ;
+    ex:originalObject "shoulder" ;
+    ex:originalPredicate "cross" ;
+    ex:originalSubject "long head" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_3b9d6fd3b365406011a4db49f82800d9 a ex:KnowledgeStatement ;
+    ex:alignedObject "floor" ;
+    ex:alignedPredicate "targetsMuscle" ;
+    ex:alignedSubject "triceps" ;
+    ex:category "technique" ;
+    ex:confidence "0.475"^^xsd:float ;
+    ex:domainSimilarity "0.732"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "If the range of motion is tricky for you, do a floor press by lying face up on the floor and lowering your arms until your triceps hit the floor." ;
+    ex:hasObject ex:floor ;
+    ex:hasPredicate ex:targetsmuscle ;
+    ex:hasSubject ex:triceps ;
+    ex:originalObject "floor" ;
+    ex:originalPredicate "hit" ;
+    ex:originalSubject "triceps" ;
+    ex:sourceDocument "Nike_bench_press.html" .
+
+ex:statement_3cf10f6d73b8849f8f64646c4e08c3cb a ex:KnowledgeStatement ;
+    ex:alignedObject "powerful sternoclavicular portion" ;
+    ex:alignedPredicate "reduces" ;
+    ex:alignedSubject "motion" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.518"^^xsd:float ;
+    ex:domainSimilarity "0.727"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "In other words, an individual will have to use a lighter weight because this motion limits activation of the powerful sternoclavicular portion of the pectoralis muscle." ;
+    ex:hasObject ex:powerful_sternoclavicular_portion ;
+    ex:hasPredicate ex:reduces ;
+    ex:hasSubject ex:motion ;
+    ex:originalObject "powerful sternoclavicular portion" ;
+    ex:originalPredicate "limit_of" ;
+    ex:originalSubject "motion" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_3d9f8d01006d608a79149c4083177337 a ex:KnowledgeStatement ;
+    ex:alignedObject "anterior deltoid" ;
+    ex:alignedPredicate "targetsMuscle" ;
+    ex:alignedSubject "incline press" ;
+    ex:category "technique" ;
+    ex:confidence "0.413"^^xsd:float ;
+    ex:domainSimilarity "0.688"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Incline press will train your front delts slightly harder than flat bench will, and maybe your upper pecs as well." ;
+    ex:hasObject ex:anterior_deltoid ;
+    ex:hasPredicate ex:targetsmuscle ;
+    ex:hasSubject ex:incline_press ;
+    ex:originalObject "front delts" ;
+    ex:originalPredicate "train" ;
+    ex:originalSubject "incline press" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_4240955d1955be1cb4dcfd3f36808df9 a ex:KnowledgeStatement ;
+    ex:alignedObject "eccentric muscle action" ;
+    ex:alignedPredicate "perform" ;
+    ex:alignedSubject "muscle" ;
+    ex:category "technique" ;
+    ex:confidence "0.475"^^xsd:float ;
+    ex:domainSimilarity "0.732"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "It is also important to note that muscle activation varies depending if the muscle is performing an eccentric muscle action or a concentric muscle contraction, as well as the technique selected by the lifter (i.e., wide grip versus narrow grip)." ;
+    ex:hasObject ex:eccentric_muscle_action ;
+    ex:hasPredicate ex:perform ;
+    ex:hasSubject ex:muscle ;
+    ex:originalObject "eccentric muscle action" ;
+    ex:originalPredicate "perform" ;
+    ex:originalSubject "muscle" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_4767a7362122b6c1683da5ac0a9a5a4e a ex:KnowledgeStatement ;
+    ex:alignedObject "about 45°" ;
+    ex:alignedPredicate "abducts" ;
+    ex:alignedSubject "upper arms" ;
+    ex:category "technique" ;
+    ex:confidence "0.459"^^xsd:float ;
+    ex:domainSimilarity "0.721"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Start with a standard grip of the bar approximately shoulder-width and the upper arms abducted about 45°, and avoid an excessively wide or narrow grip." ;
+    ex:hasObject ex:about_45 ;
+    ex:hasPredicate ex:abducts ;
+    ex:hasSubject ex:upper_arms ;
+    ex:originalObject "about 45°" ;
+    ex:originalPredicate "abduct" ;
+    ex:originalSubject "upper arms" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_48dd8af489e501655198316766605ed4 a ex:KnowledgeStatement ;
+    ex:alignedObject "back" ;
+    ex:alignedPredicate "arch" ;
+    ex:alignedSubject "powerlifters" ;
+    ex:category "technique" ;
+    ex:confidence "0.439"^^xsd:float ;
+    ex:domainSimilarity "0.706"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Powerlifters arch their back and lift their chest up in order to reduce the distance the barbell needs to travel from the starting position to the chest, thus allowing them to lift heavier weights. *" ;
+    ex:hasObject ex:back ;
+    ex:hasPredicate ex:arch ;
+    ex:hasSubject ex:powerlifters ;
+    ex:originalObject "back" ;
+    ex:originalPredicate "arch" ;
+    ex:originalSubject "powerlifters" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_4bba74bb5930cfe6c276b7c1c14a0831 a ex:KnowledgeStatement ;
+    ex:alignedObject "greater horizontal shoulder moments" ;
+    ex:alignedPredicate "produces" ;
+    ex:alignedSubject "wide and medium grip widths" ;
+    ex:category "technique" ;
+    ex:confidence "0.479"^^xsd:float ;
+    ex:domainSimilarity "0.735"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The wide and medium grip widths produced greater horizontal shoulder moments than the narrow grip width during the sticking region." ;
+    ex:hasObject ex:greater_horizontal_shoulder_moments ;
+    ex:hasPredicate ex:produces ;
+    ex:hasSubject ex:wide_and_medium_grip_widths ;
+    ex:originalObject "greater horizontal shoulder moments" ;
+    ex:originalPredicate "produce" ;
+    ex:originalSubject "wide and medium grip widths" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_5579c8c0cc28c0cc73aa4c149ec8793b a ex:KnowledgeStatement ;
+    ex:alignedObject "most potential" ;
+    ex:alignedPredicate "give" ;
+    ex:alignedSubject "current grip" ;
+    ex:category "technique" ;
+    ex:confidence "0.313"^^xsd:float ;
+    ex:domainSimilarity "0.616"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "However, that doesn’t necessarily mean that your current grip gives you the most potential to be the strongest." ;
+    ex:hasObject ex:most_potential ;
+    ex:hasPredicate ex:give ;
+    ex:hasSubject ex:current_grip ;
+    ex:originalObject "most potential" ;
+    ex:originalPredicate "give" ;
+    ex:originalSubject "current grip" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_573172e8577cea7f9c3e948944a6620b a ex:KnowledgeStatement ;
+    ex:alignedObject "distal prime movers" ;
+    ex:alignedPredicate "influence_of" ;
+    ex:alignedSubject "different grip widths" ;
+    ex:category "technique" ;
+    ex:confidence "0.42"^^xsd:float ;
+    ex:domainSimilarity "0.693"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Therefore, it is speculated that different grip widths may influence the muscle activity of the distal prime movers to a greater extent than the proximal prime movers." ;
+    ex:hasObject ex:distal_prime_movers ;
+    ex:hasPredicate ex:influence_of ;
+    ex:hasSubject ex:different_grip_widths ;
+    ex:originalObject "distal prime movers" ;
+    ex:originalPredicate "influence_of" ;
+    ex:originalSubject "different grip widths" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_57dfde8a35ea2aae21726190b5c2b169 a ex:KnowledgeStatement ;
+    ex:alignedObject "muscle" ;
+    ex:alignedPredicate "affect_of" ;
+    ex:alignedSubject "different angles" ;
+    ex:category "technique" ;
+    ex:confidence "0.413"^^xsd:float ;
+    ex:domainSimilarity "0.688"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Clavicular part - Sternocostal part - Abdominal part Different angles of the bench press can affect the activation of this muscle, so it is essential to consider which angle will best target the desired part of the muscle. -" ;
+    ex:hasObject ex:muscle ;
+    ex:hasPredicate ex:affect_of ;
+    ex:hasSubject ex:different_angles ;
+    ex:originalObject "muscle" ;
+    ex:originalPredicate "affect_of" ;
+    ex:originalSubject "different angles" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_61e508cb641781b492f176a7a5bcbca2 a ex:KnowledgeStatement ;
+    ex:alignedObject "bar" ;
+    ex:alignedPredicate "lower" ;
+    ex:alignedSubject "movement pattern" ;
+    ex:category "domain" ;
+    ex:confidence "0.608"^^xsd:float ;
+    ex:domainSimilarity "0.863"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Movement Pattern > Lower the barbell toward your chest, by flexing your elbows while maintaining scapulae retraction." ;
+    ex:hasObject ex:bar ;
+    ex:hasPredicate ex:lower ;
+    ex:hasSubject ex:movement_pattern ;
+    ex:originalObject "bar" ;
+    ex:originalPredicate "lower" ;
+    ex:originalSubject "movement pattern" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_6ab22a338a66b91130ffbfaedb5d2070 a ex:KnowledgeStatement ;
+    ex:alignedObject "pectoralis major" ;
+    ex:alignedPredicate "challenge" ;
+    ex:alignedSubject "horizontal flexion demands" ;
+    ex:category "technique" ;
+    ex:confidence "0.408"^^xsd:float ;
+    ex:domainSimilarity "0.685"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The wider your grip, the greater lateral distance you’ll have between your hand and your shoulder, so the greater the horizontal flexion demands will be (challenging your pecs specifically)." ;
+    ex:hasObject ex:pectoralis_major ;
+    ex:hasPredicate ex:challenge ;
+    ex:hasSubject ex:horizontal_flexion_demands ;
+    ex:originalObject "pectoralis major" ;
+    ex:originalPredicate "challenge" ;
+    ex:originalSubject "horizontal flexion demands" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_6b65b6347f579e3cd0d4b6769f6231ae a ex:KnowledgeStatement ;
+    ex:alignedObject "more load" ;
+    ex:alignedPredicate "enable" ;
+    ex:alignedSubject "wide and medium grip widths" ;
+    ex:category "technique" ;
+    ex:confidence "0.449"^^xsd:float ;
+    ex:domainSimilarity "0.713"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "It is also speculated that the wide and medium grip widths enable more load to be lifted because they produce greater shoulder flexion moments during all events." ;
+    ex:hasObject ex:more_load ;
+    ex:hasPredicate ex:enable ;
+    ex:hasSubject ex:wide_and_medium_grip_widths ;
+    ex:originalObject "more load" ;
+    ex:originalPredicate "enable" ;
+    ex:originalSubject "wide and medium grip widths" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_744bd1bb31a81406310e3641302e0800 a ex:KnowledgeStatement ;
+    ex:alignedObject "bar" ;
+    ex:alignedPredicate "take" ;
+    ex:alignedSubject "hand-off" ;
+    ex:category "domain" ;
+    ex:confidence "0.361"^^xsd:float ;
+    ex:domainSimilarity "0.686"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The hand-off should take the bar to an area above the lower pectoral or high abdominal area (see note below!)." ;
+    ex:hasObject ex:bar ;
+    ex:hasPredicate ex:take ;
+    ex:hasSubject ex:hand_off ;
+    ex:originalObject "bar" ;
+    ex:originalPredicate "take" ;
+    ex:originalSubject "hand-off" ;
+    ex:sourceDocument "robertson_bench_press.html" .
+
+ex:statement_76afe0bdd32010417cfda979993e7a9b a ex:KnowledgeStatement ;
+    ex:alignedObject "45 pounds" ;
+    ex:alignedPredicate "weigh" ;
+    ex:alignedSubject "typical men’s barbell" ;
+    ex:category "domain" ;
+    ex:confidence "0.357"^^xsd:float ;
+    ex:domainSimilarity "0.684"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Make It Easier Lighten the load by using an empty barbell (meaning don’t add weight plates; a typical women’s barbell is about 35 pounds, while a typical men’s barbell weighs 45 pounds—so it’s still something." ;
+    ex:hasObject ex:entity_45_pounds ;
+    ex:hasPredicate ex:weigh ;
+    ex:hasSubject ex:typical_mens_barbell ;
+    ex:originalObject "45 pounds" ;
+    ex:originalPredicate "weigh" ;
+    ex:originalSubject "typical men’s barbell" ;
+    ex:sourceDocument "Nike_bench_press.html" .
+
+ex:statement_76dc34ef574edf75de92fe43faf20422 a ex:KnowledgeStatement ;
+    ex:alignedObject "four basic ways" ;
+    ex:alignedPredicate "move" ;
+    ex:alignedSubject "scapula" ;
+    ex:category "domain" ;
+    ex:confidence "0.359"^^xsd:float ;
+    ex:domainSimilarity "0.685"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Your scapulae can move four basic ways." ;
+    ex:hasObject ex:four_basic_ways ;
+    ex:hasPredicate ex:move ;
+    ex:hasSubject ex:scapula ;
+    ex:originalObject "four basic ways" ;
+    ex:originalPredicate "move" ;
+    ex:originalSubject "scapulae" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_797fc2ab670fc0aff17ef79019d70bbb a ex:KnowledgeStatement ;
+    ex:alignedObject "aid" ;
+    ex:alignedPredicate "give" ;
+    ex:alignedSubject "stronger triceps" ;
+    ex:category "technique" ;
+    ex:confidence "0.426"^^xsd:float ;
+    ex:domainSimilarity "0.697"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "I don’t think you could ever pinpoint the triceps as a definite weak link at the bottom of the press, but stronger triceps can give aid to the other muscles that are more likely to acutely limit you." ;
+    ex:hasObject ex:aid ;
+    ex:hasPredicate ex:give ;
+    ex:hasSubject ex:stronger_triceps ;
+    ex:originalObject "aid" ;
+    ex:originalPredicate "give" ;
+    ex:originalSubject "stronger triceps" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_7ba31d7ce12f61c2f4e19d7862c88cea a ex:KnowledgeStatement ;
+    ex:alignedObject "more force" ;
+    ex:alignedPredicate "produces" ;
+    ex:alignedSubject "current muscle mass" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.443"^^xsd:float ;
+    ex:domainSimilarity "0.673"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "There are only two ways to do that: a) increase your skill as a bencher so your current muscle mass can produce more force during the movement and b) add more muscle!" ;
+    ex:hasObject ex:more_force ;
+    ex:hasPredicate ex:produces ;
+    ex:hasSubject ex:current_muscle_mass ;
+    ex:originalObject "more force" ;
+    ex:originalPredicate "produce" ;
+    ex:originalSubject "current muscle mass" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_7d815bc97f8a265bac318fd82d030a2a a ex:KnowledgeStatement ;
+    ex:alignedObject "bar path" ;
+    ex:alignedPredicate "utilize" ;
+    ex:alignedSubject "most elite lifters" ;
+    ex:category "domain" ;
+    ex:confidence "0.236"^^xsd:float ;
+    ex:domainSimilarity "0.597"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Most elite lifters utilize this bar path (up and back, then straight up), whereas most novice lifters drive the bar straight up initially, then up and back to lock out." ;
+    ex:hasObject ex:bar_path ;
+    ex:hasPredicate ex:utilize ;
+    ex:hasSubject ex:most_elite_lifters ;
+    ex:originalObject "bar path" ;
+    ex:originalPredicate "utilize" ;
+    ex:originalSubject "most elite lifters" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_7dba49f43d2449701cb4f0ab18bea0fe a ex:KnowledgeStatement ;
+    ex:alignedObject "bench press" ;
+    ex:alignedPredicate "help" ;
+    ex:alignedSubject "technical improvements" ;
+    ex:category "technique" ;
+    ex:confidence "0.455"^^xsd:float ;
+    ex:domainSimilarity "0.718"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Bench with a variety of different grips (both width, and pronated/supinated) Pin press from varying heights Board press with various boards DB bench press Bench with a cambered (MacDonald) bar Bench with pauses of varying lengths At the end of the day… Ultimately, technical improvements can help your bench press dramatically (for both strength and longevity)." ;
+    ex:hasObject ex:bench_press ;
+    ex:hasPredicate ex:help ;
+    ex:hasSubject ex:technical_improvements ;
+    ex:originalObject "bench press" ;
+    ex:originalPredicate "help" ;
+    ex:originalSubject "technical improvements" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_83f40b2260668d9d0ffbd45d9d02fb55 a ex:KnowledgeStatement ;
+    ex:alignedObject "scapula" ;
+    ex:alignedPredicate "reduces" ;
+    ex:alignedSubject "scapular retraction" ;
+    ex:category "domain" ;
+    ex:confidence "0.507"^^xsd:float ;
+    ex:domainSimilarity "0.791"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Scapular retraction also limits protraction and anterior tilting of scapulae (rounding the shoulders forward) during the exercise (Duffey, 2008)." ;
+    ex:hasObject ex:scapula ;
+    ex:hasPredicate ex:reduces ;
+    ex:hasSubject ex:scapular_retraction ;
+    ex:originalObject "scapula" ;
+    ex:originalPredicate "limit_of" ;
+    ex:originalSubject "scapular retraction" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_84184ee59e57a9cb8790b77e0861e92d a ex:KnowledgeStatement ;
+    ex:alignedObject "bench press performance" ;
+    ex:alignedPredicate "induce_in" ;
+    ex:alignedSubject "maximal intended velocity training" ;
+    ex:category "technique" ;
+    ex:confidence "0.416"^^xsd:float ;
+    ex:domainSimilarity "0.69"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Maximal intended velocity training induces greater gains in bench press performance than deliberately slower half-velocity training." ;
+    ex:hasObject ex:bench_press_performance ;
+    ex:hasPredicate ex:induce_in ;
+    ex:hasSubject ex:maximal_intended_velocity_training ;
+    ex:originalObject "bench press performance" ;
+    ex:originalPredicate "induce_in" ;
+    ex:originalSubject "maximal intended velocity training" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_889971d5ee3222046f315c81df700779 a ex:KnowledgeStatement ;
+    ex:alignedObject "same testing routine" ;
+    ex:alignedPredicate "perform" ;
+    ex:alignedSubject "lifter" ;
+    ex:category "technique" ;
+    ex:confidence "0.452"^^xsd:float ;
+    ex:domainSimilarity "0.716"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Then, the lifter performed the same testing routine as they did with the first grip width." ;
+    ex:hasObject ex:same_testing_routine ;
+    ex:hasPredicate ex:perform ;
+    ex:hasSubject ex:lifter ;
+    ex:originalObject "same testing routine" ;
+    ex:originalPredicate "perform" ;
+    ex:originalSubject "lifter" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_89ab3e02f7a7d9d8cf145bb4b770f957 a ex:KnowledgeStatement ;
+    ex:alignedObject "stretch reflex position" ;
+    ex:alignedPredicate "enter" ;
+    ex:alignedSubject "pectoralis major" ;
+    ex:category "technique" ;
+    ex:confidence "0.592"^^xsd:float ;
+    ex:domainSimilarity "0.816"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "When performing a bench press with a retracted scapula, some argue the pectoralis muscles enter the stretch reflex position sooner during the eccentric phase." ;
+    ex:hasObject ex:stretch_reflex_position ;
+    ex:hasPredicate ex:enter ;
+    ex:hasSubject ex:pectoralis_major ;
+    ex:originalObject "stretch reflex position" ;
+    ex:originalPredicate "enter" ;
+    ex:originalSubject "pectoralis muscles" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_8b3ba1843938784d4cfd26b06bb22547 a ex:KnowledgeStatement ;
+    ex:alignedObject "furniture" ;
+    ex:alignedPredicate "move" ;
+    ex:alignedSubject "kinds" ;
+    ex:category "technique" ;
+    ex:confidence "0.377"^^xsd:float ;
+    ex:domainSimilarity "0.662"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Why You Should Be Doing a Bench Press - You’ll improve overall upper-body strength, making all kinds of pushing exercises, including push-ups, shoulder presses, and moving furniture, feel easier. -" ;
+    ex:hasObject ex:furniture ;
+    ex:hasPredicate ex:move ;
+    ex:hasSubject ex:kinds ;
+    ex:originalObject "furniture" ;
+    ex:originalPredicate "move" ;
+    ex:originalSubject "kinds" ;
+    ex:sourceDocument "Nike_bench_press.html" .
+
+ex:statement_8db5d11181783b3a3b4334440d14bbef a ex:KnowledgeStatement ;
+    ex:alignedObject "pectoralis major" ;
+    ex:alignedPredicate "aid" ;
+    ex:alignedSubject "triceps" ;
+    ex:category "domain" ;
+    ex:confidence "0.373"^^xsd:float ;
+    ex:domainSimilarity "0.695"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "However, because they allow you to impart lateral forces on the bar, your triceps actually aid your pecs substantially as well." ;
+    ex:hasObject ex:pectoralis_major ;
+    ex:hasPredicate ex:aid ;
+    ex:hasSubject ex:triceps ;
+    ex:originalObject "pectoralis major" ;
+    ex:originalPredicate "aid" ;
+    ex:originalSubject "triceps" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_919e07d4a35120bd119bd9f4c61868fe a ex:KnowledgeStatement ;
+    ex:alignedObject "flexor" ;
+    ex:alignedPredicate "impose" ;
+    ex:alignedSubject "bar" ;
+    ex:category "technique" ;
+    ex:confidence "0.576"^^xsd:float ;
+    ex:domainSimilarity "0.804"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The trickier part: Whether the bar imposes a flexor or extensor moment at the elbow depends on your grip width." ;
+    ex:hasObject ex:flexor ;
+    ex:hasPredicate ex:impose ;
+    ex:hasSubject ex:bar ;
+    ex:originalObject "flexor" ;
+    ex:originalPredicate "impose" ;
+    ex:originalSubject "bar" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_94566f8d1c4e076e1fa9011ae3a04e05 a ex:KnowledgeStatement ;
+    ex:alignedObject "13.1–15.7% lateral forces" ;
+    ex:alignedPredicate "produces" ;
+    ex:alignedSubject "wide grip" ;
+    ex:category "technique" ;
+    ex:confidence "0.466"^^xsd:float ;
+    ex:domainSimilarity "0.726"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, the wide grip width produced 13.1–15.7% lateral forces, while the medium and narrow grip widths produced 0.4–1.8 and 8.5–10.1% medially directed forces of the vertical force produced during the sticking region, respectively." ;
+    ex:hasObject ex:entity_131157_lateral_forces ;
+    ex:hasPredicate ex:produces ;
+    ex:hasSubject ex:wide_grip ;
+    ex:originalObject "13.1–15.7% lateral forces" ;
+    ex:originalPredicate "produce" ;
+    ex:originalSubject "wide grip" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_96f6d6e8bc2bc529a33c929fb01ca142 a ex:KnowledgeStatement ;
+    ex:alignedObject "elbow" ;
+    ex:alignedPredicate "cross" ;
+    ex:alignedSubject "other two heads" ;
+    ex:category "domain" ;
+    ex:confidence "0.471"^^xsd:float ;
+    ex:domainSimilarity "0.765"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The other two heads only cross the elbow, while the long head also crosses the shoulder to aid in shoulder extension." ;
+    ex:hasObject ex:elbow ;
+    ex:hasPredicate ex:cross ;
+    ex:hasSubject ex:other_two_heads ;
+    ex:originalObject "elbow" ;
+    ex:originalPredicate "cross" ;
+    ex:originalSubject "other two heads" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_97b16a68a22ba4def917b543e03a1ae8 a ex:KnowledgeStatement ;
+    ex:alignedObject "muscle activity" ;
+    ex:alignedPredicate "increases" ;
+    ex:alignedSubject "lateral triceps" ;
+    ex:category "technique" ;
+    ex:confidence "0.476"^^xsd:float ;
+    ex:domainSimilarity "0.733"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, the medial triceps increased muscle activity through the regions for the wide and medium bench press conditions, while the lateral triceps increased muscle activity from the pre-sticking to the post-sticking region." ;
+    ex:hasObject ex:muscle_activity ;
+    ex:hasPredicate ex:increases ;
+    ex:hasSubject ex:lateral_triceps ;
+    ex:originalObject "muscle activity" ;
+    ex:originalPredicate "increase" ;
+    ex:originalSubject "lateral triceps" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_990774759358f23714e70d7ee2ce70b0 a ex:KnowledgeStatement ;
+    ex:alignedObject "excessive lumbar extension" ;
+    ex:alignedPredicate "perform_with" ;
+    ex:alignedSubject "elite powerlifters" ;
+    ex:category "domain" ;
+    ex:confidence "0.37"^^xsd:float ;
+    ex:domainSimilarity "0.693"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Elite powerlifters may perform the lift with excessive lumbar extension (arched low-back), but this position is not advised for the general fitness enthusiast unless properly instructed, and the person has a specific goal to increase 1 repetition maximum performance." ;
+    ex:hasObject ex:excessive_lumbar_extension ;
+    ex:hasPredicate ex:perform_with ;
+    ex:hasSubject ex:elite_powerlifters ;
+    ex:originalObject "excessive lumbar extension" ;
+    ex:originalPredicate "perform_with" ;
+    ex:originalSubject "elite powerlifters" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_9915631b7748fa62d6b6f423dcbbf1d6 a ex:KnowledgeStatement ;
+    ex:alignedObject "force" ;
+    ex:alignedPredicate "exert_of" ;
+    ex:alignedSubject "bar" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.422"^^xsd:float ;
+    ex:domainSimilarity "0.658"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "If you weren’t supporting the bar, it would accelerate downward at 9.8m/sec2 (due to gravity), so the bar is exerting 150kg x 9.8m/sec2 = 1470N of force upon your hands and arms." ;
+    ex:hasObject ex:force ;
+    ex:hasPredicate ex:exert_of ;
+    ex:hasSubject ex:bar ;
+    ex:originalObject "force" ;
+    ex:originalPredicate "exert_of" ;
+    ex:originalSubject "bar" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_99a23575de81cc6a5ea9f1b8edde8d78 a ex:KnowledgeStatement ;
+    ex:alignedObject "lower pectoralis major" ;
+    ex:alignedPredicate "produce_of" ;
+    ex:alignedSubject "decline bench press" ;
+    ex:category "technique" ;
+    ex:confidence "0.408"^^xsd:float ;
+    ex:domainSimilarity "0.684"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Decline Bench Press: In this exercise, a 15° decline will produce greater activation of the lower pectoralis major. -" ;
+    ex:hasObject ex:lower_pectoralis_major ;
+    ex:hasPredicate ex:produce_of ;
+    ex:hasSubject ex:decline_bench_press ;
+    ex:originalObject "lower pectoralis major" ;
+    ex:originalPredicate "produce_of" ;
+    ex:originalSubject "decline bench press" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_9c1a7e7374e4d50a71276204a1baed5d a ex:KnowledgeStatement ;
+    ex:alignedObject "elbow extensor moment" ;
+    ex:alignedPredicate "impose" ;
+    ex:alignedSubject "bar" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.449"^^xsd:float ;
+    ex:domainSimilarity "0.678"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, since they don’t allow (or at least encourage) the same degree of horizontal forces, this will help us see how the lift can still be challenging for your triceps while the bar is imposing an elbow extensor moment, and it’ll also help us understand why you can bench more than you can dumbbell bench (it’s not just a matter of stability)." ;
+    ex:hasObject ex:elbow_extensor_moment ;
+    ex:hasPredicate ex:impose ;
+    ex:hasSubject ex:bar ;
+    ex:originalObject "elbow extensor moment" ;
+    ex:originalPredicate "impose" ;
+    ex:originalSubject "bar" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_9c20a37dc26f6b2e0c894832fc0eb00a a ex:KnowledgeStatement ;
+    ex:alignedObject "downward force" ;
+    ex:alignedPredicate "appliesForce" ;
+    ex:alignedSubject "bar" ;
+    ex:category "technique" ;
+    ex:confidence "0.539"^^xsd:float ;
+    ex:domainSimilarity "0.778"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "In the bench press, the bar applies a downward force that exerts an external flexor moment at your elbow, and external extensor and horizontal extensor moments at your shoulder. -" ;
+    ex:hasObject ex:downward_force ;
+    ex:hasPredicate ex:appliesforce ;
+    ex:hasSubject ex:bar ;
+    ex:originalObject "downward force" ;
+    ex:originalPredicate "apply" ;
+    ex:originalSubject "bar" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_a179b3e4fed030d6ec85386f1ec84c4c a ex:KnowledgeStatement ;
+    ex:alignedObject "valsalva maneuver" ;
+    ex:alignedPredicate "perform" ;
+    ex:alignedSubject "elite athletes" ;
+    ex:category "technique" ;
+    ex:confidence "0.424"^^xsd:float ;
+    ex:domainSimilarity "0.695"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Elite athletes or powerlifters may perform the Valsalva maneuver during the bench press." ;
+    ex:hasObject ex:valsalva_maneuver ;
+    ex:hasPredicate ex:perform ;
+    ex:hasSubject ex:elite_athletes ;
+    ex:originalObject "valsalva maneuver" ;
+    ex:originalPredicate "perform" ;
+    ex:originalSubject "elite athletes" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_a36bf90e3ab6e04dc4a7ee9f878dea2d a ex:KnowledgeStatement ;
+    ex:alignedObject "more muscle" ;
+    ex:alignedPredicate "equal" ;
+    ex:alignedSubject "more weight" ;
+    ex:category "technique" ;
+    ex:confidence "0.415"^^xsd:float ;
+    ex:domainSimilarity "0.689"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "More weight equals more muscle and strength, and hopefully a bigger bench press." ;
+    ex:hasObject ex:more_muscle ;
+    ex:hasPredicate ex:equal ;
+    ex:hasSubject ex:more_weight ;
+    ex:originalObject "more muscle" ;
+    ex:originalPredicate "equal" ;
+    ex:originalSubject "more weight" ;
+    ex:sourceDocument "robertson_bench_press.html" .
+
+ex:statement_a54e82480533241cc9d803245fe18546 a ex:KnowledgeStatement ;
+    ex:alignedObject "bar" ;
+    ex:alignedPredicate "drive" ;
+    ex:alignedSubject "most novice lifters" ;
+    ex:category "domain" ;
+    ex:confidence "0.236"^^xsd:float ;
+    ex:domainSimilarity "0.597"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Most elite lifters utilize this bar path (up and back, then straight up), whereas most novice lifters drive the bar straight up initially, then up and back to lock out." ;
+    ex:hasObject ex:bar ;
+    ex:hasPredicate ex:drive ;
+    ex:hasSubject ex:most_novice_lifters ;
+    ex:originalObject "bar" ;
+    ex:originalPredicate "drive" ;
+    ex:originalSubject "most novice lifters" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_a7f890d96eed543c57e6da7ac5d1d563 a ex:KnowledgeStatement ;
+    ex:alignedObject "workload" ;
+    ex:alignedPredicate "reduces" ;
+    ex:alignedSubject "bench press" ;
+    ex:category "technique" ;
+    ex:confidence "0.618"^^xsd:float ;
+    ex:domainSimilarity "0.834"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Overly narrow barbell grip Gripping the barbell with your hands too close together during the bench press reduces the workload placed on the pectoralis major and increases the amount of work done by the anterior deltoid and triceps muscles." ;
+    ex:hasObject ex:workload ;
+    ex:hasPredicate ex:reduces ;
+    ex:hasSubject ex:bench_press ;
+    ex:originalObject "workload" ;
+    ex:originalPredicate "reduce" ;
+    ex:originalSubject "bench press" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_a8539c120c97f91c9c24425379ab7582 a ex:KnowledgeStatement ;
+    ex:alignedObject "bar" ;
+    ex:alignedPredicate "rack" ;
+    ex:alignedSubject "repeat" ;
+    ex:category "technique" ;
+    ex:confidence "0.424"^^xsd:float ;
+    ex:domainSimilarity "0.696"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Repeat, then rack the barbell." ;
+    ex:hasObject ex:bar ;
+    ex:hasPredicate ex:rack ;
+    ex:hasSubject ex:repeat ;
+    ex:originalObject "bar" ;
+    ex:originalPredicate "rack" ;
+    ex:originalSubject "repeat" ;
+    ex:sourceDocument "Nike_bench_press.html" .
+
+ex:statement_a8795f29d65921f7fad92258c6a2db1a a ex:KnowledgeStatement ;
+    ex:alignedObject "similar shoulder" ;
+    ex:alignedPredicate "produces" ;
+    ex:alignedSubject "wide and medium grip widths" ;
+    ex:category "technique" ;
+    ex:confidence "0.534"^^xsd:float ;
+    ex:domainSimilarity "0.774"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Hence, the wide and medium grip widths produced similar shoulder and elbow joint moments and moment arm at the first located lowest barbell velocity." ;
+    ex:hasObject ex:similar_shoulder ;
+    ex:hasPredicate ex:produces ;
+    ex:hasSubject ex:wide_and_medium_grip_widths ;
+    ex:originalObject "similar shoulder" ;
+    ex:originalPredicate "produce" ;
+    ex:originalSubject "wide and medium grip widths" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_a8c5340dc5710724465d1246b913c23d a ex:KnowledgeStatement ;
+    ex:alignedObject "support" ;
+    ex:alignedPredicate "create_of" ;
+    ex:alignedSubject "position" ;
+    ex:category "technique" ;
+    ex:confidence "0.529"^^xsd:float ;
+    ex:domainSimilarity "0.771"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "This position creates a stable base of support against the bench for the shoulders, decreases anterior forces through the shoulder complex particularly during the eccentric phase, and may improve activation of the pectoralis muscles (Duffey, 2008; Bench Press Analysis)." ;
+    ex:hasObject ex:support ;
+    ex:hasPredicate ex:create_of ;
+    ex:hasSubject ex:position ;
+    ex:originalObject "support" ;
+    ex:originalPredicate "create_of" ;
+    ex:originalSubject "position" ;
+    ex:sourceDocument "nasm_bench_press.html" .
+
+ex:statement_afbd99ffce18b81fd300d1d7494133af a ex:KnowledgeStatement ;
+    ex:alignedObject "lateral forces" ;
+    ex:alignedPredicate "impose" ;
+    ex:alignedSubject "triceps contract" ;
+    ex:category "domain" ;
+    ex:confidence "0.347"^^xsd:float ;
+    ex:domainSimilarity "0.677"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "If your elbows are pointed out, then when your triceps contract, they’re mainly imposing lateral forces on the weight." ;
+    ex:hasObject ex:lateral_forces ;
+    ex:hasPredicate ex:impose ;
+    ex:hasSubject ex:triceps_contract ;
+    ex:originalObject "lateral forces" ;
+    ex:originalPredicate "impose" ;
+    ex:originalSubject "triceps contract" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_b2c7a8a47138105ffcdec28c3daee4bd a ex:KnowledgeStatement ;
+    ex:alignedObject "horizontal force component" ;
+    ex:alignedPredicate "investigate_of" ;
+    ex:alignedSubject "horizontal forces" ;
+    ex:category "technique" ;
+    ex:confidence "0.462"^^xsd:float ;
+    ex:domainSimilarity "0.723"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Duffey and Challis () therefore suggested that the horizontal forces during bench press result from the muscles' engagement in order to generate vertical force; they did not, however, investigate the effect of a horizontal force component in the sticking region." ;
+    ex:hasObject ex:horizontal_force_component ;
+    ex:hasPredicate ex:investigate_of ;
+    ex:hasSubject ex:horizontal_forces ;
+    ex:originalObject "horizontal force component" ;
+    ex:originalPredicate "investigate_of" ;
+    ex:originalSubject "horizontal forces" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_b485844798c4bad87a3d26c364dfe608 a ex:KnowledgeStatement ;
+    ex:alignedObject "pectoralis major’s upper portion" ;
+    ex:alignedPredicate "produce_of" ;
+    ex:alignedSubject "30° inclination" ;
+    ex:category "technique" ;
+    ex:confidence "0.455"^^xsd:float ;
+    ex:domainSimilarity "0.718"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Incline Bench Press: In this exercise, a 30° inclination will produce greater activation of the pectoralis major’s upper portion." ;
+    ex:hasObject ex:pectoralis_majors_upper_portion ;
+    ex:hasPredicate ex:produce_of ;
+    ex:hasSubject ex:entity_30_inclination ;
+    ex:originalObject "pectoralis major’s upper portion" ;
+    ex:originalPredicate "produce_of" ;
+    ex:originalSubject "30° inclination" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_b712e6d2df0bea6ddeb12b34caa06a51 a ex:KnowledgeStatement ;
+    ex:alignedObject "triceps contract" ;
+    ex:alignedPredicate "help" ;
+    ex:alignedSubject "muscle irradiation" ;
+    ex:category "domain" ;
+    ex:confidence "0.378"^^xsd:float ;
+    ex:domainSimilarity "0.698"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Maybe muscle irradiation (when one muscle contracts hard, it’s easier for nearby muscles to contract hard – in this case, your forearm muscles contracting as hard as possible may help your triceps contract harder)." ;
+    ex:hasObject ex:triceps_contract ;
+    ex:hasPredicate ex:help ;
+    ex:hasSubject ex:muscle_irradiation ;
+    ex:originalObject "triceps contract" ;
+    ex:originalPredicate "help" ;
+    ex:originalSubject "muscle irradiation" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_b895dc04c2b8088c5c18fcce0dd778a5 a ex:KnowledgeStatement ;
+    ex:alignedObject "extra kick" ;
+    ex:alignedPredicate "give" ;
+    ex:alignedSubject "triceps" ;
+    ex:category "domain" ;
+    ex:confidence "0.376"^^xsd:float ;
+    ex:domainSimilarity "0.697"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Here’s how I like to think of it: pecs provide the “strength base” for the movement, while the triceps give you the extra kick you need for heavier weights." ;
+    ex:hasObject ex:extra_kick ;
+    ex:hasPredicate ex:give ;
+    ex:hasSubject ex:triceps ;
+    ex:originalObject "extra kick" ;
+    ex:originalPredicate "give" ;
+    ex:originalSubject "triceps" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_b8b9d5ea4057a7ac20df47972cf259e0 a ex:KnowledgeStatement ;
+    ex:alignedObject "injury risk" ;
+    ex:alignedPredicate "influence_in" ;
+    ex:alignedSubject "kinematic factors" ;
+    ex:category "technique" ;
+    ex:confidence "0.438"^^xsd:float ;
+    ex:domainSimilarity "0.706"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Kinematic Factors influencing performance in injury risk in the bench press exercise." ;
+    ex:hasObject ex:injury_risk ;
+    ex:hasPredicate ex:influence_in ;
+    ex:hasSubject ex:kinematic_factors ;
+    ex:originalObject "injury risk" ;
+    ex:originalPredicate "influence_in" ;
+    ex:originalSubject "kinematic factors" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_ba62a5c621e07f6383bba66f9295680e a ex:KnowledgeStatement ;
+    ex:alignedObject "both pecs" ;
+    ex:alignedPredicate "help" ;
+    ex:alignedSubject "triceps" ;
+    ex:category "domain" ;
+    ex:confidence "0.431"^^xsd:float ;
+    ex:domainSimilarity "0.737"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Also, your triceps can help out both your pecs and delts which are in a more stretched and vulnerable position." ;
+    ex:hasObject ex:both_pecs ;
+    ex:hasPredicate ex:help ;
+    ex:hasSubject ex:triceps ;
+    ex:originalObject "both pecs" ;
+    ex:originalPredicate "help" ;
+    ex:originalSubject "triceps" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_baefb3f5754d02c37f5d369c8e98425a a ex:KnowledgeStatement ;
+    ex:alignedObject "retraction" ;
+    ex:alignedPredicate "prefer" ;
+    ex:alignedSubject "few people" ;
+    ex:category "domain" ;
+    ex:confidence "0.248"^^xsd:float ;
+    ex:domainSimilarity "0.606"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "A few people actually prefer retraction and elevation." ;
+    ex:hasObject ex:retraction ;
+    ex:hasPredicate ex:prefer ;
+    ex:hasSubject ex:few_people ;
+    ex:originalObject "retraction" ;
+    ex:originalPredicate "prefer" ;
+    ex:originalSubject "few people" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_be9958ad03dcad88e891ba2523d057f2 a ex:KnowledgeStatement ;
+    ex:alignedObject "bench press" ;
+    ex:alignedPredicate "perform" ;
+    ex:alignedSubject "subjects" ;
+    ex:category "technique" ;
+    ex:confidence "0.426"^^xsd:float ;
+    ex:domainSimilarity "0.697"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The subjects performed the bench press according to the rules and regulations set by the International Powerlifting Federation, except that the requirement for a full stop on the chest was removed; they were allowed to touch and press, but no bounce of the barbell was allowed." ;
+    ex:hasObject ex:bench_press ;
+    ex:hasPredicate ex:perform ;
+    ex:hasSubject ex:subjects ;
+    ex:originalObject "bench press" ;
+    ex:originalPredicate "perform" ;
+    ex:originalSubject "subjects" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_beb4cca30627e6006a3b8b9136037285 a ex:KnowledgeStatement ;
+    ex:alignedObject "medially directed resultant forces" ;
+    ex:alignedPredicate "create" ;
+    ex:alignedSubject "wide grip width" ;
+    ex:category "technique" ;
+    ex:confidence "0.546"^^xsd:float ;
+    ex:domainSimilarity "0.783"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, the wide grip width creates medially directed resultant forces, the medium grip width creates mainly vertical resultant forces, and the narrow grip width creates laterally directed resultant forces, as well as elbow flexion moments." ;
+    ex:hasObject ex:medially_directed_resultant_forces ;
+    ex:hasPredicate ex:create ;
+    ex:hasSubject ex:wide_grip_width ;
+    ex:originalObject "medially directed resultant forces" ;
+    ex:originalPredicate "create" ;
+    ex:originalSubject "wide grip width" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_bf3090dacfd86fdc8506240a5cd0fc40 a ex:KnowledgeStatement ;
+    ex:alignedObject "elbow flexion moments" ;
+    ex:alignedPredicate "create" ;
+    ex:alignedSubject "medium grip width" ;
+    ex:category "technique" ;
+    ex:confidence "0.546"^^xsd:float ;
+    ex:domainSimilarity "0.783"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Furthermore, the wide grip width creates medially directed resultant forces, the medium grip width creates mainly vertical resultant forces, and the narrow grip width creates laterally directed resultant forces, as well as elbow flexion moments." ;
+    ex:hasObject ex:elbow_flexion_moments ;
+    ex:hasPredicate ex:create ;
+    ex:hasSubject ex:medium_grip_width ;
+    ex:originalObject "elbow flexion moments" ;
+    ex:originalPredicate "create" ;
+    ex:originalSubject "medium grip width" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_c06a4fdbf9bd980efe6c89f9ea5d6469 a ex:KnowledgeStatement ;
+    ex:alignedObject "inches" ;
+    ex:alignedPredicate "shave" ;
+    ex:alignedSubject "increases" ;
+    ex:category "technique" ;
+    ex:confidence "0.389"^^xsd:float ;
+    ex:domainSimilarity "0.67"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Another bonus of hitting the mid-back is that increases in size will also shave some inches off your bench press stroke!" ;
+    ex:hasObject ex:inches ;
+    ex:hasPredicate ex:shave ;
+    ex:hasSubject ex:increases ;
+    ex:originalObject "inches" ;
+    ex:originalPredicate "shave" ;
+    ex:originalSubject "increases" ;
+    ex:sourceDocument "robertson_bench_press.html" .
+
+ex:statement_c0cd578c2e2cf7ee91b65a118f28db0e a ex:KnowledgeStatement ;
+    ex:alignedObject "peak" ;
+    ex:alignedPredicate "demand" ;
+    ex:alignedSubject "shoulder flexion" ;
+    ex:category "domain" ;
+    ex:confidence "0.363"^^xsd:float ;
+    ex:domainSimilarity "0.688"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "This should be your default assumption since the shoulder flexion demands peak at the bottom of the lift and then drop off dramatically." ;
+    ex:hasObject ex:peak ;
+    ex:hasPredicate ex:demand ;
+    ex:hasSubject ex:shoulder_flexion ;
+    ex:originalObject "peak" ;
+    ex:originalPredicate "demand" ;
+    ex:originalSubject "shoulder flexion" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_c3453485f505b896b9a257da5d5b91f1 a ex:KnowledgeStatement ;
+    ex:alignedObject "similar horizontal forces" ;
+    ex:alignedPredicate "demonstrate" ;
+    ex:alignedSubject "grip widths" ;
+    ex:category "technique" ;
+    ex:confidence "0.495"^^xsd:float ;
+    ex:domainSimilarity "0.746"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "During the sticking region, all grip widths demonstrated similar horizontal forces, but resultant forces decreased, which suggests that this is a poor biomechanical region despite the grip width that is used in the bench press exercise." ;
+    ex:hasObject ex:similar_horizontal_forces ;
+    ex:hasPredicate ex:demonstrate ;
+    ex:hasSubject ex:grip_widths ;
+    ex:originalObject "similar horizontal forces" ;
+    ex:originalPredicate "demonstrate" ;
+    ex:originalSubject "grip widths" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_c92b68624d3b6f6ed517be1668751793 a ex:KnowledgeStatement ;
+    ex:alignedObject "bar path" ;
+    ex:alignedPredicate "address" ;
+    ex:alignedSubject "article" ;
+    ex:category "domain" ;
+    ex:confidence "0.261"^^xsd:float ;
+    ex:domainSimilarity "0.615"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "This article addresses bar path in much greater detail." ;
+    ex:hasObject ex:bar_path ;
+    ex:hasPredicate ex:address ;
+    ex:hasSubject ex:article ;
+    ex:originalObject "bar path" ;
+    ex:originalPredicate "address" ;
+    ex:originalSubject "article" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_cb65810f980aab75a823d3c6e7abf26b a ex:KnowledgeStatement ;
+    ex:alignedObject "anything" ;
+    ex:alignedPredicate "contribute" ;
+    ex:alignedSubject "triceps" ;
+    ex:category "domain" ;
+    ex:confidence "0.302"^^xsd:float ;
+    ex:domainSimilarity "0.644"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "However, by the top, it doesn’t feel like your triceps are contributing anything at all to the movement." ;
+    ex:hasObject ex:anything ;
+    ex:hasPredicate ex:contribute ;
+    ex:hasSubject ex:triceps ;
+    ex:originalObject "anything" ;
+    ex:originalPredicate "contribute" ;
+    ex:originalSubject "triceps" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_cb829624a5c563b2d409581b2690030a a ex:KnowledgeStatement ;
+    ex:alignedObject "force" ;
+    ex:alignedPredicate "produce_of" ;
+    ex:alignedSubject "muscles" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.478"^^xsd:float ;
+    ex:domainSimilarity "0.699"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "There’s a simple explanation: Muscles don’t produce the same amount of force over their entire range of motion." ;
+    ex:hasObject ex:force ;
+    ex:hasPredicate ex:produce_of ;
+    ex:hasSubject ex:muscles ;
+    ex:originalObject "force" ;
+    ex:originalPredicate "produce_of" ;
+    ex:originalSubject "muscles" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_cccac0c46673291821c0d2faa23fa201 a ex:KnowledgeStatement ;
+    ex:alignedObject "sticking region" ;
+    ex:alignedPredicate "generate_in" ;
+    ex:alignedSubject "muscles" ;
+    ex:category "technique" ;
+    ex:confidence "0.504"^^xsd:float ;
+    ex:domainSimilarity "0.753"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Considering EMG activity during different grip widths along with the horizontal forces around the sticking region could provide more detailed information about how these muscles generate forces in the sticking region during different grip widths, and how to manipulate the sticking region by choosing a grip width that supports individual strength and weaknesses." ;
+    ex:hasObject ex:sticking_region ;
+    ex:hasPredicate ex:generate_in ;
+    ex:hasSubject ex:muscles ;
+    ex:originalObject "sticking region" ;
+    ex:originalPredicate "generate_in" ;
+    ex:originalSubject "muscles" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_d6281a012ba6c608324d60c2de419cf5 a ex:KnowledgeStatement ;
+    ex:alignedObject "so many muscles" ;
+    ex:alignedPredicate "engage" ;
+    ex:alignedSubject "bench press" ;
+    ex:category "technique" ;
+    ex:confidence "0.443"^^xsd:float ;
+    ex:domainSimilarity "0.709"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Because the bench press engages so many muscles at once, it can help you build muscle mass and see definition quicker than most upper-body exercises." ;
+    ex:hasObject ex:so_many_muscles ;
+    ex:hasPredicate ex:engage ;
+    ex:hasSubject ex:bench_press ;
+    ex:originalObject "so many muscles" ;
+    ex:originalPredicate "engage" ;
+    ex:originalSubject "bench press" ;
+    ex:sourceDocument "Nike_bench_press.html" .
+
+ex:statement_d7944a3606f7b6f71222c4ddc168671c a ex:KnowledgeStatement ;
+    ex:alignedObject "chest and triceps development" ;
+    ex:alignedPredicate "maximize" ;
+    ex:alignedSubject "bench press" ;
+    ex:category "technique" ;
+    ex:confidence "0.475"^^xsd:float ;
+    ex:domainSimilarity "0.732"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Will the bench press, alone, maximize chest and triceps development?" ;
+    ex:hasObject ex:chest_and_triceps_development ;
+    ex:hasPredicate ex:maximize ;
+    ex:hasSubject ex:bench_press ;
+    ex:originalObject "chest and triceps development" ;
+    ex:originalPredicate "maximize" ;
+    ex:originalSubject "bench press" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_d8af47f8fa4c46f0be41875173d9beec a ex:KnowledgeStatement ;
+    ex:alignedObject "little further explanation" ;
+    ex:alignedPredicate "need" ;
+    ex:alignedSubject "force" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.436"^^xsd:float ;
+    ex:domainSimilarity "0.669"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Force needs a little further explanation: Force = Mass x Acceleration Mass is essentially the weight on the bar, and acceleration is how fast you are moving the bar (remember, this is a generalization, used to prove a point)." ;
+    ex:hasObject ex:little_further_explanation ;
+    ex:hasPredicate ex:need ;
+    ex:hasSubject ex:force ;
+    ex:originalObject "little further explanation" ;
+    ex:originalPredicate "need" ;
+    ex:originalSubject "force" ;
+    ex:sourceDocument "robertson_bench_press.html" .
+
+ex:statement_db548dc6c5fe828b89ae6c9a3bc311e4 a ex:KnowledgeStatement ;
+    ex:alignedObject "moments" ;
+    ex:alignedPredicate "influences" ;
+    ex:alignedSubject "total force vector" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.532"^^xsd:float ;
+    ex:domainSimilarity "0.737"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "This means that the total force vector could influence the moments around the elbow from flexion to an extension moment." ;
+    ex:hasObject ex:moments ;
+    ex:hasPredicate ex:influences ;
+    ex:hasSubject ex:total_force_vector ;
+    ex:originalObject "moments" ;
+    ex:originalPredicate "influence" ;
+    ex:originalSubject "total force vector" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_dc5c3848842c23910411531756d1f6ed a ex:KnowledgeStatement ;
+    ex:alignedObject "shoulder extension moments" ;
+    ex:alignedPredicate "decreases" ;
+    ex:alignedSubject "medium and wide grip widths" ;
+    ex:category "technique" ;
+    ex:confidence "0.494"^^xsd:float ;
+    ex:domainSimilarity "0.746"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Where the medium and wide grip widths decreased the shoulder extension moments, the narrow grip width increased the shoulder extension moment during the sticking region." ;
+    ex:hasObject ex:shoulder_extension_moments ;
+    ex:hasPredicate ex:decreases ;
+    ex:hasSubject ex:medium_and_wide_grip_widths ;
+    ex:originalObject "shoulder extension moments" ;
+    ex:originalPredicate "decrease" ;
+    ex:originalSubject "medium and wide grip widths" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_dc896c0c47de5dd842ddcb194c56eb95 a ex:KnowledgeStatement ;
+    ex:alignedObject "proximal prime movers" ;
+    ex:alignedPredicate "create_on" ;
+    ex:alignedSubject "greater shoulder flexion moment" ;
+    ex:category "technique" ;
+    ex:confidence "0.492"^^xsd:float ;
+    ex:domainSimilarity "0.745"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "A greater shoulder flexion moment could create higher demands on the proximal prime movers, while the narrow grip width could create higher demands on the distal prime movers; however, the only difference in muscle activity between the three grip widths was found in the medial triceps brachii, which was lower in the wide grip condition as compared with the other two." ;
+    ex:hasObject ex:proximal_prime_movers ;
+    ex:hasPredicate ex:create_on ;
+    ex:hasSubject ex:greater_shoulder_flexion_moment ;
+    ex:originalObject "proximal prime movers" ;
+    ex:originalPredicate "create_on" ;
+    ex:originalSubject "greater shoulder flexion moment" ;
+    ex:sourceDocument "frontiersin_bench_press.html" .
+
+ex:statement_dd18d4e134f3f95b226245469a74fc96 a ex:KnowledgeStatement ;
+    ex:alignedObject "maximum muscle engagement" ;
+    ex:alignedPredicate "touch_for" ;
+    ex:alignedSubject "bar" ;
+    ex:category "technique" ;
+    ex:confidence "0.442"^^xsd:float ;
+    ex:domainSimilarity "0.709"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Not using a full range of motion is often due to a lack of knowledge, but this can easily be corrected by understanding that the bar should touch the chest for maximum muscle engagement." ;
+    ex:hasObject ex:maximum_muscle_engagement ;
+    ex:hasPredicate ex:touch_for ;
+    ex:hasSubject ex:bar ;
+    ex:originalObject "maximum muscle engagement" ;
+    ex:originalPredicate "touch_for" ;
+    ex:originalSubject "bar" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_ddc5ac0a85b0f762314c57a09570c495 a ex:KnowledgeStatement ;
+    ex:alignedObject "pectoralis major’s upper portion" ;
+    ex:alignedPredicate "produce_of" ;
+    ex:alignedSubject "incline bench press" ;
+    ex:category "technique" ;
+    ex:confidence "0.455"^^xsd:float ;
+    ex:domainSimilarity "0.718"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Incline Bench Press: In this exercise, a 30° inclination will produce greater activation of the pectoralis major’s upper portion." ;
+    ex:hasObject ex:pectoralis_majors_upper_portion ;
+    ex:hasPredicate ex:produce_of ;
+    ex:hasSubject ex:incline_bench_press ;
+    ex:originalObject "pectoralis major’s upper portion" ;
+    ex:originalPredicate "produce_of" ;
+    ex:originalSubject "incline bench press" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_df7745c1a4138bca57797999829c2ab7 a ex:KnowledgeStatement ;
+    ex:alignedObject "most force" ;
+    ex:alignedPredicate "produces" ;
+    ex:alignedSubject "muscle fibers" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.525"^^xsd:float ;
+    ex:domainSimilarity "0.732"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Muscle fibers themselves produce the most force when they’re around resting length, and their capacity to produce force increases or decreases as they lengthen or shorten (red curve below)." ;
+    ex:hasObject ex:most_force ;
+    ex:hasPredicate ex:produces ;
+    ex:hasSubject ex:muscle_fibers ;
+    ex:originalObject "most force" ;
+    ex:originalPredicate "produce" ;
+    ex:originalSubject "muscle fibers" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_e0fac6da836cf0f13501521dfb0b1a17 a ex:KnowledgeStatement ;
+    ex:alignedObject "bar" ;
+    ex:alignedPredicate "lower" ;
+    ex:alignedSubject "descent" ;
+    ex:category "domain" ;
+    ex:confidence "0.213"^^xsd:float ;
+    ex:domainSimilarity "0.581"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Descent Your next order of business is lowering the bar." ;
+    ex:hasObject ex:bar ;
+    ex:hasPredicate ex:lower ;
+    ex:hasSubject ex:descent ;
+    ex:originalObject "bar" ;
+    ex:originalPredicate "lower" ;
+    ex:originalSubject "descent" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_e65297f7d9721250e100eadcdf7d996a a ex:KnowledgeStatement ;
+    ex:alignedObject "upper pecs" ;
+    ex:alignedPredicate "challenge" ;
+    ex:alignedSubject "incline" ;
+    ex:category "technique" ;
+    ex:confidence "0.405"^^xsd:float ;
+    ex:domainSimilarity "0.682"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "However, based on the available research, it seems like incline still doesn’t challenge your upper pecs quite as much reverse grip benching with a wide grip does." ;
+    ex:hasObject ex:upper_pecs ;
+    ex:hasPredicate ex:challenge ;
+    ex:hasSubject ex:incline ;
+    ex:originalObject "upper pecs" ;
+    ex:originalPredicate "challenge" ;
+    ex:originalSubject "incline" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_e9168320e7b031c7a10583aba4967286 a ex:KnowledgeStatement ;
+    ex:alignedObject "light" ;
+    ex:alignedPredicate "shed" ;
+    ex:alignedSubject "article" ;
+    ex:category "technique" ;
+    ex:confidence "0.363"^^xsd:float ;
+    ex:domainSimilarity "0.652"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Hopefully this article has shed some light on what muscles are working while benching, how to train them, and ways to improve your bench press from start to finish." ;
+    ex:hasObject ex:light ;
+    ex:hasPredicate ex:shed ;
+    ex:hasSubject ex:article ;
+    ex:originalObject "light" ;
+    ex:originalPredicate "shed" ;
+    ex:originalSubject "article" ;
+    ex:sourceDocument "robertson_bench_press.html" .
+
+ex:statement_e97881835da3dab22cb0036828156f70 a ex:KnowledgeStatement ;
+    ex:alignedObject "muscle" ;
+    ex:alignedPredicate "affect_of" ;
+    ex:alignedSubject "clavicular part - sternocostal part - abdominal part" ;
+    ex:category "technique" ;
+    ex:confidence "0.413"^^xsd:float ;
+    ex:domainSimilarity "0.688"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Clavicular part - Sternocostal part - Abdominal part Different angles of the bench press can affect the activation of this muscle, so it is essential to consider which angle will best target the desired part of the muscle. -" ;
+    ex:hasObject ex:muscle ;
+    ex:hasPredicate ex:affect_of ;
+    ex:hasSubject ex:clavicular_part_sternocostal_part_abdominal_part ;
+    ex:originalObject "muscle" ;
+    ex:originalPredicate "affect_of" ;
+    ex:originalSubject "clavicular part - sternocostal part - abdominal part" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_ea0e911766952fa06bbfa45ecd1c2bd5 a ex:KnowledgeStatement ;
+    ex:alignedObject "large enough internal extensor moments" ;
+    ex:alignedPredicate "produces" ;
+    ex:alignedSubject "muscles" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.525"^^xsd:float ;
+    ex:domainSimilarity "0.732"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The two factors that determine whether your muscles can produce large enough internal extensor moments to lift a load are the attachment points of the muscles and the force with which they can contract. -" ;
+    ex:hasObject ex:large_enough_internal_extensor_moments ;
+    ex:hasPredicate ex:produces ;
+    ex:hasSubject ex:muscles ;
+    ex:originalObject "large enough internal extensor moments" ;
+    ex:originalPredicate "produce" ;
+    ex:originalSubject "muscles" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_ef072cb6dbb44096cf6f33f671b96ea0 a ex:KnowledgeStatement ;
+    ex:alignedObject "pectoralis major" ;
+    ex:alignedPredicate "graze" ;
+    ex:alignedSubject "bar" ;
+    ex:category "technique" ;
+    ex:confidence "0.414"^^xsd:float ;
+    ex:domainSimilarity "0.688"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Lower the bar, bending your arms with elbows at a 45- to 70-degree angle, until the bar grazes your chest. -" ;
+    ex:hasObject ex:pectoralis_major ;
+    ex:hasPredicate ex:graze ;
+    ex:hasSubject ex:bar ;
+    ex:originalObject "chest" ;
+    ex:originalPredicate "graze" ;
+    ex:originalSubject "bar" ;
+    ex:sourceDocument "Nike_bench_press.html" .
+
+ex:statement_ef67379ecdd4a5c8a338c47fe5a31624 a ex:KnowledgeStatement ;
+    ex:alignedObject "same way" ;
+    ex:alignedPredicate "calculate" ;
+    ex:alignedSubject "internal moments" ;
+    ex:category "domain" ;
+    ex:confidence "0.161"^^xsd:float ;
+    ex:domainSimilarity "0.544"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Internal moments are calculated the same way external moments are." ;
+    ex:hasObject ex:same_way ;
+    ex:hasPredicate ex:calculate ;
+    ex:hasSubject ex:internal_moments ;
+    ex:originalObject "same way" ;
+    ex:originalPredicate "calculate" ;
+    ex:originalSubject "internal moments" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_f0e1ed4db2ac3d4ffe328809b2fb6977 a ex:KnowledgeStatement ;
+    ex:alignedObject "contractile force" ;
+    ex:alignedPredicate "increases" ;
+    ex:alignedSubject "only factor" ;
+    ex:category "biomechanics" ;
+    ex:confidence "0.433"^^xsd:float ;
+    ex:domainSimilarity "0.667"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Unfortunately, you can’t change muscle attachment points, so the only factor within your control is increasing contractile force." ;
+    ex:hasObject ex:contractile_force ;
+    ex:hasPredicate ex:increases ;
+    ex:hasSubject ex:only_factor ;
+    ex:originalObject "contractile force" ;
+    ex:originalPredicate "increase" ;
+    ex:originalSubject "only factor" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_f1c0bf9b7c1c83da380ea16538ae0a86 a ex:KnowledgeStatement ;
+    ex:alignedObject "torso" ;
+    ex:alignedPredicate "stabilize" ;
+    ex:alignedSubject "assists" ;
+    ex:category "technique" ;
+    ex:confidence "0.539"^^xsd:float ;
+    ex:domainSimilarity "0.778"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Pectoralis major – primary shoulder horizontal adduction - Anterior deltoid – assists in shoulder horizontal adduction - Coracobrachialis – assists in shoulder horizontal adduction - Triceps brachii – elbow extension - Serratus anterior – scapula protraction - Abdominal muscles – stabilize the torso How to bench press properly: step-by-step - Lie with your back on a flat bench and hold a barbell in your hands." ;
+    ex:hasObject ex:torso ;
+    ex:hasPredicate ex:stabilize ;
+    ex:hasSubject ex:assists ;
+    ex:originalObject "torso" ;
+    ex:originalPredicate "stabilize" ;
+    ex:originalSubject "assists" ;
+    ex:sourceDocument "muscleandmotion_bench_press.html" .
+
+ex:statement_f7e9c5617f0f1a4c5f2676a7e65a102c a ex:KnowledgeStatement ;
+    ex:alignedObject "elbow extension" ;
+    ex:alignedPredicate "perform" ;
+    ex:alignedSubject "two heads" ;
+    ex:category "domain" ;
+    ex:confidence "0.461"^^xsd:float ;
+    ex:domainSimilarity "0.758"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "The two heads that originate on the humerus only perform elbow extension, while the long head can also aid in shoulder extension." ;
+    ex:hasObject ex:elbow_extension ;
+    ex:hasPredicate ex:perform ;
+    ex:hasSubject ex:two_heads ;
+    ex:originalObject "elbow extension" ;
+    ex:originalPredicate "perform" ;
+    ex:originalSubject "two heads" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_f87e92e40eabc56f9a90e643d130435e a ex:KnowledgeStatement ;
+    ex:alignedObject "load" ;
+    ex:alignedPredicate "support" ;
+    ex:alignedSubject "stronger arm" ;
+    ex:category "technique" ;
+    ex:confidence "0.463"^^xsd:float ;
+    ex:domainSimilarity "0.723"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "For these people, the arm they lock out first is generally the weaker arm – the stronger arm supports the load while the weaker arm gets to press the weight out at an angle, instead of straight up." ;
+    ex:hasObject ex:load ;
+    ex:hasPredicate ex:support ;
+    ex:hasSubject ex:stronger_arm ;
+    ex:originalObject "load" ;
+    ex:originalPredicate "support" ;
+    ex:originalSubject "stronger arm" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_f8d48bb2520b064657f62159f9f6f9d4 a ex:KnowledgeStatement ;
+    ex:alignedObject "triceps" ;
+    ex:alignedPredicate "train_of" ;
+    ex:alignedSubject "bench" ;
+    ex:category "domain" ;
+    ex:confidence "0.371"^^xsd:float ;
+    ex:domainSimilarity "0.694"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Because of that, the bench probably doesn’t train the long head of your triceps nearly as much as the other two heads." ;
+    ex:hasObject ex:triceps ;
+    ex:hasPredicate ex:train_of ;
+    ex:hasSubject ex:bench ;
+    ex:originalObject "triceps" ;
+    ex:originalPredicate "train_of" ;
+    ex:originalSubject "bench" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:statement_fcfc45c73fedc1e64529caece8cb4c0b a ex:KnowledgeStatement ;
+    ex:alignedObject "bar" ;
+    ex:alignedPredicate "lower" ;
+    ex:alignedSubject "next order" ;
+    ex:category "domain" ;
+    ex:confidence "0.213"^^xsd:float ;
+    ex:domainSimilarity "0.581"^^xsd:float ;
+    ex:evidenceCount 1 ;
+    ex:evidenceSentence "Descent Your next order of business is lowering the bar." ;
+    ex:hasObject ex:bar ;
+    ex:hasPredicate ex:lower ;
+    ex:hasSubject ex:next_order ;
+    ex:originalObject "bar" ;
+    ex:originalPredicate "lower" ;
+    ex:originalSubject "next order" ;
+    ex:sourceDocument "strongerbyscience_bench_press.html" .
+
+ex:targetsMuscle a owl:ObjectProperty .
+
+ex:abducts a owl:ObjectProperty ;
+    rdfs:label "abducts" .
+
+ex:address rdfs:label "address" .
+
+ex:angle a ex:DomainEntity ;
+    rdfs:label "angle" ;
+    ex:target_of ex:muscle .
+
+ex:appliesforce rdfs:label "appliesForce" .
+
+ex:arch rdfs:label "arch" .
+
+ex:assists a ex:DomainEntity ;
+    rdfs:label "assists" ;
+    ex:stabilize ex:torso .
+
+ex:barbell_bench_press a ex:Exercise ;
+    rdfs:label "barbell bench press" ;
+    ex:build ex:serious_upper_body_strength .
+
+ex:bench a ex:Equipment ;
+    rdfs:label "bench" ;
+    ex:train_of ex:triceps .
+
+ex:build rdfs:label "build" .
+
+ex:calculate rdfs:label "calculate" .
+
+ex:check rdfs:label "check" .
+
+ex:clavicular_part_sternocostal_part_abdominal_part a ex:DomainEntity ;
+    rdfs:label "clavicular part - sternocostal part - abdominal part" ;
+    ex:affect_of ex:muscle .
+
+ex:contribute rdfs:label "contribute" .
+
+ex:create_of rdfs:label "create_of" .
+
+ex:current_grip a ex:TechniqueCue ;
+    rdfs:label "current grip" ;
+    ex:give ex:most_potential .
+
+ex:current_muscle_mass a ex:Muscle ;
+    rdfs:label "current muscle mass" ;
+    ex:produces ex:more_force .
+
+ex:decline_bench_press a ex:Exercise ;
+    rdfs:label "decline bench press" ;
+    ex:produce_of ex:lower_pectoralis_major .
+
+ex:decreases a owl:ObjectProperty ;
+    rdfs:label "decreases" .
+
+ex:demand rdfs:label "demand" .
+
+ex:demonstrate rdfs:label "demonstrate" .
+
+ex:descent a ex:DomainEntity ;
+    rdfs:label "descent" ;
+    ex:lower ex:bar .
+
+ex:different_angles a ex:DomainEntity ;
+    rdfs:label "different angles" ;
+    ex:affect_of ex:muscle .
+
+ex:different_grip_widths a ex:TechniqueCue ;
+    rdfs:label "different grip widths" ;
+    ex:influence_of ex:distal_prime_movers .
+
+ex:drive rdfs:label "drive" .
+
+ex:eccentric_phase a ex:BiomechanicalConcept ;
+    rdfs:label "eccentric phase" ;
+    ex:requires ex:less_shoulder_horizontal_abduction .
+
+ex:elite_athletes a ex:DomainEntity ;
+    rdfs:label "elite athletes" ;
+    ex:perform ex:valsalva_maneuver .
+
+ex:elite_powerlifters a ex:BiomechanicalConcept ;
+    rdfs:label "elite powerlifters" ;
+    ex:perform_with ex:excessive_lumbar_extension .
+
+ex:enable rdfs:label "enable" .
+
+ex:engage rdfs:label "engage" .
+
+ex:enter rdfs:label "enter" .
+
+ex:entity_15_decline a ex:DomainEntity ;
+    rdfs:label "15° decline" ;
+    ex:produce_of ex:lower_pectoralis_major .
+
+ex:entity_30_inclination a ex:DomainEntity ;
+    rdfs:label "30° inclination" ;
+    ex:produce_of ex:pectoralis_majors_upper_portion .
+
+ex:equal rdfs:label "equal" .
+
+ex:exert_of rdfs:label "exert_of" .
+
+ex:few_people a ex:DomainEntity ;
+    rdfs:label "few people" ;
+    ex:prefer ex:retraction .
+
+ex:first_things a ex:DomainEntity ;
+    rdfs:label "first things" ;
+    ex:check ex:wrist_position .
+
+ex:flexes a owl:ObjectProperty ;
+    rdfs:label "flexes" .
+
+ex:generate_in rdfs:label "generate_in" .
+
+ex:gravity a ex:DomainEntity ;
+    rdfs:label "gravity" ;
+    ex:pull ex:bar .
+
+ex:graze rdfs:label "graze" .
+
+ex:greater_shoulder_flexion_moment a ex:Joint ;
+    rdfs:label "greater shoulder flexion moment" ;
+    ex:create_on ex:proximal_prime_movers .
+
+ex:grip_width a ex:TechniqueCue ;
+    rdfs:label "grip width" ;
+    ex:influences ex:horizontal_flexion_demands .
+
+ex:grip_widths a ex:TechniqueCue ;
+    rdfs:label "grip widths" ;
+    ex:demonstrate ex:similar_horizontal_forces .
+
+ex:hand_off a ex:DomainEntity ;
+    rdfs:label "hand-off" ;
+    ex:take ex:bar .
+
+ex:horizontal_forces a ex:BiomechanicalConcept ;
+    rdfs:label "horizontal forces" ;
+    ex:investigate_of ex:horizontal_force_component .
+
+ex:incline a ex:DomainEntity ;
+    rdfs:label "incline" ;
+    ex:challenge ex:upper_pecs .
+
+ex:incline_bench_press a ex:Exercise ;
+    rdfs:label "incline bench press" ;
+    ex:produce_of ex:pectoralis_majors_upper_portion .
+
+ex:incline_press a ex:DomainEntity ;
+    rdfs:label "incline press" ;
+    ex:targetsmuscle ex:anterior_deltoid .
+
+ex:induce_in rdfs:label "induce_in" .
+
+ex:influence_in rdfs:label "influence_in" .
+
+ex:influence_of rdfs:label "influence_of" .
+
+ex:internal_moment_arm a ex:BiomechanicalConcept ;
+    rdfs:label "internal moment arm" ;
+    ex:involves ex:joint_angles .
+
+ex:internal_moments a ex:BiomechanicalConcept ;
+    rdfs:label "internal moments" ;
+    ex:calculate ex:same_way .
+
+ex:investigate_of rdfs:label "investigate_of" .
+
+ex:involves a owl:ObjectProperty ;
+    rdfs:label "involves" .
+
+ex:kinds a ex:DomainEntity ;
+    rdfs:label "kinds" ;
+    ex:move ex:furniture .
+
+ex:kinematic_factors a ex:DomainEntity ;
+    rdfs:label "kinematic factors" ;
+    ex:influence_in ex:injury_risk .
+
+ex:lateral_triceps a ex:Muscle ;
+    rdfs:label "lateral triceps" ;
+    ex:increases ex:muscle_activity .
+
+ex:lifter a ex:DomainEntity ;
+    rdfs:label "lifter" ;
+    ex:perform ex:same_testing_routine .
+
+ex:long_head a ex:DomainEntity ;
+    rdfs:label "long head" ;
+    ex:cross ex:shoulder .
+
+ex:many_people a ex:DomainEntity ;
+    rdfs:label "many people" ;
+    ex:supinate ex:forearms .
+
+ex:maximal_intended_velocity_training a ex:BiomechanicalConcept ;
+    rdfs:label "maximal intended velocity training" ;
+    ex:induce_in ex:bench_press_performance .
+
+ex:maximize rdfs:label "maximize" .
+
+ex:medial_triceps a ex:Muscle ;
+    rdfs:label "medial triceps" ;
+    ex:increases ex:muscle_activity .
+
+ex:medium_and_wide_grip_widths a ex:TechniqueCue ;
+    rdfs:label "medium and wide grip widths" ;
+    ex:decreases ex:shoulder_extension_moments .
+
+ex:more_weight a ex:DomainEntity ;
+    rdfs:label "more weight" ;
+    ex:equal ex:more_muscle .
+
+ex:most_elite_lifters a ex:DomainEntity ;
+    rdfs:label "most elite lifters" ;
+    ex:utilize ex:bar_path .
+
+ex:most_novice_lifters a ex:DomainEntity ;
+    rdfs:label "most novice lifters" ;
+    ex:drive ex:bar .
+
+ex:motion a ex:DomainEntity ;
+    rdfs:label "motion" ;
+    ex:reduces ex:powerful_sternoclavicular_portion .
+
+ex:movement_pattern a ex:DomainEntity ;
+    rdfs:label "movement pattern" ;
+    ex:lower ex:bar .
+
+ex:muscle_fibers a ex:Muscle ;
+    rdfs:label "muscle fibers" ;
+    ex:produces ex:most_force .
+
+ex:muscle_irradiation a ex:Muscle ;
+    rdfs:label "muscle irradiation" ;
+    ex:help ex:triceps_contract .
+
+ex:need rdfs:label "need" .
+
+ex:negate_of rdfs:label "negate_of" .
+
+ex:next_order a ex:DomainEntity ;
+    rdfs:label "next order" ;
+    ex:lower ex:bar .
+
+ex:only_factor a ex:DomainEntity ;
+    rdfs:label "only factor" ;
+    ex:increases ex:contractile_force .
+
+ex:other_two_heads a ex:DomainEntity ;
+    rdfs:label "other two heads" ;
+    ex:cross ex:elbow .
+
+ex:passive_elements a ex:DomainEntity ;
+    rdfs:label "passive elements" ;
+    ex:produce_of ex:force .
+
+ex:perform_with rdfs:label "perform_with" .
+
+ex:place rdfs:label "place" .
+
+ex:powerlifters a ex:BiomechanicalConcept ;
+    rdfs:label "powerlifters" ;
+    ex:arch ex:back .
+
+ex:prefer rdfs:label "prefer" .
+
+ex:pull rdfs:label "pull" .
+
+ex:rack rdfs:label "rack" .
+
+ex:repeat a ex:DomainEntity ;
+    rdfs:label "repeat" ;
+    ex:rack ex:bar .
+
+ex:requires a owl:ObjectProperty ;
+    rdfs:label "requires" .
+
+ex:scapular_retraction a ex:Joint ;
+    rdfs:label "scapular retraction" ;
+    ex:reduces ex:scapula .
+
+ex:shave rdfs:label "shave" .
+
+ex:shed rdfs:label "shed" .
+
+ex:shoulder_flexion a ex:Joint ;
+    rdfs:label "shoulder flexion" ;
+    ex:demand ex:peak .
+
+ex:stabilize rdfs:label "stabilize" .
+
+ex:stronger_arm a ex:DomainEntity ;
+    rdfs:label "stronger arm" ;
+    ex:support ex:load .
+
+ex:stronger_triceps a ex:Muscle ;
+    rdfs:label "stronger triceps" ;
+    ex:give ex:aid .
+
+ex:subjects a ex:DomainEntity ;
+    rdfs:label "subjects" ;
+    ex:perform ex:bench_press .
+
+ex:supinate rdfs:label "supinate" .
+
+ex:take rdfs:label "take" .
+
+ex:target_of rdfs:label "target_of" .
+
+ex:technical_improvements a ex:DomainEntity ;
+    rdfs:label "technical improvements" ;
+    ex:help ex:bench_press .
+
+ex:technique a ex:DomainEntity ;
+    rdfs:label "technique" ;
+    ex:negate_of ex:shoulder_flexion_demands .
+
+ex:total_force_vector a ex:BiomechanicalConcept ;
+    rdfs:label "total force vector" ;
+    ex:influences ex:moments .
+
+ex:touch_for rdfs:label "touch_for" .
+
+ex:train_of rdfs:label "train_of" .
+
+ex:two_heads a ex:DomainEntity ;
+    rdfs:label "two heads" ;
+    ex:perform ex:elbow_extension .
+
+ex:typical_mens_barbell a ex:Equipment ;
+    rdfs:label "typical men’s barbell" ;
+    ex:weigh ex:entity_45_pounds .
+
+ex:upper_arms a ex:DomainEntity ;
+    rdfs:label "upper arms" ;
+    ex:abducts ex:about_45 .
+
+ex:utilize rdfs:label "utilize" .
+
+ex:weigh rdfs:label "weigh" .
+
+ex:wide_grip a ex:TechniqueCue ;
+    rdfs:label "wide grip" ;
+    ex:produces ex:entity_131157_lateral_forces .
+
+ex:wide_grip_width a ex:TechniqueCue ;
+    rdfs:label "wide grip width" ;
+    ex:create ex:medially_directed_resultant_forces .
+
+ex:about_45 a ex:DomainEntity ;
+    rdfs:label "about 45°" .
+
+ex:affect_of rdfs:label "affect_of" .
+
+ex:anterior_deltoid a ex:Muscle ;
+    rdfs:label "anterior deltoid" .
+
+ex:anything a ex:DomainEntity ;
+    rdfs:label "anything" .
+
+ex:article a ex:DomainEntity ;
+    rdfs:label "article" ;
+    ex:address ex:bar_path ;
+    ex:shed ex:light .
+
+ex:back a ex:DomainEntity ;
+    rdfs:label "back" .
+
+ex:bench_press_performance a ex:Exercise ;
+    rdfs:label "bench press performance" .
+
+ex:both_pecs a ex:DomainEntity ;
+    rdfs:label "both pecs" .
+
+ex:challenge rdfs:label "challenge" .
+
+ex:chest_and_triceps_development a ex:Muscle ;
+    rdfs:label "chest and triceps development" .
+
+ex:contractile_force a ex:BiomechanicalConcept ;
+    rdfs:label "contractile force" .
+
+ex:create_on rdfs:label "create_on" .
+
+ex:cross rdfs:label "cross" .
+
+ex:downward_force a ex:BiomechanicalConcept ;
+    rdfs:label "downward force" .
+
+ex:eccentric_muscle_action a ex:Muscle ;
+    rdfs:label "eccentric muscle action" .
+
+ex:elbow_extension a ex:Joint ;
+    rdfs:label "elbow extension" .
+
+ex:elbow_extensor_moment a ex:Joint ;
+    rdfs:label "elbow extensor moment" .
+
+ex:elbow_flexion_moments a ex:Joint ;
+    rdfs:label "elbow flexion moments" .
+
+ex:entity_131157_lateral_forces a ex:BiomechanicalConcept ;
+    rdfs:label "13.1–15.7% lateral forces" .
+
+ex:entity_45_pounds a ex:DomainEntity ;
+    rdfs:label "45 pounds" .
+
+ex:excessive_lumbar_extension a ex:Equipment ;
+    rdfs:label "excessive lumbar extension" .
+
+ex:extends a owl:ObjectProperty ;
+    rdfs:label "extends" .
+
+ex:extra_kick a ex:DomainEntity ;
+    rdfs:label "extra kick" .
+
+ex:flexor a ex:DomainEntity ;
+    rdfs:label "flexor" .
+
+ex:floor a ex:DomainEntity ;
+    rdfs:label "floor" .
+
+ex:forearms a ex:DomainEntity ;
+    rdfs:label "forearms" .
+
+ex:four_basic_ways a ex:DomainEntity ;
+    rdfs:label "four basic ways" .
+
+ex:furniture a ex:DomainEntity ;
+    rdfs:label "furniture" .
+
+ex:greater_horizontal_shoulder_moments a ex:Joint ;
+    rdfs:label "greater horizontal shoulder moments" .
+
+ex:horizontal_force_component a ex:BiomechanicalConcept ;
+    rdfs:label "horizontal force component" .
+
+ex:inches a ex:DomainEntity ;
+    rdfs:label "inches" .
+
+ex:injury_risk a ex:DomainEntity ;
+    rdfs:label "injury risk" .
+
+ex:joint_angles a ex:Joint ;
+    rdfs:label "joint angles" .
+
+ex:large_enough_internal_extensor_moments a ex:BiomechanicalConcept ;
+    rdfs:label "large enough internal extensor moments" .
+
+ex:lateral_forces a ex:BiomechanicalConcept ;
+    rdfs:label "lateral forces" .
+
+ex:laterally_directed_resultant_forces a ex:BiomechanicalConcept ;
+    rdfs:label "laterally directed resultant forces" .
+
+ex:less_shoulder_horizontal_abduction a ex:Joint ;
+    rdfs:label "less shoulder horizontal abduction" .
+
+ex:light a ex:DomainEntity ;
+    rdfs:label "light" .
+
+ex:little_further_explanation a ex:DomainEntity ;
+    rdfs:label "little further explanation" .
+
+ex:load a ex:DomainEntity ;
+    rdfs:label "load" .
+
+ex:mainly_vertical_resultant_forces a ex:BiomechanicalConcept ;
+    rdfs:label "mainly vertical resultant forces" .
+
+ex:maximum_muscle_engagement a ex:Muscle ;
+    rdfs:label "maximum muscle engagement" .
+
+ex:medially_directed_resultant_forces a ex:BiomechanicalConcept ;
+    rdfs:label "medially directed resultant forces" .
+
+ex:medium_grip_width a ex:TechniqueCue ;
+    rdfs:label "medium grip width" ;
+    ex:create ex:elbow_flexion_moments,
+        ex:mainly_vertical_resultant_forces .
+
+ex:moments a ex:BiomechanicalConcept ;
+    rdfs:label "moments" .
+
+ex:more_force a ex:BiomechanicalConcept ;
+    rdfs:label "more force" .
+
+ex:more_load a ex:DomainEntity ;
+    rdfs:label "more load" .
+
+ex:more_muscle a ex:Muscle ;
+    rdfs:label "more muscle" .
+
+ex:most_force a ex:BiomechanicalConcept ;
+    rdfs:label "most force" .
+
+ex:most_potential a ex:DomainEntity ;
+    rdfs:label "most potential" .
+
+ex:move rdfs:label "move" .
+
+ex:narrow_grip_width a ex:TechniqueCue ;
+    rdfs:label "narrow grip width" ;
+    ex:create ex:laterally_directed_resultant_forces ;
+    ex:create_on ex:distal_prime_movers .
+
+ex:peak a ex:DomainEntity ;
+    rdfs:label "peak" .
+
+ex:position a ex:DomainEntity ;
+    rdfs:label "position" ;
+    ex:create_of ex:support ;
+    ex:place ex:shoulder .
+
+ex:powerful_sternoclavicular_portion a ex:BiomechanicalConcept ;
+    rdfs:label "powerful sternoclavicular portion" .
+
+ex:proximal_prime_movers a ex:DomainEntity ;
+    rdfs:label "proximal prime movers" .
+
+ex:retraction a ex:TechniqueCue ;
+    rdfs:label "retraction" .
+
+ex:same_testing_routine a ex:DomainEntity ;
+    rdfs:label "same testing routine" .
+
+ex:same_way a ex:DomainEntity ;
+    rdfs:label "same way" .
+
+ex:serious_upper_body_strength a ex:DomainEntity ;
+    rdfs:label "serious upper-body strength" .
+
+ex:shoulder_extension_moments a ex:Joint ;
+    rdfs:label "shoulder extension moments" .
+
+ex:shoulder_flexion_demands a ex:Joint ;
+    rdfs:label "shoulder flexion demands" .
+
+ex:similar_horizontal_forces a ex:BiomechanicalConcept ;
+    rdfs:label "similar horizontal forces" .
+
+ex:similar_shoulder a ex:Joint ;
+    rdfs:label "similar shoulder" .
+
+ex:so_many_muscles a ex:Muscle ;
+    rdfs:label "so many muscles" .
+
+ex:sticking_region a ex:DomainEntity ;
+    rdfs:label "sticking region" .
+
+ex:stretch_reflex_position a ex:DomainEntity ;
+    rdfs:label "stretch reflex position" .
+
+ex:targetsmuscle rdfs:label "targetsMuscle" .
+
+ex:torso a ex:DomainEntity ;
+    rdfs:label "torso" .
+
+ex:upper_pecs a ex:DomainEntity ;
+    rdfs:label "upper pecs" .
+
+ex:valsalva_maneuver a ex:DomainEntity ;
+    rdfs:label "valsalva maneuver" .
+
+ex:workload a ex:BiomechanicalConcept ;
+    rdfs:label "workload" .
+
+ex:wrist_position a ex:Joint ;
+    rdfs:label "wrist position" .
+
+ex:aid a ex:DomainEntity ;
+    rdfs:label "aid" .
+
+ex:give rdfs:label "give" .
+
+ex:impose rdfs:label "impose" .
+
+ex:influences a owl:ObjectProperty ;
+    rdfs:label "influences" .
+
+ex:lower rdfs:label "lower" .
+
+ex:muscles a ex:Muscle ;
+    rdfs:label "muscles" ;
+    ex:generate_in ex:sticking_region ;
+    ex:produce_of ex:force ;
+    ex:produces ex:large_enough_internal_extensor_moments .
+
+ex:reduces a owl:ObjectProperty ;
+    rdfs:label "reduces" .
+
+ex:scapula a ex:Joint ;
+    rdfs:label "scapula" ;
+    ex:move ex:four_basic_ways .
+
+ex:support a ex:DomainEntity ;
+    rdfs:label "support" .
+
+ex:triceps_contract a ex:Muscle ;
+    rdfs:label "triceps contract" ;
+    ex:impose ex:lateral_forces .
+
+ex:wide_and_medium_grip_widths a ex:TechniqueCue ;
+    rdfs:label "wide and medium grip widths" ;
+    ex:enable ex:more_load ;
+    ex:produces ex:greater_horizontal_shoulder_moments,
+        ex:similar_shoulder .
+
+ex:create rdfs:label "create" .
+
+ex:distal_prime_movers a ex:DomainEntity ;
+    rdfs:label "distal prime movers" .
+
+ex:help rdfs:label "help" .
+
+ex:increases a ex:DomainEntity,
+        owl:ObjectProperty ;
+    rdfs:label "increases" ;
+    ex:shave ex:inches .
+
+ex:lower_pectoralis_major a ex:Muscle ;
+    rdfs:label "lower pectoralis major" .
+
+ex:muscle_activity a ex:Muscle ;
+    rdfs:label "muscle activity" .
+
+ex:pectoralis_majors_upper_portion a ex:Muscle ;
+    rdfs:label "pectoralis major’s upper portion" .
+
+ex:Equipment a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:Exercise a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:bar_path a ex:Equipment ;
+    rdfs:label "bar path" ;
+    ex:influences ex:horizontal_flexion_demands .
+
+ex:horizontal_flexion_demands a ex:BiomechanicalConcept ;
+    rdfs:label "horizontal flexion demands" ;
+    ex:challenge ex:pectoralis_major .
+
+ex:perform rdfs:label "perform" .
+
+ex:elbow a ex:Joint ;
+    rdfs:label "elbow" .
+
+ex:produce_of rdfs:label "produce_of" .
+
+ex:produces a owl:ObjectProperty ;
+    rdfs:label "produces" .
+
+ex:bench_press a ex:Exercise ;
+    rdfs:label "bench press" ;
+    ex:engage ex:so_many_muscles ;
+    ex:maximize ex:chest_and_triceps_development ;
+    ex:reduces ex:workload .
+
+ex:force a ex:BiomechanicalConcept ;
+    rdfs:label "force" ;
+    ex:need ex:little_further_explanation .
+
+ex:muscle a ex:Muscle ;
+    rdfs:label "muscle" ;
+    ex:perform ex:eccentric_muscle_action .
+
+ex:pectoralis_major a ex:Muscle ;
+    rdfs:label "pectoralis major" ;
+    ex:enter ex:stretch_reflex_position ;
+    ex:flexes ex:shoulder .
+
+ex:shoulder a ex:Joint ;
+    rdfs:label "shoulder" .
+
+ex:triceps a ex:Muscle ;
+    rdfs:label "triceps" ;
+    ex:aid ex:pectoralis_major ;
+    ex:contribute ex:anything ;
+    ex:extends ex:elbow ;
+    ex:give ex:extra_kick ;
+    ex:help ex:both_pecs,
+        ex:shoulder ;
+    ex:targetsmuscle ex:floor .
+
+ex:TechniqueCue a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:Joint a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:Muscle a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:bar a ex:Equipment ;
+    rdfs:label "bar" ;
+    ex:appliesforce ex:downward_force ;
+    ex:exert_of ex:force ;
+    ex:extends ex:elbow ;
+    ex:graze ex:pectoralis_major ;
+    ex:impose ex:elbow_extensor_moment,
+        ex:flexor ;
+    ex:touch_for ex:maximum_muscle_engagement .
+
+ex:BiomechanicalConcept a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:DomainEntity a owl:Class .
+
+ex:KnowledgeStatement a owl:Class .
+

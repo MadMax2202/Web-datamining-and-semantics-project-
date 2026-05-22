@@ -1,0 +1,11 @@
+triceps	targetsmuscle	floor
+other_two_heads	cross	elbow
+stronger_arm	support	load
+repeat	rack	bar
+decline_bench_press	produce_of	lower_pectoralis_major
+most_elite_lifters	utilize	bar_path
+narrow_grip_width	create_on	distal_prime_movers
+bench_press	engage	so_many_muscles
+triceps	actsOnJoint	elbow
+lifter	perform	same_testing_routine
+typical_mens_barbell	weigh	entity_45_pounds

@@ -1,0 +1,84 @@
+@prefix ex: <http://example.org/benchpress-kg/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:BiomechanicalConcept a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:Equipment a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:Exercise a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:Joint a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:KnowledgeStatement a owl:Class .
+
+ex:Muscle a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:TechniqueCue a owl:Class ;
+    rdfs:subClassOf ex:DomainEntity .
+
+ex:abducts a owl:ObjectProperty .
+
+ex:adducts a owl:ObjectProperty .
+
+ex:alignedObject a owl:DatatypeProperty .
+
+ex:alignedPredicate a owl:DatatypeProperty .
+
+ex:alignedSubject a owl:DatatypeProperty .
+
+ex:allows a owl:ObjectProperty .
+
+ex:appliesForce a owl:ObjectProperty .
+
+ex:category a owl:DatatypeProperty .
+
+ex:confidence a owl:DatatypeProperty .
+
+ex:decreases a owl:ObjectProperty .
+
+ex:domainSimilarity a owl:DatatypeProperty .
+
+ex:evidenceSentence a owl:DatatypeProperty .
+
+ex:extends a owl:ObjectProperty .
+
+ex:flexes a owl:ObjectProperty .
+
+ex:hasObject a owl:ObjectProperty .
+
+ex:hasPredicate a owl:ObjectProperty .
+
+ex:hasSubject a owl:ObjectProperty .
+
+ex:increases a owl:ObjectProperty .
+
+ex:influences a owl:ObjectProperty .
+
+ex:involves a owl:ObjectProperty .
+
+ex:originalObject a owl:DatatypeProperty .
+
+ex:originalPredicate a owl:DatatypeProperty .
+
+ex:originalSubject a owl:DatatypeProperty .
+
+ex:produces a owl:ObjectProperty .
+
+ex:reduces a owl:ObjectProperty .
+
+ex:relatedTo a owl:ObjectProperty .
+
+ex:requires a owl:ObjectProperty .
+
+ex:sourceDocument a owl:DatatypeProperty .
+
+ex:targetsMuscle a owl:ObjectProperty .
+
+ex:DomainEntity a owl:Class .
+

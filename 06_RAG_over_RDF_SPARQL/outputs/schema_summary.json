@@ -1,0 +1,1057 @@
+{
+    "namespace": "http://example.org/benchpress-kg/",
+    "classes": [
+        "BiomechanicalConcept",
+        "DomainEntity",
+        "Equipment",
+        "Exercise",
+        "Joint",
+        "KnowledgeStatement",
+        "Muscle",
+        "TechniqueCue"
+    ],
+    "class_instance_counts": {
+        "BiomechanicalConcept": 25,
+        "DomainEntity": 69,
+        "Equipment": 5,
+        "Exercise": 5,
+        "Joint": 16,
+        "Muscle": 20,
+        "TechniqueCue": 11
+    },
+    "class_examples": {
+        "BiomechanicalConcept": [
+            "13.1–15.7% lateral forces",
+            "contractile force",
+            "downward force",
+            "eccentric phase",
+            "elite powerlifters",
+            "force",
+            "horizontal flexion demands",
+            "horizontal force component",
+            "horizontal forces",
+            "internal moment arm"
+        ],
+        "DomainEntity": [
+            "15° decline",
+            "30° inclination",
+            "45 pounds",
+            "about 45°",
+            "aid",
+            "angle",
+            "anything",
+            "article",
+            "assists",
+            "back"
+        ],
+        "Equipment": [
+            "bar",
+            "bar path",
+            "bench",
+            "excessive lumbar extension",
+            "typical men’s barbell"
+        ],
+        "Exercise": [
+            "barbell bench press",
+            "bench press",
+            "bench press performance",
+            "decline bench press",
+            "incline bench press"
+        ],
+        "Joint": [
+            "elbow",
+            "elbow extension",
+            "elbow extensor moment",
+            "elbow flexion moments",
+            "greater horizontal shoulder moments",
+            "greater shoulder flexion moment",
+            "joint angles",
+            "less shoulder horizontal abduction",
+            "scapula",
+            "scapular retraction"
+        ],
+        "Muscle": [
+            "anterior deltoid",
+            "chest and triceps development",
+            "current muscle mass",
+            "eccentric muscle action",
+            "lateral triceps",
+            "lower pectoralis major",
+            "maximum muscle engagement",
+            "medial triceps",
+            "more muscle",
+            "muscle"
+        ],
+        "TechniqueCue": [
+            "current grip",
+            "different grip widths",
+            "grip width",
+            "grip widths",
+            "medium and wide grip widths",
+            "medium grip width",
+            "narrow grip width",
+            "retraction",
+            "wide and medium grip widths",
+            "wide grip"
+        ]
+    },
+    "predicates": [
+        {
+            "predicate": "hasSubject",
+            "count": 104
+        },
+        {
+            "predicate": "hasPredicate",
+            "count": 104
+        },
+        {
+            "predicate": "hasObject",
+            "count": 104
+        },
+        {
+            "predicate": "produce_of",
+            "count": 6
+        },
+        {
+            "predicate": "produces",
+            "count": 6
+        },
+        {
+            "predicate": "perform",
+            "count": 5
+        },
+        {
+            "predicate": "help",
+            "count": 4
+        },
+        {
+            "predicate": "create",
+            "count": 4
+        },
+        {
+            "predicate": "influences",
+            "count": 3
+        },
+        {
+            "predicate": "lower",
+            "count": 3
+        },
+        {
+            "predicate": "give",
+            "count": 3
+        },
+        {
+            "predicate": "increases",
+            "count": 3
+        },
+        {
+            "predicate": "impose",
+            "count": 3
+        },
+        {
+            "predicate": "reduces",
+            "count": 3
+        },
+        {
+            "predicate": "cross",
+            "count": 2
+        },
+        {
+            "predicate": "extends",
+            "count": 2
+        },
+        {
+            "predicate": "create_on",
+            "count": 2
+        },
+        {
+            "predicate": "targetsmuscle",
+            "count": 2
+        },
+        {
+            "predicate": "move",
+            "count": 2
+        },
+        {
+            "predicate": "actsOnJoint",
+            "count": 2
+        },
+        {
+            "predicate": "affect_of",
+            "count": 2
+        },
+        {
+            "predicate": "relatedTo",
+            "count": 2
+        },
+        {
+            "predicate": "challenge",
+            "count": 2
+        },
+        {
+            "predicate": "maximize",
+            "count": 1
+        },
+        {
+            "predicate": "generate_in",
+            "count": 1
+        },
+        {
+            "predicate": "check",
+            "count": 1
+        },
+        {
+            "predicate": "engage",
+            "count": 1
+        },
+        {
+            "predicate": "shed",
+            "count": 1
+        },
+        {
+            "predicate": "pull",
+            "count": 1
+        },
+        {
+            "predicate": "support",
+            "count": 1
+        },
+        {
+            "predicate": "shave",
+            "count": 1
+        },
+        {
+            "predicate": "touch_for",
+            "count": 1
+        },
+        {
+            "predicate": "place",
+            "count": 1
+        },
+        {
+            "predicate": "address",
+            "count": 1
+        },
+        {
+            "predicate": "requires",
+            "count": 1
+        },
+        {
+            "predicate": "perform_with",
+            "count": 1
+        },
+        {
+            "predicate": "target_of",
+            "count": 1
+        },
+        {
+            "predicate": "appliesforce",
+            "count": 1
+        },
+        {
+            "predicate": "graze",
+            "count": 1
+        },
+        {
+            "predicate": "train_of",
+            "count": 1
+        },
+        {
+            "predicate": "flexes",
+            "count": 1
+        },
+        {
+            "predicate": "arch",
+            "count": 1
+        },
+        {
+            "predicate": "induce_in",
+            "count": 1
+        },
+        {
+            "predicate": "rack",
+            "count": 1
+        },
+        {
+            "predicate": "enter",
+            "count": 1
+        },
+        {
+            "predicate": "exert_of",
+            "count": 1
+        },
+        {
+            "predicate": "build",
+            "count": 1
+        },
+        {
+            "predicate": "utilize",
+            "count": 1
+        },
+        {
+            "predicate": "influence_of",
+            "count": 1
+        },
+        {
+            "predicate": "create_of",
+            "count": 1
+        },
+        {
+            "predicate": "involves",
+            "count": 1
+        },
+        {
+            "predicate": "affectsBiomechanics",
+            "count": 1
+        },
+        {
+            "predicate": "take",
+            "count": 1
+        },
+        {
+            "predicate": "investigate_of",
+            "count": 1
+        },
+        {
+            "predicate": "negate_of",
+            "count": 1
+        },
+        {
+            "predicate": "abducts",
+            "count": 1
+        },
+        {
+            "predicate": "weigh",
+            "count": 1
+        },
+        {
+            "predicate": "drive",
+            "count": 1
+        },
+        {
+            "predicate": "prefer",
+            "count": 1
+        },
+        {
+            "predicate": "aid",
+            "count": 1
+        },
+        {
+            "predicate": "supinate",
+            "count": 1
+        },
+        {
+            "predicate": "decreases",
+            "count": 1
+        },
+        {
+            "predicate": "equal",
+            "count": 1
+        },
+        {
+            "predicate": "stabilize",
+            "count": 1
+        },
+        {
+            "predicate": "need",
+            "count": 1
+        },
+        {
+            "predicate": "enable",
+            "count": 1
+        },
+        {
+            "predicate": "contribute",
+            "count": 1
+        },
+        {
+            "predicate": "influence_in",
+            "count": 1
+        },
+        {
+            "predicate": "demonstrate",
+            "count": 1
+        },
+        {
+            "predicate": "demand",
+            "count": 1
+        },
+        {
+            "predicate": "calculate",
+            "count": 1
+        }
+    ],
+    "predicate_examples": {
+        "produce_of": [
+            {
+                "subject": "decline bench press",
+                "predicate": "produce_of",
+                "object": "lower pectoralis major"
+            },
+            {
+                "subject": "passive elements",
+                "predicate": "produce_of",
+                "object": "force"
+            },
+            {
+                "subject": "15° decline",
+                "predicate": "produce_of",
+                "object": "lower pectoralis major"
+            },
+            {
+                "subject": "30° inclination",
+                "predicate": "produce_of",
+                "object": "pectoralis major’s upper portion"
+            },
+            {
+                "subject": "incline bench press",
+                "predicate": "produce_of",
+                "object": "pectoralis major’s upper portion"
+            }
+        ],
+        "maximize": [
+            {
+                "subject": "bench press",
+                "predicate": "maximize",
+                "object": "chest and triceps development"
+            }
+        ],
+        "cross": [
+            {
+                "subject": "other two heads",
+                "predicate": "cross",
+                "object": "elbow"
+            },
+            {
+                "subject": "long head",
+                "predicate": "cross",
+                "object": "shoulder"
+            }
+        ],
+        "generate_in": [
+            {
+                "subject": "muscles",
+                "predicate": "generate_in",
+                "object": "sticking region"
+            }
+        ],
+        "extends": [
+            {
+                "subject": "bar",
+                "predicate": "extends",
+                "object": "elbow"
+            },
+            {
+                "subject": "triceps",
+                "predicate": "extends",
+                "object": "elbow"
+            }
+        ],
+        "check": [
+            {
+                "subject": "first things",
+                "predicate": "check",
+                "object": "wrist position"
+            }
+        ],
+        "create_on": [
+            {
+                "subject": "greater shoulder flexion moment",
+                "predicate": "create_on",
+                "object": "proximal prime movers"
+            },
+            {
+                "subject": "narrow grip width",
+                "predicate": "create_on",
+                "object": "distal prime movers"
+            }
+        ],
+        "engage": [
+            {
+                "subject": "bench press",
+                "predicate": "engage",
+                "object": "so many muscles"
+            }
+        ],
+        "perform": [
+            {
+                "subject": "subjects",
+                "predicate": "perform",
+                "object": "bench press"
+            },
+            {
+                "subject": "muscle",
+                "predicate": "perform",
+                "object": "eccentric muscle action"
+            },
+            {
+                "subject": "elite athletes",
+                "predicate": "perform",
+                "object": "valsalva maneuver"
+            },
+            {
+                "subject": "two heads",
+                "predicate": "perform",
+                "object": "elbow extension"
+            },
+            {
+                "subject": "lifter",
+                "predicate": "perform",
+                "object": "same testing routine"
+            }
+        ],
+        "influences": [
+            {
+                "subject": "bar path",
+                "predicate": "influences",
+                "object": "horizontal flexion demands"
+            },
+            {
+                "subject": "total force vector",
+                "predicate": "influences",
+                "object": "moments"
+            },
+            {
+                "subject": "grip width",
+                "predicate": "influences",
+                "object": "horizontal flexion demands"
+            }
+        ],
+        "help": [
+            {
+                "subject": "technical improvements",
+                "predicate": "help",
+                "object": "bench press"
+            },
+            {
+                "subject": "triceps",
+                "predicate": "help",
+                "object": "both pecs"
+            },
+            {
+                "subject": "muscle irradiation",
+                "predicate": "help",
+                "object": "triceps contract"
+            },
+            {
+                "subject": "triceps",
+                "predicate": "help",
+                "object": "shoulder"
+            }
+        ],
+        "lower": [
+            {
+                "subject": "movement pattern",
+                "predicate": "lower",
+                "object": "bar"
+            },
+            {
+                "subject": "next order",
+                "predicate": "lower",
+                "object": "bar"
+            },
+            {
+                "subject": "descent",
+                "predicate": "lower",
+                "object": "bar"
+            }
+        ],
+        "targetsmuscle": [
+            {
+                "subject": "triceps",
+                "predicate": "targetsmuscle",
+                "object": "floor"
+            },
+            {
+                "subject": "incline press",
+                "predicate": "targetsmuscle",
+                "object": "anterior deltoid"
+            }
+        ],
+        "shed": [
+            {
+                "subject": "article",
+                "predicate": "shed",
+                "object": "light"
+            }
+        ],
+        "produces": [
+            {
+                "subject": "muscles",
+                "predicate": "produces",
+                "object": "large enough internal extensor moments"
+            },
+            {
+                "subject": "wide grip",
+                "predicate": "produces",
+                "object": "13.1–15.7% lateral forces"
+            },
+            {
+                "subject": "muscle fibers",
+                "predicate": "produces",
+                "object": "most force"
+            },
+            {
+                "subject": "wide and medium grip widths",
+                "predicate": "produces",
+                "object": "similar shoulder"
+            },
+            {
+                "subject": "wide and medium grip widths",
+                "predicate": "produces",
+                "object": "greater horizontal shoulder moments"
+            }
+        ],
+        "pull": [
+            {
+                "subject": "gravity",
+                "predicate": "pull",
+                "object": "bar"
+            }
+        ],
+        "support": [
+            {
+                "subject": "stronger arm",
+                "predicate": "support",
+                "object": "load"
+            }
+        ],
+        "shave": [
+            {
+                "subject": "increases",
+                "predicate": "shave",
+                "object": "inches"
+            }
+        ],
+        "touch_for": [
+            {
+                "subject": "bar",
+                "predicate": "touch_for",
+                "object": "maximum muscle engagement"
+            }
+        ],
+        "place": [
+            {
+                "subject": "position",
+                "predicate": "place",
+                "object": "shoulder"
+            }
+        ],
+        "give": [
+            {
+                "subject": "current grip",
+                "predicate": "give",
+                "object": "most potential"
+            },
+            {
+                "subject": "stronger triceps",
+                "predicate": "give",
+                "object": "aid"
+            },
+            {
+                "subject": "triceps",
+                "predicate": "give",
+                "object": "extra kick"
+            }
+        ],
+        "address": [
+            {
+                "subject": "article",
+                "predicate": "address",
+                "object": "bar path"
+            }
+        ],
+        "move": [
+            {
+                "subject": "scapula",
+                "predicate": "move",
+                "object": "four basic ways"
+            },
+            {
+                "subject": "kinds",
+                "predicate": "move",
+                "object": "furniture"
+            }
+        ],
+        "increases": [
+            {
+                "subject": "only factor",
+                "predicate": "increases",
+                "object": "contractile force"
+            },
+            {
+                "subject": "medial triceps",
+                "predicate": "increases",
+                "object": "muscle activity"
+            },
+            {
+                "subject": "lateral triceps",
+                "predicate": "increases",
+                "object": "muscle activity"
+            }
+        ],
+        "requires": [
+            {
+                "subject": "eccentric phase",
+                "predicate": "requires",
+                "object": "less shoulder horizontal abduction"
+            }
+        ],
+        "create": [
+            {
+                "subject": "medium grip width",
+                "predicate": "create",
+                "object": "mainly vertical resultant forces"
+            },
+            {
+                "subject": "narrow grip width",
+                "predicate": "create",
+                "object": "laterally directed resultant forces"
+            },
+            {
+                "subject": "medium grip width",
+                "predicate": "create",
+                "object": "elbow flexion moments"
+            },
+            {
+                "subject": "wide grip width",
+                "predicate": "create",
+                "object": "medially directed resultant forces"
+            }
+        ],
+        "perform_with": [
+            {
+                "subject": "elite powerlifters",
+                "predicate": "perform_with",
+                "object": "excessive lumbar extension"
+            }
+        ],
+        "actsOnJoint": [
+            {
+                "subject": "triceps",
+                "predicate": "actsOnJoint",
+                "object": "elbow"
+            },
+            {
+                "subject": "pectoralis major",
+                "predicate": "actsOnJoint",
+                "object": "shoulder"
+            }
+        ],
+        "target_of": [
+            {
+                "subject": "angle",
+                "predicate": "target_of",
+                "object": "muscle"
+            }
+        ],
+        "appliesforce": [
+            {
+                "subject": "bar",
+                "predicate": "appliesforce",
+                "object": "downward force"
+            }
+        ],
+        "graze": [
+            {
+                "subject": "bar",
+                "predicate": "graze",
+                "object": "pectoralis major"
+            }
+        ],
+        "train_of": [
+            {
+                "subject": "bench",
+                "predicate": "train_of",
+                "object": "triceps"
+            }
+        ],
+        "flexes": [
+            {
+                "subject": "pectoralis major",
+                "predicate": "flexes",
+                "object": "shoulder"
+            }
+        ],
+        "arch": [
+            {
+                "subject": "powerlifters",
+                "predicate": "arch",
+                "object": "back"
+            }
+        ],
+        "induce_in": [
+            {
+                "subject": "maximal intended velocity training",
+                "predicate": "induce_in",
+                "object": "bench press performance"
+            }
+        ],
+        "rack": [
+            {
+                "subject": "repeat",
+                "predicate": "rack",
+                "object": "bar"
+            }
+        ],
+        "enter": [
+            {
+                "subject": "pectoralis major",
+                "predicate": "enter",
+                "object": "stretch reflex position"
+            }
+        ],
+        "exert_of": [
+            {
+                "subject": "bar",
+                "predicate": "exert_of",
+                "object": "force"
+            }
+        ],
+        "build": [
+            {
+                "subject": "barbell bench press",
+                "predicate": "build",
+                "object": "serious upper-body strength"
+            }
+        ],
+        "affect_of": [
+            {
+                "subject": "different angles",
+                "predicate": "affect_of",
+                "object": "muscle"
+            },
+            {
+                "subject": "clavicular part - sternocostal part - abdominal part",
+                "predicate": "affect_of",
+                "object": "muscle"
+            }
+        ],
+        "impose": [
+            {
+                "subject": "triceps contract",
+                "predicate": "impose",
+                "object": "lateral forces"
+            },
+            {
+                "subject": "bar",
+                "predicate": "impose",
+                "object": "elbow extensor moment"
+            },
+            {
+                "subject": "bar",
+                "predicate": "impose",
+                "object": "flexor"
+            }
+        ],
+        "utilize": [
+            {
+                "subject": "most elite lifters",
+                "predicate": "utilize",
+                "object": "bar path"
+            }
+        ],
+        "relatedTo": [
+            {
+                "subject": "eccentric phase",
+                "predicate": "relatedTo",
+                "object": "less shoulder horizontal abduction"
+            },
+            {
+                "subject": "internal moment arm",
+                "predicate": "relatedTo",
+                "object": "joint angles"
+            }
+        ],
+        "influence_of": [
+            {
+                "subject": "different grip widths",
+                "predicate": "influence_of",
+                "object": "distal prime movers"
+            }
+        ],
+        "create_of": [
+            {
+                "subject": "position",
+                "predicate": "create_of",
+                "object": "support"
+            }
+        ],
+        "involves": [
+            {
+                "subject": "internal moment arm",
+                "predicate": "involves",
+                "object": "joint angles"
+            }
+        ],
+        "reduces": [
+            {
+                "subject": "bench press",
+                "predicate": "reduces",
+                "object": "workload"
+            },
+            {
+                "subject": "scapular retraction",
+                "predicate": "reduces",
+                "object": "scapula"
+            },
+            {
+                "subject": "motion",
+                "predicate": "reduces",
+                "object": "powerful sternoclavicular portion"
+            }
+        ],
+        "affectsBiomechanics": [
+            {
+                "subject": "grip width",
+                "predicate": "affectsBiomechanics",
+                "object": "horizontal flexion demands"
+            }
+        ],
+        "challenge": [
+            {
+                "subject": "horizontal flexion demands",
+                "predicate": "challenge",
+                "object": "pectoralis major"
+            },
+            {
+                "subject": "incline",
+                "predicate": "challenge",
+                "object": "upper pecs"
+            }
+        ],
+        "take": [
+            {
+                "subject": "hand-off",
+                "predicate": "take",
+                "object": "bar"
+            }
+        ],
+        "investigate_of": [
+            {
+                "subject": "horizontal forces",
+                "predicate": "investigate_of",
+                "object": "horizontal force component"
+            }
+        ],
+        "negate_of": [
+            {
+                "subject": "technique",
+                "predicate": "negate_of",
+                "object": "shoulder flexion demands"
+            }
+        ],
+        "abducts": [
+            {
+                "subject": "upper arms",
+                "predicate": "abducts",
+                "object": "about 45°"
+            }
+        ],
+        "weigh": [
+            {
+                "subject": "typical men’s barbell",
+                "predicate": "weigh",
+                "object": "45 pounds"
+            }
+        ],
+        "drive": [
+            {
+                "subject": "most novice lifters",
+                "predicate": "drive",
+                "object": "bar"
+            }
+        ],
+        "prefer": [
+            {
+                "subject": "few people",
+                "predicate": "prefer",
+                "object": "retraction"
+            }
+        ],
+        "aid": [
+            {
+                "subject": "triceps",
+                "predicate": "aid",
+                "object": "pectoralis major"
+            }
+        ],
+        "supinate": [
+            {
+                "subject": "many people",
+                "predicate": "supinate",
+                "object": "forearms"
+            }
+        ],
+        "decreases": [
+            {
+                "subject": "medium and wide grip widths",
+                "predicate": "decreases",
+                "object": "shoulder extension moments"
+            }
+        ],
+        "equal": [
+            {
+                "subject": "more weight",
+                "predicate": "equal",
+                "object": "more muscle"
+            }
+        ],
+        "stabilize": [
+            {
+                "subject": "assists",
+                "predicate": "stabilize",
+                "object": "torso"
+            }
+        ],
+        "need": [
+            {
+                "subject": "force",
+                "predicate": "need",
+                "object": "little further explanation"
+            }
+        ],
+        "enable": [
+            {
+                "subject": "wide and medium grip widths",
+                "predicate": "enable",
+                "object": "more load"
+            }
+        ],
+        "contribute": [
+            {
+                "subject": "triceps",
+                "predicate": "contribute",
+                "object": "anything"
+            }
+        ],
+        "influence_in": [
+            {
+                "subject": "kinematic factors",
+                "predicate": "influence_in",
+                "object": "injury risk"
+            }
+        ],
+        "demonstrate": [
+            {
+                "subject": "grip widths",
+                "predicate": "demonstrate",
+                "object": "similar horizontal forces"
+            }
+        ],
+        "demand": [
+            {
+                "subject": "shoulder flexion",
+                "predicate": "demand",
+                "object": "peak"
+            }
+        ],
+        "calculate": [
+            {
+                "subject": "internal moments",
+                "predicate": "calculate",
+                "object": "same way"
+            }
+        ]
+    }
+}

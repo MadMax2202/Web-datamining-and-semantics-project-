@@ -1,0 +1,13 @@
+Bench Press KB SWRL Reasoning Demo
+========================================
+
+SWRL rule:
+TechniqueCue(?cue) ^ BiomechanicalConcept(?concept) ^ affectsBiomechanics(?cue, ?concept) -> ImportantTechniqueCue(?cue)
+
+Initial facts loaded from expanded KB:
+- grip width affectsBiomechanics horizontal flexion demands
+
+Reasoner status: SUCCESS
+
+Inferred ImportantTechniqueCue individuals:
+- grip width

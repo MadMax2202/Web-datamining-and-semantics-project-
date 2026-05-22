@@ -1,0 +1,13 @@
+{
+    "seed": 42,
+    "embedding_dim": 64,
+    "epochs": 250,
+    "batch_size": 64,
+    "learning_rate": 0.01,
+    "margin": 1.0,
+    "device": "cpu",
+    "models": [
+        "TransE",
+        "DistMult"
+    ]
+}

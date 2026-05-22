@@ -1,0 +1,14 @@
+Family SWRL Reasoning Demo
+========================================
+
+Initial facts:
+- John parentOf Mary
+- Mary parentOf Alice
+
+SWRL rule:
+parentOf(?x, ?y) ^ parentOf(?y, ?z) -> grandparentOf(?x, ?z)
+
+Reasoner status: SUCCESS
+
+Inferred grandparentOf relations:
+- John grandparentOf Alice

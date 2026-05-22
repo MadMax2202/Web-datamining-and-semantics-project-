@@ -1,0 +1,7 @@
+MRR,Hits@1,Hits@3,Hits@10,evaluated_queries,model,subset,train_triples,valid_triples,test_triples,entities,relations
+0.0128,0.0,0.0,0.0,22,TransE,20k_cap,87,11,11,151,68
+0.066,0.0455,0.0455,0.0455,22,DistMult,20k_cap,87,11,11,151,68
+0.0236,0.0,0.0,0.0,22,TransE,50k_cap,87,11,11,151,68
+0.0162,0.0,0.0,0.0,22,DistMult,50k_cap,87,11,11,151,68
+0.0578,0.0,0.0455,0.1364,22,TransE,full,87,11,11,151,68
+0.0283,0.0,0.0,0.0455,22,DistMult,full,87,11,11,151,68

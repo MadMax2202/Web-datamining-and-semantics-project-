@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/benchpress-swrl.owl"
+         xmlns="http://example.org/benchpress-swrl.owl#"
+         xmlns:swrl="http://www.w3.org/2003/11/swrl#">
+
+<owl:Ontology rdf:about="http://example.org/benchpress-swrl.owl"/>
+
+<owl:ObjectProperty rdf:about="#affectsBiomechanics">
+  <rdfs:domain rdf:resource="#TechniqueCue"/>
+  <rdfs:range rdf:resource="#BiomechanicalConcept"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#DomainEntity">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TechniqueCue">
+  <rdfs:subClassOf rdf:resource="#DomainEntity"/>
+</owl:Class>
+
+<owl:Class rdf:about="#BiomechanicalConcept">
+  <rdfs:subClassOf rdf:resource="#DomainEntity"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ImportantTechniqueCue">
+  <rdfs:subClassOf rdf:resource="#TechniqueCue"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#grip_width">
+  <rdf:type rdf:resource="#TechniqueCue"/>
+  <affectsBiomechanics rdf:resource="#horizontal_flexion_demands"/>
+  <rdf:type rdf:resource="#ImportantTechniqueCue"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grip width</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#horizontal_flexion_demands">
+  <rdf:type rdf:resource="#BiomechanicalConcept"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horizontal flexion demands</rdfs:label>
+</owl:NamedIndividual>
+
+<swrl:Variable rdf:about="urn:swrl#cue"/>
+
+<swrl:Variable rdf:about="urn:swrl#concept"/>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#TechniqueCue"/>
+          <swrl:argument1 rdf:resource="urn:swrl#cue"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:ClassAtom>
+              <swrl:classPredicate rdf:resource="#BiomechanicalConcept"/>
+              <swrl:argument1 rdf:resource="urn:swrl#concept"/>
+            </swrl:ClassAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:IndividualPropertyAtom>
+                  <swrl:propertyPredicate rdf:resource="#affectsBiomechanics"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#cue"/>
+                  <swrl:argument2 rdf:resource="urn:swrl#concept"/>
+                </swrl:IndividualPropertyAtom>
+              </rdf:first>
+              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#ImportantTechniqueCue"/>
+          <swrl:argument1 rdf:resource="urn:swrl#cue"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+
+</rdf:RDF>
